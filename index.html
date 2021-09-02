@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog</title>
+
+    <link rel="stylesheet" href="./resources/css/bootstrap.min.css" />
+    <script src="./resources/js/jquery-3.6.0.min.js"></script>
+    <script src="./resources/js/bootstrap.min.js"></script>
+    <script src="./resources/js/three.min.js"></script>
+    <script src="./resources/js/vanta.waves.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper" class="container-fluid">
+        <div class="row min-vh-100">
+            <div class="col-md-6 my-auto">
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="page-header">
+                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                            <h1>
+                                can't touch this! <small>Interface Builder for Bootstrap</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        VANTA.WAVES({
+            el: "#wrapper",
+            mouseControls: true,
+            touchControls: false,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x077894
+        })
+    </script>
+</body>
+
+</html>
