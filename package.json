@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "three": "0.119.1",
+    "vanta": "^0.5.21"
+  }
+}
