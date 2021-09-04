@@ -11,131 +11,45 @@
 </head>
 
 <body>
-
-
-
-
-
     <div class="layout">
         <div class="section-stick">
             <div class="stick active"></div>
-            <section class="s1">
-                <div class="home h-100">
-                    <div id="wrapper" class="container-fluid pb-5 h-100">
-                        <div class="row" style="height: 90%;">
-                            <div class="col-lg-6 my-auto">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                    </div>
-                                    <div class=" col-lg-6">
-                                        <div class=" page-header">
-                                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
-                                            <h1>
-                                                Can't touch this! <small>Interface Builder for Bootstrap</small>
-                                            </h1>
-                                        </div>
+        </div>
+
+        <section class="s1">
+            <div class="home h-100">
+                <div id="wrapper" class="container-fluid pb-5 h-100">
+                    <div class="row" style="height: 90%;">
+                        <div class="col-lg-6 my-auto">
+                            <div class="row">
+                                <div class="col-md-6">
+                                </div>
+                                <div class=" col-lg-6">
+                                    <div class=" page-header">
+                                        <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                                        <h1>
+                                            Can't touch this! <small>Interface Builder for Bootstrap</small>
+                                        </h1>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5"
-                                    data-ca3_iconfont="ETmodules" data-ca3_icon="" onclick="scrollWin()"></a>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5" data-ca3_iconfont="ETmodules"
+                                data-ca3_icon="" onclick="scrollWin()"></a>
                         </div>
                     </div>
-
                 </div>
-            </section>
-            <section class="s2">Section Two</section>
-            <section class="s3">Section Three</section>
-            <section class="s4">Section Four</section>
-            <section class="s5">Section FIVE</section>
-        </div>
+            </div>
+        </section>
+        <section class="s2">Section Two</section>
+        <section class="s3">Section Three</section>
+        <section class="s4">Section Four</section>
     </div>
 
-
-    <script>
-        function scrollWin() {
-            window.scrollBy(0, 100);
-        }
-        const TIME_OUT = 600 // It should be the same transition time of the sections
-        const body = document.querySelector('body')
-        const sectionsQty = document.querySelectorAll('section').length
-        const sectionStick = document.querySelector('.section-stick')
-
-        let startFlag = true
-        let initialScroll = window.scrollY
-        let qty = 1,
-            main = null,
-            next = null
-
-        // Add child elements in .section-stick as number of sections exist
-        Array(sectionsQty)
-            .fill()
-            .forEach(() => {
-                sectionStick.innerHTML = sectionStick.innerHTML + '<div class="stick"></div>'
-            })
-
-        console.log('SLIDE', qty)
-
-        // Listening to scroll event
-        window.onscroll = () => {
-            if (startFlag) {
-                const scrollDown = this.scrollY >= initialScroll
-                const scrollLimit = qty >= 1 && qty <= sectionsQty
-
-                // Verify that the scroll does not exceed the number of sections
-                if (scrollLimit) {
-                    body.style.overflowY = 'hidden' // Lock el scroll
-
-                    if (scrollDown && qty < sectionsQty) {
-                        main = document.querySelector(`section.s${qty}`)
-                        next = document.querySelector(`section.s${qty + 1}`)
-
-                        main.style.transform = 'translateY(-100vh)'
-                        next.style.transform = 'translateY(0)'
-
-                        qty++
-                    } else if (!scrollDown && qty > 1) {
-                        main = document.querySelector(`section.s${qty - 1}`)
-                        next = document.querySelector(`section.s${qty}`)
-
-                        main.style.transform = 'translateY(0)'
-                        next.style.transform = 'translateY(100vh)'
-
-                        qty--
-                    }
-
-                    // Scroll progressbar
-                    const active = document.querySelector('.section-stick .stick.active')
-                    active.style.top = (62 + 30) * (qty - 1) + 'px'
-                }
-
-                console.log('SLIDE', qty)
-
-                // Wait for the scrolling to finish to reset the values
-                setTimeout(() => {
-                    initialScroll = this.scrollY
-                    startFlag = true
-                    body.style.overflowY = 'scroll' // Unlock scroll
-                }, TIME_OUT)
-
-                startFlag = false
-            }
-
-            // Keep scrollbar in the middle of the viewport
-            window.scroll(0, window.screen.height)
-        }
-    </script>
-
-
-
-
-
-
-
+    <script src="./scroll.js"></script>
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./node_modules/three/build/three.min.js"></script>
