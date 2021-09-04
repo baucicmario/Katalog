@@ -163,7 +163,7 @@ body::-webkit-scrollbar {
 /* MOBILE */
 @media screen and (max-width: 576px) {
   body::-webkit-scrollbar {
-    width: 0px;
+    width: 0;
     background: transparent;
     -webkit-appearance: none;
   }
