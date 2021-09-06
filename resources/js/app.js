@@ -1,4 +1,5 @@
 import '../css/style2.css'
+import '../css/arrow.css'
 // import '../css/style.css';
 
 import 'jquery/dist/jquery.min';

@@ -6,54 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katalog</title>
     <link rel="stylesheet" href="resources/css/dist/appstyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 </head>
+
+
+
 
 <body>
     <div class="layout main vh-100" id="multiscroll">
-        <div class="ms-left h-100">
-            <div class="ms-section section1 h-100">
-                <div class="home h-100 fullscreen">
-                    <div id="wrapper" class="container-fluid pb-5 h-100">
-                        <div class="row" style="height: 90%;">
-                            <div class="col-lg-6 my-auto">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                    </div>
-                                    <div class=" col-lg-6">
-                                        <div class=" page-header">
-                                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
-                                            <h1>
-                                                Can't touch this! <small>Interface Builder for Bootstrap</small>
-                                            </h1>
-                                        </div>
-                                    </div>
+        <div class="home h-100">
+            <!--header img and animations-->
+            <div id="wrapper" class="container-fluid h-100">
+                <div class="row" style="height: 90%;">
+                    <div class="col-lg-6 my-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+                            </div>
+                            <div class=" col-lg-6">
+                                <div class=" page-header">
+                                    <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                                    <h1>
+                                        Can't touch this! <small>Interface Builder for Bootstrap</small>
+                                    </h1>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5"
-                                    data-ca3_iconfont="ETmodules" data-ca3_icon="" onclick="scrollWin()"></a>
+                            <div>
+
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5" data-ca3_iconfont="ETmodules"
+                            data-ca3_icon="" onclick="scrollWin()"></a>
+                    </div>
+                </div>
             </div>
-            <div class="ms-section">
-                <div class="section-two bg-dark vh-100">
-                    <h2 class="text-white">apotjespot</h2>
+
+            <div class="ms-left">
+                <div class="ms-section">
+                    <!--keep empty for background-->
+                </div>
+                <div class="ms-section section1 bg-dark">
+                    <h2 class="text-white ">SECTION-1-left</h2>
+                </div>
+                <div class="ms-section section2 bg-warning">
+                    <h2 class="text-white ">SECTION-2-left</h2>
+                </div>
+                <div class="ms-section section2 bg-primary">
+                    <h2 class="text-white ">SECTION-3-left</h2>
+                </div>
+                <div class="ms-section section2 bg-white">
+                    <h2 class="text-black ">SECTION-4-left</h2>
+                </div>
+            </div>
+            <div class="ms-right">
+                <div class="ms-section ">
+                    <!--keep empty for background-->
+                </div>
+                <div class="ms-section section1 bg-dark">
+                    <h2 class="text-white ">SECTION-1-right</h2>
+                </div>
+                <div class="ms-section section2 bg-warning ">
+                    <h2 class="text-white ">SECTION-2-right</h2>
+                </div>
+                <div class="ms-section section2 bg-primary ">
+                    <h2 class="text-white ">SECTION-3-right</h2>
+                </div>
+                <div class="ms-section section2 bg-white ">
+                    <h2 class="text-black ">SECTION-4-right</h2>
                 </div>
             </div>
         </div>
-        <div class="ms-right">
-            <div class="ms-section section1">
-            </div>
-            <div class="ms-section section2 bg-dark">
-
-            </div>
-        </div>
-    </div>
-    <script src="resources/js/dist/build.js">< !--empty --></script>
+        <script src="resources/js/dist/build.js">< !--empty --></script>
 </body>
 
 </html>
