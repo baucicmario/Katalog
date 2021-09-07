@@ -1,6 +1,7 @@
 import '../css/style2.css'
 import '../css/arrow.css'
 // import '../css/style.css';
+import '../scss/custom_bootstrap.scss';
 
 import 'jquery/dist/jquery.min';
 import 'bootstrap/dist/js/bootstrap.min';
