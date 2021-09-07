@@ -4,10 +4,11 @@
     width: 100%;
 }
 
-#header1 {
+.header-text {
     font-size: 7rem;
     font-weight: 320 !important;
 }
+
 .list-text {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);

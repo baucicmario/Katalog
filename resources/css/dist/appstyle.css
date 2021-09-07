@@ -93,7 +93,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
         opacity: 0;
     }
 }
-.text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}
+.text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}.header-text{font-size:300}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

@@ -5,3 +5,7 @@
 .text1 {
   @include rfs(1.5rem);
 }
+
+.header-text {
+  @include rfs(300);
+}
