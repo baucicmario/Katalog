@@ -1,0 +1,7 @@
+@import './custom_bootstrap';
+@import "~rfs/scss";
+
+
+.text1 {
+  @include rfs(1.5rem);
+}

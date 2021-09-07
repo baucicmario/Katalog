@@ -1,57 +1,55 @@
-#cover1{
-    object-fit:cover;
+#cover1 {
+    object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-#header1{
+#header1 {
     font-size: 7rem;
     font-weight: 320 !important;
 }
-#text1{
-        color: rgb(255,255,255);
+.list-text {
     font-size: 1.5rem;
-}
-#list1{
-    color: rgb(255,255,255);
-    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
 }
 
 #list1 li {
-  color: rgb(255,255,255);
-  margin-left: 1rem;
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
 }
 
-.ms-section{
+.ms-section {
     vertical-align: top;
 }
-.section1{
-  background:linear-gradient(141deg, rgb(9, 162, 201) 25%, rgb(31, 184, 223) 40%, rgb(33, 177, 212) 55%);
-font-size: 1.3rem;
-color: rgb(255,255,255);
+
+.section1 {
+    background: linear-gradient(141deg, rgb(9, 162, 201) 25%, rgb(31, 184, 223) 40%, rgb(33, 177, 212) 55%);
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
 }
 
-.section2{
-background:linear-gradient(-11deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
+.section2 {
+    background: linear-gradient(-11deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
 }
 
-.section3{background: rgb(7,119,147);
-background:linear-gradient(141deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
-
-}
-
-.section4{
-        background: rgb(7,119,147);
-background: linear-gradient(180deg, rgba(7,119,147,1) 0%, rgba(51,228,255,1) 100%);
+.section3 {
+    background: rgb(7, 119, 147);
+    background: linear-gradient(141deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
 
 }
 
-.section5{
-background: rgb(229,22,56);
-background: linear-gradient(180deg, rgba(229,22,56,1) 0%, rgba(170,9,35,1) 44%, rgba(96,0,15,1) 100%);
+.section4 {
+    background: rgb(7, 119, 147);
+    background: linear-gradient(180deg, rgba(7, 119, 147, 1) 0%, rgba(51, 228, 255, 1) 100%);
+
 }
 
-.section6{
-background: rgb(229,22,56);
-background: linear-gradient(180deg, rgba(229,22,56,1) 0%, rgba(170,9,35,1) 44%, rgba(96,0,15,1) 100%);
+.section5 {
+    background: rgb(229, 22, 56);
+    background: linear-gradient(180deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
+}
+
+.section6 {
+    background: rgb(229, 22, 56);
+    background: linear-gradient(180deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
 }
