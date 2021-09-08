@@ -6,6 +6,16 @@
   @include rfs(1.5rem);
 }
 
+<<<<<<< Updated upstream
 .header-text {
   @include rfs(300);
 }
+=======
+.header-text{
+  @include rfs(6.5rem);
+}
+
+h2{
+  @include rfs(2rem);
+}
+>>>>>>> Stashed changes

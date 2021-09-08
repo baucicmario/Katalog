@@ -4,6 +4,7 @@
     width: 100%;
 }
 
+<<<<<<< Updated upstream
 .header-text {
     font-size: 7rem;
     font-weight: 320 !important;
@@ -19,38 +20,50 @@
     margin-left: 1rem;
 }
 
+=======
+>>>>>>> Stashed changes
 .ms-section {
     vertical-align: top;
 }
 
-.section1 {
+.section6 {
     background: linear-gradient(141deg, rgb(9, 162, 201) 25%, rgb(31, 184, 223) 40%, rgb(33, 177, 212) 55%);
-    font-size: 1.3rem;
+
+    color: rgb(255, 255, 255);
+}
+
+.section4 {
+background: rgb(3,62,140);
+background: linear-gradient(0deg, rgba(3,62,140,1) 0%, rgba(0,110,255,1) 48%, rgba(0,90,209,1) 94%);
+    color: rgb(255, 255, 255);
+}
+
+.section4 {
+background: rgb(242,183,5);
+background: linear-gradient(0deg, rgba(242,183,5,1) 0%, rgba(255,192,0,1) 51%, rgba(214,161,0,1) 100%);
+    color: rgb(255, 255, 255);
+
+}
+
+.section3 {
+background: rgb(175,115,5);
+background: linear-gradient(0deg, rgba(175,115,5,1) 0%, rgba(211,138,2,1) 30%, rgba(229,149,0,1) 58%, rgba(233,152,0,1) 100%);
     color: rgb(255, 255, 255);
 }
 
 .section2 {
-    background: linear-gradient(-11deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
+   background: rgb(232,23,58);
+background: linear-gradient(170deg, rgba(232,23,58,1) 0%, rgba(126,0,20,1) 100%);
+    color: rgb(255, 255, 255);
 }
 
-.section3 {
-    background: rgb(7, 119, 147);
-    background: linear-gradient(141deg, rgb(138, 138, 138) 25%, rgb(155, 155, 155) 40%, rgb(141, 141, 141) 55%);
-
+.section1-r {
+    background: rgb(51,51,51);
+background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%);
+    color: rgb(224, 224, 224);
 }
-
-.section4 {
-    background: rgb(7, 119, 147);
-    background: linear-gradient(180deg, rgba(7, 119, 147, 1) 0%, rgba(51, 228, 255, 1) 100%);
-
-}
-
-.section5 {
-    background: rgb(229, 22, 56);
-    background: linear-gradient(180deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
-}
-
-.section6 {
-    background: rgb(229, 22, 56);
-    background: linear-gradient(180deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
+.section1 {
+background: rgb(51,51,51);
+background: linear-gradient(-90deg, rgba(51,51,51,1) 26%, rgba(0,0,0,1) 100%);
+    color: rgb(224, 224, 224);
 }

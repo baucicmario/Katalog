@@ -93,7 +93,11 @@ html body [data-ca3_iconfont="ETmodules"]::before {
         opacity: 0;
     }
 }
+<<<<<<< Updated upstream
 .text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}.header-text{font-size:300}
+=======
+.text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}.header-text{font-size:calc(1.775rem + 6.3vw)}@media (min-width: 1200px){.header-text{font-size:6.5rem}}h2{font-size:calc(1.325rem + .9vw)}@media (min-width: 1200px){h2{font-size:2rem}}
+>>>>>>> Stashed changes
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
