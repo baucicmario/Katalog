@@ -93,7 +93,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
         opacity: 0;
     }
 }
-.text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}.header-text{font-size:calc(1.805rem + 6.66vw)}@media (min-width: 1200px){.header-text{font-size:6.8rem}}h2{font-size:calc(1.325rem + .9vw)}@media (min-width: 1200px){h2{font-size:2rem}}li{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){li{font-size:1.5rem}}
+.text1{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){.text1{font-size:1.5rem}}.header-text{font-size:calc(1.675rem + 5.1vw)}@media (min-width: 1200px){.header-text{font-size:5.5rem}}h2{font-size:calc(1.325rem + .9vw)}@media (min-width: 1200px){h2{font-size:2rem}}li{font-size:calc(1.275rem + .3vw)}@media (min-width: 1200px){li{font-size:1.5rem}}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
