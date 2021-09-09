@@ -16,6 +16,21 @@
     <div class="layout main " id="multiscroll">
         <div class="home ">
             <div id="wrapper" class="container-fluid vh-100 vw-100">
+
+                <!-- 
+                <div class="animated-title w-25">
+                    <div class="text-top">
+                        <div>
+                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                            <span>Okosotthon?</span>
+                        </div>
+                    </div>
+                    <div class="text-bottom">
+                        <div><span>Inkább inteligens épület!</span></div>
+                    </div>
+                </div>
+
+
                 <div class="row" style="height: 90%;">
                     <div class="col-lg-6 my-auto">
                         <div class="row">
@@ -25,7 +40,7 @@
                                 <div class=" page-header">
                                     <img class="w-100" src="./resources/img/logo.png" alt="logo">
                                     <h1>
-                                        Can't touch this! <small>Interface Builder for Bootstrap</small>
+                                        Okos otthon? <br> <small>Inkább inteligens épület!</small>
                                     </h1>
                                 </div>
                             </div>
@@ -41,19 +56,46 @@
                             data-ca3_icon="" onclick="scrollWin()"></a>
                     </div>
                 </div>
+                -->
             </div>
             <div class="ms-left">
-                <div class="ms-section vh-100 container-fluid">
-                </div>
-                <div class="ms-section vh-100 container-fluid section1 ">
-                    <div class="row ">
-                        <div class="col-md-12 mx-2 mb-5">
-                            <h1 class="header-text" class="header-text">
-                                Intelligens épület?
-                            </h1>
+                <div id="cover" data-anchor="zero" data-index="1"
+                    class="ms-section active vh-100 vw-100 container-fluid">
+                    <div class="row" style="height: 90%;">
+                        <div class="col-lg-6 my-auto">
+                            <div class="row">
+                                <div class="col-md-6">
+                                </div>
+                                <div class=" col-lg-6">
+                                    <div class=" page-header">
+                                        <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                                        <h1>
+                                            Okos otthon? <br> <small>Inkább inteligens épület!</small>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div>
 
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-10 mx-5 mt-0 pb-5 mb-2">
+                    </div>
+
+                </div>
+                <div id="smarthome" data-anchor="first" data-index="2"
+                    class="ms-section vh-100 container-fluid section1 ">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-2 ml-3 h-100 ">
+                            <img class=" w-100 h-auto" src="./resources/img/smarthome.png" alt="">
+                        </div>
+                        <div class="col-md-8 mx-2 ">
+                            <h1 class="header-text" class="header-text">
+                                Intelligens épület
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mx-5 mt-0 px-5 pb-5 mb-2">
                             <p class="text1">
                                 Az inteligens épületek nem csupán távvezérlést, hanem automatikus művelet
                                 végrehajtást is biztosítanak. <br><br>
@@ -64,6 +106,7 @@
                                 felhasználónak
                                 bele
                                 kéne avatkoznia a folyamatba. <br><br>
+
                                 Az inteligens otthon fő céljai:
                                 <br>
 
@@ -71,7 +114,7 @@
                         </div>
                         <div class="col-md-4  p-0 m-0 text-center">
                             <img style="width: 40%;" class="mb-5" src="./resources/img/energy.png" alt="energy icon">
-                            <p class="text1">Energiafogyasztas csökkentése</p>
+                            <p class="text1">Energiafogyasztás csökkentése</p>
                         </div>
                         <div class="col-md-4  p-0 m-0 text-center">
                             <img style="width: 40%;" class="mb-5" src="./resources/img/lock.png" alt="security icon">
@@ -79,24 +122,26 @@
                         </div>
                         <div class="col-md-4  p-0 m-0 text-center">
                             <img style="width: 40%;" class="mb-5" src="./resources/img/comfort.png" alt="comfort icon">
-                            <p class="text1">tulajdonos kényelmének biztosítása</p>
+                            <p class="text1">lakó kényelmének <br> biztosítása</p>
                         </div>
                     </div>
 
                 </div>
-                <div class="ms-section vh-100 container-fluid section2 ">
+                <div id="automation" data-anchor="second" data-index="3"
+                    class="ms-section vh-100 container-fluid section2 ">
                     <video autoplay muted loop id="myVideo" class="w-75 ml-5 rounded">
                         <source src="./resources/video/morning.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
+                        A böngészője nem támogatja a HTML5 videókat!
                     </video>
 
                 </div>
-                <div class="ms-section vh-100 container-fluid section3 ">
-                    <div class="row ">
-                        <div class="col-md-2 ml-3 h-100 my-5">
+                <div id="green" data-anchor="third" data-index="4" class="ms-section vh-100 container-fluid section3 ">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-2 ml-3 h-100 ">
                             <img class="w-100 h-auto" src="./resources/img/green home.png" alt="">
                         </div>
-                        <div class="col-md-8 mx-2 my-2">
+                        <div class="col-md-8 mx-2 ">
                             <h1 class="header-text" class="header-text">
                                 Energia hatékonyság
                             </h1>
@@ -107,7 +152,7 @@
                             <div class="col-lg-11 h-auto m-auto">
                                 <p class="text1 py-3">
                                     Eszközeink kitünő megoldást biztosítanak egy energiatakarékos otthon vagy iroda
-                                    kialakítására. Automatikus folyamatokat alakíthatunk ki amelyek például:
+                                    kialakítására. Automatikus folyamatokat alakíthatunk ki amelyek:
                                 </p>
                                 <ul>
                                     <li>
@@ -124,43 +169,86 @@
                                         napfelkeltekor külső világítások automatikus lekapcsolása
                                     </li>
                                 </ul>
+                                <p class="text1 py-3">
+                                    Mivel a rendszer teljesen önálló így az emberi figyelmetlenségből származó hibák
+                                    száma
+                                    is csökkenhet, valamint integrálható meglévő okos rendszerekhez is így azokkal is
+                                    képesek eggyüt működni
+                                </p>
                             </div>
                         </div>
 
-                        <div class="col-lg-11 h-auto m-auto">
-                            <p class="text1 py-3">
-                                Mivel a rendszer teljesen önálló így az emberi figyelmetlenségből származó hibák száma
-                                is csökkenhet, valamint integrálható meglévő okos rendszerekhez is így azokkal is
-                                képesek eggyüt működni
-                                </li>
-                                </ul>
-                        </div>
+
                     </div>
                 </div>
-                <div class="ms-section vh-100 container-fluid section4 ">
+                <div id="safety" data-anchor="forth" data-index="5" class="ms-section vh-100 container-fluid section4 ">
+
+                    <div class="row h-100 align-items-end">
+                        <div class="col-12 ">
+                            <img src="./resources/img/security.png" class="vh-100 w-100 mb-0" style="margin-left: -2"
+                                alt="radiator">
+                        </div>
+
+                    </div>
+                </div>
+                <div id="security" data-anchor="fifth" data-index="6"
+                    class="ms-section vh-100 container-fluid section5 ">
                     <h2 class="text-white ">SECTION-4-left</h2>
                 </div>
-                <div class="ms-section vh-100 container-fluid section5 ">
-                    <h2 class="text-white ">SECTION-4-left</h2>
-                </div>
-                <div class="ms-section vh-100 container-fluid section6 ">
+                <div id="innovation" data-anchor="sixth" data-index="7"
+                    class="ms-section vh-100 container-fluid section6 ">
                     <h2 class="text-white ">SECTION-4-left</h2>
                 </div>
             </div>
             <div class="ms-right">
-                <div class="ms-section vh-100 container-fluid">
+                <div id="cover-r" data-anchor="zero" data-index="1"
+                    class="ms-section active vh-100 vw-100 container-fluid fullscreen">
+                    <div class="row h-100 align-text-bottom">
+                        <div class="col-lg-12 ">
+                            <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5" data-ca3_iconfont="ETmodules"
+                                data-ca3_icon="" href="#first"></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="ms-section vh-100 container-fluid section1-r">
+                <div id="smarthome-r" data-anchor="first" data-index="2"
+                    class="ms-section vh-100 container-fluid section1-r">
                     <img id="cover1" src="/resources/img/okosotthon.png" alt="">
-
-
                 </div>
-                <div class="ms-section vh-100 container-fluid section2-r ">
-                    <div class="row">
-                        <div class="col-md-12 mx-2 mb-5">
-                            <h1 class="header-text" class="header-text">
+                <div id="automation-r" data-anchor="second" data-index="3"
+                    class="ms-section vh-100 container-fluid section2-r ">
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-2 ml-3 h-100 ">
+                            <img class="w-100 h-auto" src="./resources/img/automation.png" alt="">
+                        </div>
+                        <div class="col-md-8 mx-2">
+                            <h1 class=" header-text" class="header-text">
                                 Automatizálás
                             </h1>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 mx-5 mt-0 px-5 pb-5 mb-2">
+                            <p class="text1 mr-2">
+                                Automatizálással képesek vagyunk önállóan működő rutinokat létrehozni. Ennek
+                                köszönhetően a mindennapi felesleges feladatok elvégzésével töltött idő felszabadul
+                                hiszen
+                                otthonunk magától elvégzi őket. <br><br>
+                                Így például reggelenként otthononk:
+                            </p>
+                            <ol>
+                                <li>
+                                    Automatikusan felemeli a redőnyöket
+                                </li>
+                                <li>
+                                    A fűtést/légkondiciónálást ideális hőmérsékletre állítja (szobánként)
+                                </li>
+                                <li>
+                                    Lekapcsolja az éjjeli világítást
+                                </li>
+                                <li>
+                                    A kávé/teát automatikusan elkészíti nekünk.
+                                </li>
+                            </ol>
                         </div>
                         <div class="col-md-4  p-0 m-0 text-center">
                             <img style="width: 40%;" class="mb-5" src="./resources/img/detect.png" alt="energy icon">
@@ -174,30 +262,10 @@
                             <img style="width: 40%;" class="mb-5" src="./resources/img/notify.png" alt="comfort icon">
                             <p class="text1">Értesítés</p>
                         </div>
-                        <div class="col-md-12 mt-5 my-lg-5 ms-5">
-                            <p class="text1">
-                                Automatizálással képesek vagyunk önállóan működő rutinokat létrehozni amelyekkel
-                                képesek
-                                vagyunk reggelenként:
-                            </p>
-                            <ol>
-                                <li>
-                                    Automatikusan felemelni a redőnyöket
-                                </li>
-                                <li>
-                                    A fűtést/légkondiciónálást ideális hőmérsékletre állítani (szobánként)
-                                </li>
-                                <li>
-                                    Lekapcsolni az éjjeli világítást
-                                </li>
-                                <li>
-                                    A kávé/teát automatikusan elkészíteni
-                                </li>
-                            </ol>
-                        </div>
                     </div>
                 </div>
-                <div class="ms-section vh-100 container-fluid section3-r ">
+                <div id="green-r" data-anchor="third" data-index="4"
+                    class="ms-section vh-100 container-fluid section3-r ">
                     <div class="row h-100 align-items-end">
                         <div class="col-12 ">
                             <img src="./resources/img/radiator.png" class="vh-100 w-auto mb-0" style="margin-bottom: 0;"
@@ -206,14 +274,65 @@
 
                     </div>
                 </div>
-                <div class="ms-section vh-100 container-fluid section4-r ">
-                    <h2 class="text-white ">SECTION-4-right</h2>
+                <div id="safety-r" data-anchor="forth" data-index="5"
+                    class="ms-section vh-100 container-fluid section4-r ">
+                    <div class="row align-items-center mb-5">
+
+                        <div class="col-md-2 ml-3 h-100 ">
+                            <img class="w-100 h-auto" src="./resources/img/epuletbiztonsag.png" alt="">
+                        </div>
+                        <div class="col-md-8 mx-2 ">
+                            <h1 class="header-text" class="header-text">
+                                Épületbiztonság
+                            </h1>
+
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-lg-11 h-auto m-auto">
+                                <p class="text1 py-3">
+                                    Az épület eszközeinek automatikus eggyütműködése biztonsági és kármegelőző
+                                    funkció alkalmazását teszi lehetővé.
+                                    <br><br>
+                                    Az épületek
+                                    villany-, víz- és gázszerelvényei
+                                    veszélyeket is rejthetnek
+                                    magukban. <br>Például:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Elektromos
+                                        meghibásodás vagy tűz esetén az védőkapcsolónk
+                                        lekapcsolja a
+                                        rákötött áramköröket.
+                                    </li>
+                                    <li>
+                                        Csőtöréskor a vízkifolyás-érzékelővel
+                                        és az elektromos
+                                        elzáró (mozgató motor + golyóscsap)
+                                        segítségével automatikusan
+                                        elzárjuk a vizet.
+                                    </li>
+                                    <li>
+                                        Gázszivárgáskor a gázérzékelőnk
+                                        jóval a robbanásveszély
+                                        előtt aktiválja
+                                        a gázvészelzárót és egyúttal a szellőzőmotorok
+                                        is elindíthatók aktuátorokkal
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="ms-section vh-100 container-fluid section5-r ">
-                    <h2 class="text-white ">SECTION-4-right</h2>
+                <div id="security-r" data-anchor="fifth" data-index="6"
+                    class="ms-section vh-100 container-fluid section5-r ">
+                    <h2 class="text-white ">SECTION-5-right</h2>
                 </div>
-                <div class="ms-section vh-100 container-fluid section6-r ">
-                    <h2 class="text-white ">SECTION-4-right</h2>
+                <div id="innovation-r" data-anchor="sixth" data-index="7"
+                    class="ms-section vh-100 container-fluid section6-r ">
+                    <h2 class="text-white ">SECTION-6-right</h2>
                 </div>
 
             </div>
@@ -221,6 +340,9 @@
         <script src="resources/js/dist/build.js"></script>
         <script src="resources/js/fliptext.js"></script>
         <script src="resources/js/textload.js"></script>
+
+
 </body>
+
 
 </html>
