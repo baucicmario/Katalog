@@ -2,12 +2,12 @@
 @import "~rfs/scss";
 
 
-.text1 {
-  @include rfs(1.5rem);
+.text1{
+  font-size: 1.1vw;
 }
 
-.header-text {
-  @include rfs(5.5rem);
+.header-text{
+  font-size: 4.05vw;
 }
 
 h2{
@@ -15,5 +15,15 @@ h2{
   @include rfs(2rem);
 }
 li {
-  @include rfs(1.3rem);
+  font-size: 1.1vw;
+}
+
+
+
+.iconlist{
+    
+	margin: 0.2vw;
+	padding: 0.8vw 4vw 1.3vw;
+	list-style: none;
+	background-size: 8%;
 }
