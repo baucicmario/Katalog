@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
 .ms-left{
     z-index: 1;
 }
@@ -99,7 +101,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 
 
-.text1{font-size:1.1vw}.header-text{font-size:4.05vw}h2{font-size:calc(1.325rem + .54vw)}@media (min-width: 2000px){h2{font-size:2rem}}li{font-size:1.1vw}.iconlist{margin:0.2vw;padding:0.8vw 4vw 1.3vw;list-style:none;background-size:8%}
+.text1{font-size:1.1vw}.header-text{font-size:4.05vw;font-family:'Barlow', sans-serif}h2{font-size:calc(1.325rem + .54vw)}@media (min-width: 2000px){h2{font-size:2rem}}li{font-size:1.1vw}html{font-family:'Roboto', sans-serif;font-weight:100}.iconlist{margin:0.2vw;padding:0.8vw 4vw 1.3vw;list-style:none;background-size:8%;background-repeat:no-repeat;background-position:left}.iconlist2{margin:0vh;padding:0.8vw 8vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:right}.iconlist3{margin:0vh;padding:0vw 8.5vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:left}strong{font-size:1.2vw;font-style:oblique}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
