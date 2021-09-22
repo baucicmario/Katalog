@@ -1,46 +1,5 @@
-<div class="ms-section section1 ms-table active" data-anchor="first"
-    style="background-color: rgb(90, 208, 255); height: 100%;">
-    <div class="ms-tableCell" style="height: 1024px;">
-        <div class="graduated"></div>
-        <div class="fullscreen">
-            <h1>multiScroll.js</h1>
-            <h2>Create divided multi-scrolling pages.</h2>
-            <ul>
-                <li>
-                    <a class="section-1-button" rel="noopener"
-                        href="https://alvarotrigo.com/multiScroll/extensions/">Extensions</a>
-                </li>
-                <li id="download">
-                    <a class="section-1-button" href="https://github.com/alvarotrigo/multiscroll.js/archive/master.zip"
-                        rel="noopener">Download</a>
-                </li>
-                <li>
-                    <a class="section-1-button" href="https://github.com/alvarotrigo/multiScroll.js" rel="noopener">View
-                        on GitHub</a>
-                </li>
-            </ul>
-            <br>
-            <img src="imgs/multiscroll.png" alt="multiscroll" height="257" width="265">
-        </div>
-    </div>
-</div>
+<div class="container-fluid">
+	<div class="row">
 
-
-
-<div id="multiscroll-nav" class="right" style="color: rgb(0, 0, 0); margin-top: -33.5px;">
-    <ul>
-        <li data-tooltip="Cover"><a href="#zero" class=""><span></span></a></li>
-        <li data-tooltip="First"><a href="#first" class=""><span></span></a></li>
-        <li data-tooltip="Second"><a href="#second" class=""><span></span></a></li>
-        <li data-tooltip="Third"><a href="#third" class=""><span></span></a></li>
-        <li data-tooltip="Third"><a href="#third" class=""><span></span></a></li>
-    </ul>
-</div>
-
-<div id="multiscroll-nav" class="right" style="color: rgb(0, 0, 0); margin-top: -33.5px;">
-    <ul>
-        <li data-tooltip="First"><a href="#first" class=""><span></span></a></li>
-        <li data-tooltip="Second"><a href="#second"><span></span></a></li>
-        <li data-tooltip="Third"><a href="#third" class=""><span></span></a></li>
-    </ul>
+	</div>
 </div>
