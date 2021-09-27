@@ -9,15 +9,24 @@
     <link rel="stylesheet" href="resources/css/fliptext.css" />
     <link rel="stylesheet" href="resources/css/textload.css" />
     <link rel="stylesheet" href="resources/css/sections.css" />
+    <link rel="stylesheet" href="resources/css/arrow.css" />
     <script></script>
 </head>
 
 <body>
     <div class="layout main " id="multiscroll">
         <div class="home ">
-            <div id="wrapper" class="container-fluid vh-100 vw-100">
+            <div class="container-fluid vh-100 vw-100">
+                <video class="video4K" playsinline autoplay muted loop id="bgvid">
+                    <source src="./resources/video/background4k.mp4" type="video/mp4">
+                </video>
+                <video class="video1080p" playsinline autoplay muted loop id="bgvid2">
+                    <source src="./resources/video/Background.m4v" type="video/mp4">
 
+                </video>
+                <!--animated java version id="wrapper"-->
                 <!-- 
+                                    
                 <div class="animated-title w-25">
                     <div class="text-top">
                         <div>
@@ -59,7 +68,7 @@
                 -->
             </div>
             <div class="ms-left">
-                <div id="cover" data-anchor="zero" data-index="1"
+                <div id="cover" data-anchor="cover" data-index="1"
                     class="ms-section vw-50 active vh-100 vw-100 container-fluid">
                     <div class="row" style="height: 90%;">
                         <div class="col-sm-6 my-auto">
@@ -82,7 +91,7 @@
                     </div>
 
                 </div>
-                <div id="smarthome" data-anchor="first" data-index="2"
+                <div id="smarthome" data-anchor="smarthome" data-index="2"
                     class="ms-section vw-50 vh-100 container-fluid section1 ">
                     <div class="row align-items-center mb-5">
                         <div class="col-sm-2 ml-3 h-100 ">
@@ -131,7 +140,7 @@
                     </div>
 
                 </div>
-                <div id="automation" data-anchor="second" data-index="3"
+                <div id="automation" data-anchor="automation" data-index="3"
                     class="ms-section vw-50 vh-100 container-fluid section2 ">
                     <!-- <video autoplay muted loop id="myVideo" class="w-75 ml-5 rounded">
                         <source src="./resources/video/morning.mp4" type="video/mp4">
@@ -146,7 +155,7 @@
 
                     </div>
                 </div>
-                <div id="green" data-anchor="third" data-index="4"
+                <div id="green" data-anchor="green" data-index="4"
                     class="ms-section vw-50 vh-100 container-fluid section3 ">
                     <div class="row align-items-center mb-5">
                         <div class="col-sm-2 ml-3 h-100 ">
@@ -197,7 +206,7 @@
 
                     </div>
                 </div>
-                <div id="safety" data-anchor="forth" data-index="5"
+                <div id="safety" data-anchor="safety" data-index="5"
                     class="ms-section vw-50 vh-100 container-fluid section4 ">
 
                     <div class="row h-100 align-items-end">
@@ -208,7 +217,7 @@
 
                     </div>
                 </div>
-                <div id="security" data-anchor="fifth" data-index="6"
+                <div id="security" data-anchor="security" data-index="6"
                     class="ms-section vw-50 vh-100 container-fluid section5 ">
                     <div class="row align-items-center mb-5">
                         <div class="col-sm-2 ml-3 h-100 ">
@@ -266,7 +275,7 @@
 
                     </div>
                 </div>
-                <div id="innovation" data-anchor="sixth" data-index="7"
+                <div id="innovation" data-anchor="innovation" data-index="7"
                     class="ms-section vw-50 vh-100 container-fluid section6 ">
 
                     <div class="row h-100 align-items-end">
@@ -277,7 +286,7 @@
 
                     </div>
                 </div>
-                <div id="tuya" data-anchor="seventh" data-index="8"
+                <div id="tuya" data-anchor="tuya" data-index="8"
                     class="ms-section vw-50 vh-100 container-fluid section7 ">
                     <div class="row align-items-center mb-5">
 
@@ -334,7 +343,7 @@
                     </div>
 
                 </div>
-                <div id="pelda1" data-anchor="eight" data-index="9" class="ms-section container-fluid section4 ">
+                <div id="pelda1" data-anchor="pelda1" data-index="9" class="ms-section container-fluid section4 ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-right">
@@ -400,7 +409,7 @@
 
                     </div>
                 </div>
-                <div id="pelda2" data-anchor="nineth" data-index="10"
+                <div id="pelda2" data-anchor="pelda2" data-index="10"
                     class="ms-section vw-50 vh-100 container-fluid section2 ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -453,7 +462,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda3" data-anchor="tenth" data-index="11"
+                <div id="pelda3" data-anchor="pelda3" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section3 ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 vw-50">
@@ -467,7 +476,7 @@
 
                     </div>
                 </div>
-                <div id="pelda5" data-anchor="twelveth" data-index="12"
+                <div id="pelda5" data-anchor="pelda5" data-index="12"
                     class="ms-section vw-50 vh-100 container-fluid section4 ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -500,7 +509,7 @@
                                     <strong>nedvességérzékelőkhöz is köthetjük</strong> az indítási és leállási
                                     parancsot.
                                 </li>
-                                <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
+                                <li class="iconlist3" style="background-image: url(' /resources/img/waterlock2.png');">
                                     <br>
                                     Az öntözőrendszer vízellátását <strong>elvégezhetjük motoros működtetésű
                                         golyóscsapokkal és
@@ -517,7 +526,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda4" data-anchor="eleventh" data-index="11"
+                <div id="pelda4" data-anchor="pelda4" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section7 ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
@@ -530,7 +539,7 @@
 
                     </div>
                 </div>
-                <div id="pelda7" data-anchor="fourteenth" data-index="14"
+                <div id="pelda7" data-anchor="pelda7" data-index="14"
                     class="ms-section vw-50 vh-100 container-fluid section6 ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -578,7 +587,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda6" data-anchor="thirteenth" data-index="13"
+                <div id="pelda6" data-anchor="pelda6" data-index="13"
                     class="ms-section vw-50 vh-100 container-fluid section5 ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
@@ -594,18 +603,19 @@
             </div>
             <div class="ms-right">
                 <div id="cover-r" data-anchor="zero" data-index="1"
-                    class="ms-section vw-100 active vh-100 vw-100 container-fluid fullscreen">
-                    <div class="row h-100 w-100 ml-auto align-text-bottom ">
-                        <div class="col-sm-12 mt-auto mb-5 pb-5">
-                            <div class="icon-scroll"></div>
+                    class="ms-section active vh-100  container-fluid fullscreen ">
+                    <div class="row h-100 vw-100 text-center ">
+
+                        <div id="section10" class="col-sm-12 mt-auto  demo ">
+                            <a href="#first"><span></span>Scroll</a>
                         </div>
                     </div>
                 </div>
-                <div id="smarthome-r" data-anchor="first" data-index="2"
+                <div id="smarthome-r" data-anchor="smarthome" data-index="2"
                     class="ms-section vw-50 vh-100 container-fluid section1-r">
                     <img id="cover1" src="/resources/img/okosotthon.png" alt="">
                 </div>
-                <div id="automation-r" data-anchor="second" data-index="3"
+                <div id="automation-r" data-anchor="automation" data-index="3"
                     class="ms-section vw-50 vh-100 container-fluid section2-r ">
                     <div class="row align-items-center mb-3">
                         <div class="col-sm-2 ml-3  ">
@@ -665,7 +675,7 @@
 
                     </div>
                 </div>
-                <div id="green-r" data-anchor="third" data-index="4"
+                <div id="green-r" data-anchor="green" data-index="4"
                     class="ms-section vw-50 container-fluid section3-r ">
                     <div class="row">
                         <div class="col-12 ">
@@ -674,7 +684,7 @@
 
                     </div>
                 </div>
-                <div id="safety-r" data-anchor="forth" data-index="5"
+                <div id="safety-r" data-anchor="safety" data-index="5"
                     class="ms-section vw-50 vh-100 container-fluid section4-r ">
                     <div class="row align-items-center mb-5">
 
@@ -724,7 +734,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="security-r" data-anchor="fifth" data-index="6"
+                <div id="security-r" data-anchor="security" data-index="6"
                     class="ms-section vw-50 vh-100 container-fluid section5-r ">
                     <div class="row h-100 align-items-end">
                         <div class="col-12 ">
@@ -734,7 +744,7 @@
 
                     </div>
                 </div>
-                <div id="innovation-r" data-anchor="sixth" data-index="7"
+                <div id="innovation-r" data-anchor="innovation" data-index="7"
                     class="ms-section vw-50 vh-100 container-fluid section6-r ">
                     <div class="row align-items-center mb-5">
 
@@ -786,7 +796,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="tuya-r" data-anchor="seventh" data-index="8"
+                <div id="tuya-r" data-anchor="tuya" data-index="8"
                     class="ms-section vw-50 vh-100 container-fluid section7-r ">
                     <div class="row h-100 align-items-end">
                         <div class="col-12 ">
@@ -796,7 +806,7 @@
 
                     </div>
                 </div>
-                <div id="pelda1-r" data-anchor="eight" data-index="9"
+                <div id="pelda1-r" data-anchor="pelda1" data-index="9"
                     class="ms-section vw-50 vh-100 container-fluid section4-r ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -843,7 +853,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda2-r" data-anchor="nineth" data-index="10"
+                <div id="pelda2-r" data-anchor="pelda2" data-index="10"
                     class="ms-section vw-50 vh-100 container-fluid section2-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
@@ -856,7 +866,7 @@
 
                     </div>
                 </div>
-                <div id="pelda3-r" data-anchor="tenth" data-index="11"
+                <div id="pelda3-r" data-anchor="pelda3" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section3-r ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -898,7 +908,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda5-r" data-anchor="twelveth" data-index="12"
+                <div id="pelda5-r" data-anchor="pelda5" data-index="12"
                     class="ms-section vw-50 vh-100 container-fluid section4-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
@@ -911,7 +921,7 @@
 
                     </div>
                 </div>
-                <div id="pelda4-r" data-anchor="eleventh" data-index="11"
+                <div id="pelda4-r" data-anchor="pelda4" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section7-r ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">
@@ -956,7 +966,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pelda7-r" data-anchor="fourteenth" data-index="14"
+                <div id="pelda7-r" data-anchor="pelda7" data-index="14"
                     class="ms-section vw-50 vh-100 container-fluid section6-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
                         <div class=" col-sm-12 mx-2  ">
@@ -969,7 +979,7 @@
 
                     </div>
                 </div>
-                <div id="pelda6-r" data-anchor="thirteenth" data-index="13"
+                <div id="pelda6-r" data-anchor="pelda6" data-index="13"
                     class="ms-section vw-50 vh-100 container-fluid section5-r ">
                     <div class="row vh-100 align-items-start ">
                         <div class=" col-sm-12 mx-2  ">

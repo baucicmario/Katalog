@@ -10,7 +10,7 @@ $(document).ready(function () {
         navigationPosition: 'right',
         navigationColor: '#ffffff',
         navigationTooltips: ['first', 'second', 'third', 'forth', 'fifth', 'sixth'],
-        loopBottom: true,
+        loopBottom: false,
         loopTop: false,
         css3: true,
         paddingTop: 0,
