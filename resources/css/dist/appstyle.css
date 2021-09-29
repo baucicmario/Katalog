@@ -1,107 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 @import url(https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
-.ms-left{
-    z-index: 1;
+
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.ms-right{
-    z-index: 1;
-}
-
-.page-header{
-    z-index: -1;
-}
--body {
-    background-color: #000;
-    overflow: hidden;
-}
-
-html body [data-ca3_iconfont="ETmodules"]::before {
-    font-family: "ETmodules";
-}
-
-[data-ca3_icon]::before {
-    font-weight: normal;
-    content: attr(data-ca3_icon);
-}
-
-.ca3-scroll-down-arrow {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.ca3-scroll-down-link {
-    cursor: pointer;
-    height: 80px;
-    width: 100px;
-    margin: 0 0 0 -40px;
-    line-height: 60px;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    color: #FFF;
-    text-align: center;
-    font-size: 70px;
-    z-index: 100;
-    text-decoration: none;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
-
-    -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-    -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
-    animation: ca3_fade_move_down 2s ease-in-out infinite;
-}
-
-
-/*animated scroll arrow animation*/
-@-webkit-keyframes ca3_fade_move_down {
-    0% {
-        -webkit-transform: translate(0, -20px);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: translate(0, 20px);
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes ca3_fade_move_down {
-    0% {
-        -moz-transform: translate(0, -20px);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        -moz-transform: translate(0, 20px);
-        opacity: 0;
-    }
-}
-
-@keyframes ca3_fade_move_down {
-    0% {
-        transform: translate(0, -20px);
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: translate(0, 20px);
-        opacity: 0;
-    }
+html, body {
+  height: 100%;
 }
 
 
 
+.demo a {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 2vh 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
 
 
 
-.text1{font-size:1.1vw}.header-text{font-size:4.05vw;font-family:'Barlow', sans-serif}h2{font-size:calc(1.325rem + .54vw)}@media (min-width: 2000px){h2{font-size:2rem}}li{font-size:1.1vw}html{font-family:'Roboto', sans-serif;font-weight:100}.iconlist{margin:0.2vw;padding:0.8vw 4vw 1.3vw;list-style:none;background-size:8%;background-repeat:no-repeat;background-position:left}.iconlist2{margin:0vh;padding:0.8vw 8vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:right}.iconlist3{margin:0vh;padding:0vw 8.5vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:left}strong{font-size:1.2vw;font-style:oblique}
+#section10 a {
+  padding-top: 11vh;
+  position: relative
+}
+#section10 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 6vh;
+  height: 9vh;
+  margin-left: -3vh;
+  border: 0.6vh solid #fff;
+  border-radius: 10vh;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 2vh;
+  left: 50%;
+  content: '';
+  width: 1.2vh;
+  height: 1.2vh;
+  margin-left: -0.6vh;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.text1{font-size:1.1vw}.m-text1{font-size:1.1vh}.header-text{font-size:4.05vw;font-family:'Barlow', sans-serif}.m-header-text{font-size:4.05vh;font-family:'Barlow', sans-serif}h2{font-size:calc(1.325rem + .54vw)}@media (min-width: 2000px){h2{font-size:2rem}}li{font-size:1.1vw}html{font-family:'Roboto', sans-serif;font-weight:100}.iconlist{margin:0.2vw;padding:0.8vw 4vw 1.3vw;list-style:none;background-size:8%;background-repeat:no-repeat;background-position:left}.iconlist2{margin:0vh;padding:0.8vw 8vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:right}.iconlist3{margin:0vh;padding:0vw 8.5vw 2.5vw;list-style:none;background-size:16%;text-align:center;background-repeat:no-repeat;background-position:left}.strong{font-size:1.2vw;font-style:oblique}.m-strong{font-size:2.0vh;font-style:oblique}.arrow-container{display:flex;justify-content:center;align-items:center;width:100%;height:100%}.chevron{position:absolute;width:2.1rem;height:.48rem;opacity:0;transform:scale(0.3);animation:move-chevron 3s ease-out infinite}.chevron:first-child{animation:move-chevron 3s ease-out 1s infinite}.chevron:nth-child(2){animation:move-chevron 3s ease-out 2s infinite}.chevron:before,.chevron:after{content:'';position:absolute;top:0;height:100%;width:50%;background:#ffffff}.chevron:before{left:0;transform:skewY(30deg)}.chevron:after{right:0;width:50%;transform:skewY(-30deg)}@keyframes move-chevron{25%{opacity:1}33.3%{opacity:1;transform:translateY(2.28rem)}66.6%{opacity:1;transform:translateY(3.12rem)}100%{opacity:0;transform:translateY(4.8rem) scale(0.5)}}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

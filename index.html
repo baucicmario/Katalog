@@ -9,37 +9,15 @@
     <link rel="stylesheet" href="resources/css/fliptext.css" />
     <link rel="stylesheet" href="resources/css/textload.css" />
     <link rel="stylesheet" href="resources/css/sections.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
     <link rel="stylesheet" href="resources/css/arrow.css" />
     <script></script>
 </head>
 
 <body>
-    <div class="layout main " id="multiscroll">
-        <div class="home ">
-            <div class="container-fluid vh-100 vw-100">
-                <video class="video4K" playsinline autoplay muted loop id="bgvid">
-                    <source src="./resources/video/background4k.mp4" type="video/mp4">
-                </video>
-                <video class="video1080p" playsinline autoplay muted loop id="bgvid2">
-                    <source src="./resources/video/Background.m4v" type="video/mp4">
-
-                </video>
-                <!--animated java version id="wrapper"-->
-                <!-- 
-                                    
-                <div class="animated-title w-25">
-                    <div class="text-top">
-                        <div>
-                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
-                            <span>Okosotthon?</span>
-                        </div>
-                    </div>
-                    <div class="text-bottom">
-                        <div><span>Inkább inteligens épület!</span></div>
-                    </div>
-                </div>
-
-
+    <div id="containerDivID">
+        <div id="large-left" class="ms-left">
+            <div class="ms-section vh-100 vw-100 container-fluid" id="coverleftId">
                 <div class="row" style="height: 90%;">
                     <div class="col-sm-6 my-auto">
                         <div class="row">
@@ -49,7 +27,7 @@
                                 <div class=" page-header">
                                     <img class="w-100" src="./resources/img/logo.png" alt="logo">
                                     <h1>
-                                        Okos otthon? <br> <small>Inkább inteligens épület!</small>
+                                        Okos otthon? <br> <small>Inkább intelligens épület!</small>
                                     </h1>
                                 </div>
                             </div>
@@ -59,13 +37,1923 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <a class="ca3-scroll-down-link ca3-scroll-down-arrow p-3 mb-5" data-ca3_iconfont="ETmodules"
-                            data-ca3_icon="" onclick="scrollWin()"></a>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section1" id="smarthomeleftId">
+                <div class="row align-items-center mb-5">
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class=" w-100 h-auto" src="./resources/img/smarthome.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2 ">
+                        <h1 class="header-text" class="header-text">
+                            Intelligens épület
+                        </h1>
                     </div>
                 </div>
-                -->
+                <div class="row">
+                    <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2">
+                        <p class="text1">
+                            Az inteligens épületek nem csupán távvezérlést, hanem automatikus művelet
+                            végrehajtást is biztosítanak. <br><br>
+                            Így előre meghatározott körülményeknél,
+                            önállóan
+
+                            elindulhatnak vészhelyzeti vagy kényelmi funkcióink, anélkül hogy a
+                            felhasználónak
+                            bele
+                            kellene avatkoznia a folyamatba. Ennek köszönhetően extra biztonságot és csökkenti a
+                            felesleges feladatokkal töltött időt.<br><br>
+                            Bármelyik lakásba vagy irodába egyszerűen telepíthető, <br>
+                            legyen szó új építésről vagy felújításról.
+                            <br><br>
+
+                            <strong class="strong">Az inteligens otthon fő céljai: </strong class="strong">
+                            <br>
+
+                        </p>
+                    </div>
+                    <div class="col-sm-4  p-0 m-0 text-center">
+                        <img style="width: 40%;" class="mb-5" src="./resources/img/energy.png" alt="energy icon">
+                        <p class="text1">energiafogyasztás <br> csökkentése</p>
+                    </div>
+                    <div class="col-sm-4  p-0 m-0 text-center">
+                        <img style="width: 40%;" class="mb-5" src="./resources/img/lock.png" alt="security icon">
+                        <p class="text1">biztonság és vagyonvédelem hatékonyságának növelése</p>
+                    </div>
+                    <div class="col-sm-4  p-0 m-0 text-center">
+                        <img style="width: 40%;" class="mb-5" src="./resources/img/comfort.png" alt="comfort icon">
+                        <p class="text1">lakó kényelmének <br> biztosítása</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section2" id="automationleftId">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12 ">
+                        <img src="./resources/img/automation.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
+                            alt="radiator">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section3" id="greenleftId">
+                <div class="row align-items-center mb-5">
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class="w-100 h-auto" src="./resources/img/green home.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2 ">
+                        <h1 class="header-text" class="header-text">
+                            Energia hatékonyság
+                        </h1>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-sm-11 h-auto m-auto">
+                            <p class="text1 py-3">
+                                Eszközeink kitünő megoldást biztosítanak egy energiatakarékos otthon vagy iroda
+                                kialakítására. Automatikus folyamatokat alakíthatunk ki például:
+                            </p>
+                            <ul>
+                                <li class="iconlist" style="background-image: url(' /resources/img/light.png');  
+                                                                                                                   ">
+                                    világítás csökkentése a használaton kívüli helyiségekben. (dimming)
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/temperature.png');  
+                                                                                                                    ">
+                                    épület beriasztásakor automatikus fűtés/világítás csökkentése vagy
+                                    lekapcsolása
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/window.png');  
+                                                                                                                   ">
+                                    nyitott nyílászáró érzékelése esetében fűtés/légkondicionálás lekapcsolása
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/sun.png');  
+                                                                                                                   ">
+                                    napfelkeltekor külső világítások automatikus lekapcsolása
+                                </li>
+                            </ul>
+                            <p class="text1 py-3">
+                                Mivel a rendszer teljesen önálló így az emberi figyelmetlenségből származó hibák
+                                száma
+                                is csökkenhet, valamint integrálható meglévő okos rendszerekhez is így azokkal
+                                is
+                                képesek eggyüt működni
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section4 " id="safetyleftId">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12 ">
+                        <img src="./resources/img/security.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
+                            alt="radiator">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section5" id="securityleftId">
+                <div class="row align-items-center mb-5">
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class="w-100 h-auto" src="./resources/img/Vagyonbiztonsag.png" alt="">
+                    </div>
+                    <div class=" col-sm-8 mx-2 ">
+                        <h1 class=" header-text">
+                            Vagyonbiztonság
+                        </h1>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-sm-11 h-auto m-auto">
+
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/connect.png');  
+                                                                                                                                                                                                                        ">
+                                    Amikor az okos épületvezérlés riasztóként is
+                                    működik, akkor a mindennapi eszközeink is a részévé
+                                    vállnak (nyitás/mozgás, áramhasználat, hőmérséklet, víz vagy gáz érzékelők).
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/notification.png');  
+                                                                                                                                                                                                                       ">
+                                    A rendszer képes értesíteni minket amennyiben nyitva felejtettünk egy
+                                    ablakot
+                                    és automatikusan kikapcsolja a bekapcsolva hagyott eszközöket
+                                </li>
+
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/alert.png');  
+                                                                                                                                                                                                                                                                ">
+                                    Beriasztott érzékelés esetében a szenzor egyedi push-üzenetet
+                                    küld nekünk, valamint igény szerint
+                                    automatikusan riaszt is és a távfelügyelethez (rendősrség)
+                                    is jelez.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/key.png');  
+                                                                                                                                                                                                                                                                                                                                                                           ">
+                                    a hagyományos szirénázáson túl a redőnyök
+                                    és világítás kapcsolgatásával
+                                    és egyéb hatásokkal,
+                                    eltántoríthatjuk az illetéktelen
+                                    behatolókat.
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section6" id="innovationleftId">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12 ">
+                        <img src="./resources/img/kinetic.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
+                            alt="radiator">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section7" id="tuyaleftId">
+                <div class="row align-items-center mb-5">
+
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class="w-100 h-auto" src="./resources/img/tuya home.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2 ">
+                        <h1 class="header-text" class="header-text">
+                            Vezérlés
+                        </h1>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-sm-11 h-auto m-auto">
+                            <p class="text1 py-3">
+                                Minden okos eszközünk a Tuya Szoftverrel képes eggyütműködni. <br> Segítségével
+                                egy
+                                felületen tudjuk irányítani, szobák vagy épületek alapján rendezni, állapotot
+                                lekérdezni vagy automatizálásokat létrehozni.
+                            </p>
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/weather.png');  
+                                                                                                                                                                       ">
+                                    Előre beállított idő dátum vagy akár napszak alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/controlpanel.png');  
+                                                                                                                                                                                                                                                ">
+                                    Automatizalasok segitsegevel mas eszkozok állapota alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/location.png');  
+                                                                                                                                                                                                                                                                                                                                                            ">
+                                    Telefonos lokáció alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/integration.png');  
+                                                                                                                                                                       ">
+                                    Integrálható meglévő okos otthon eszközeivel (Google, Amazon, Samsung,
+                                    SmartLife)
+                                </li>
+
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/zigbee.png');  
+                                                                                                                                                                                                           ">
+                                    Zigbee és WiFi hálózattal is működik
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid  " id="pelda1leftId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-right">
+                            Reggeli
+                        </h1>
+                    </div>
+                    <div class="col-sm-10">
+                        <div class="carousel slide rounded" id="carousel-1">
+                            <ol class="carousel-indicators">
+                                <li data-slide-to="0" data-target="#carousel-1" class="active">
+                                </li>
+                                <li data-slide-to="1" data-target="#carousel-1">
+                                </li>
+                                <li data-slide-to="2" data-target="#carousel-1">
+                                </li>
+                                <li data-slide-to="3" data-target="#carousel-1">
+                                </li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100 rounded" alt="Carousel Bootstrap First"
+                                        src="./resources/img/pelda1-1.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Redőnyök
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Second"
+                                        src="./resources/img/pelda1-2.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Mozgásérzékelés
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Third"
+                                        src="./resources/img/pelda1-3.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Thermostat
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Third"
+                                        src="./resources/img/pelda1-4.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Riasztó
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div> <a class="carousel-control-prev" href="#carousel-1" data-slide="prev"><span
+                                    class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-1" data-slide="next"><span
+                                    class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section2 " id="pelda2leftId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 text-right">
+                            Világításvezérlés
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+
+                            <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
+                                <br>
+                                <strong class="strong">Mozgásérzékelőink
+                                    éjszaka</strong class="strong"> a folyosón és a fürdőszobában
+                                csak <strong class="strong">derengő fényt kapcsolnak be.<br> Nap közben a beállított
+                                    fényerőre váltanak.</strong class="strong">
+                                Üres helyiségekben néhány perc után
+                                készenléti/dekorációs/kikapcsolt módra állnak.
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/switch.png');">
+                                <br>
+                                <strong class="strong">Kinetikus kapcsolók</strong class="strong"> alkalmazásával a
+                                kapcsolók
+                                <strong class="strong">helye bármikor rugalmasan változtatható vezetékek, akumulátorok,
+                                    festés
+                                    és
+                                    vésés
+                                    nélkül.</strong class="strong">
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
+                                <br>
+                                Amennyiben <strong class="strong">a kapcsoló</strong class="strong"> túl magasan van,
+                                <strong class="strong">bármikor
+                                    áthelyezhető alacsonyabbra</strong class="strong">
+                                és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong
+                                    class="strong">
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/switch3.png');">
+                                <br>
+                                <strong class="strong">Egy gombnyomással képesek vagyunk
+                                    teljes kivilágításról mozi-módra váltani</strong class="strong"> . Ekkor a
+                                redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
+                                Időzített, vagy mozgásérzékelés-alapú
+                                világítás-kapcsolás is megoldható.
+                            </li>
+
+                        </ul>
+                        <p class="text1 py-0">
+                            <br><br>
+                            .<br><br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section3" id="pelda3leftId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 vw-50">
+                        <h1 class=" header-text pt-5 mr-0 text-right">
+                            Fűtés-/Hűtésvezérlés
+                        </h1>
+                        <img src="./resources/img/half-temp-left-img.png" alt="heating" class="vw-50"
+                            style="width: 40vw;">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section4" id="pelda5leftId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 text-right">
+                            Vízérzékelés
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor.png');">
+                                <br>
+                                Ha padlóra helyezett <strong class="strong">vízérzékelőink eggyike
+                                    vizet észlel,</strong class="strong"> a rendszer <strong class="strong">elzárja a
+                                    fővezeték motoros
+                                    vízcsapját</strong class="strong"> és
+                                telefonunkon
+                                értesít a riasztásról.
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/waterlock.png');">
+                                <br>
+                                A kerti öntözőrendszereink vezérlése is automatikus így
+                                <strong class="strong">reggelenként magától elindul az öntözés</strong class="strong">.
+                                Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
+                                önállóan.
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor2.png');">
+                                <br>
+                                A Vezérlésbe az időzítésen és az időjáráson túl különféle
+                                <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong class="strong"> az
+                                indítási és leállási
+                                parancsot.
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/waterlock2.png');">
+                                <br>
+                                Az öntözőrendszer vízellátását <strong class="strong">elvégezhetjük motoros működtetésű
+                                    golyóscsapokkal és
+                                    elektrotermikus
+                                    szelepvezérlőkkel is</strong class="strong">
+                            </li>
+
+                        </ul>
+                        <p class="text1 py-0">
+                            <br><br>
+                            .<br><br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section7" id="pelda4leftId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-right">
+                            Gázérzékelés
+                        </h1>
+                        <img src="./resources/img/half-flame-left-img.png" alt="heating" class="vw-50"
+                            style="width: 40vw;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section6" id="pelda7leftId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 text-right">
+                            Az egész épület egy
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 ">
+
+                        <ul>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
+                                <br>
+                                <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong
+                                    class="strong"> , vagyis egy betört
+                                ablak esetében a
+                                termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus
+                                    hőmérsékletvátozást</strong class="strong"> és
+                                jelzi felénk!
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
+                                <br>
+                                Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik
+                                    kapcsolót</strong class="strong">
+                                (vagy
+                                más tuyahoz
+                                kötött eszközt), az nem fog működni
+                                hanem
+                                <strong class="strong">riasztási jelzést küld!</strong class="strong">
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
+                                <br>
+                                Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong class="strong">pontosan
+                                    követhetővé válik
+                                    hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
+                                <strong class="strong">biztonságosan
+                                    elhagyhatjuk
+                                    az épületet.</strong class="strong">
+                            </li>
+                            <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
+                                <br>
+                                A riasztó egység
+                                <strong class="strong">telefonról tudjuk időzíteni</strong class="strong"> (pl.: iroda
+                                nyitásának ideje)
+                                valamint
+                                gps lokációja alapján <strong class="strong">automatikusan beriasztani az
+                                    épületet</strong class="strong"> ha
+                                elhagytuk a környéket.
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section5" id="pelda6leftId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-right">
+                            Távoli Nyaralók
+                        </h1>
+                        <img src="./resources/img/half-snow-left-img.png" alt="heating" class="vw-50"
+                            style="width: 40vw;">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="large-right" class="ms-right">
+            <div class="ms-section vh-100  container-fluid fullscreen" id="large-coverrightId">
+                <div class="row h-100 vw-100 text-center ">
+
+                    <div id="section10" class="col-sm-12 mt-auto  demo ">
+                        <a href="#first"><span></span>Scroll</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section1-r" id="large-smarthomerightId">
+                <img id="cover1" src="/resources/img/okosotthon.png" alt="">
+            </div>
+
+            <div class="ms-section vw-50 vh-100 container-fluid section2-r" id="large-automationrightId">
+                <div class="row align-items-center mb-3">
+                    <div class="col-sm-2 ml-3  ">
+                        <img class="w-100 h-auto" src="./resources/img/auto home.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2">
+                        <h1 class=" header-text" class="header-text">
+                            Automatizálás
+                        </h1>
+                    </div>
+                </div>
+                <div class="row mr-3">
+                    <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
+                        <p class="text1">
+                            Az inteligens otthon legfőbb előnye hogy az okos eszközök <strong class="strong">egymással
+                                is
+                                kommunikálnak. </strong class="strong">
+                            Így
+                            otthonunk amennyiben képes rá
+                            <strong class="strong">önállóan
+                                megoldja a felmerülő problémákat,
+                                Ezt automatizálásnak
+                                nevezzük!
+                            </strong class="strong">
+                            <br>
+                            ekkor a rendszer:
+                        </p>
+                        <ul>
+                            <li class="iconlist"
+                                style="background-image: url(' /resources/img/detect.png');  
+                                                                                                                                                                                                                                        ">
+                                <strong class="strong">Érzékel </strong class="strong"> egy vészhelyzetett vagy
+                                elvégzendő feladatott, például
+                                tüzet
+                                csőtörést vagy napfelkeltét.
+                            </li>
+                            <li class="iconlist"
+                                style="background-image: url(' /resources/img/execute.png');  
+                                                                                                                                                                                                                                       ">
+                                <strong class="strong">Végrehajtja </strong class="strong"> a megfelelő lépéseket a
+                                feladatmegoldáshoz,
+                                például
+                                elzárja
+                                a víz/gázcsapot vagy lekapcsolja az éjeli fényeket.
+                            </li>
+                            <li class="iconlist"
+                                style="background-image: url(' /resources/img/notify.png');  
+                                                                                                                                                                                                                                        ">
+                                <strong class="strong">Értesíti </strong class="strong"> a felhasználót a helyzetről a
+                                feladatok elvégzése
+                                után.
+                                Így
+                                az képes
+                                ellenőrizni az elvégzés állapotátt. (kikapcsolható)
+                            </li>
+
+                        </ul>
+                        <p class="text1">
+
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section3-r " id="large-greenrightId">
+                <div class="row">
+                    <div class="col-12 ">
+                        <img src="./resources/img/radiator.png" class="w-100 h-auto" alt="radiator">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section4-r " id="large-safetyrightId">
+                <div class="row align-items-center mb-5">
+
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class="w-100 h-auto" src="./resources/img/epuletbiztonsag.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2 ">
+                        <h1 class="header-text" class="header-text">
+                            Épületbiztonság
+                        </h1>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-sm-11 h-auto m-auto">
+                            <p class="text1 py-3">
+                                Az épület eszközeinek automatikus eggyütműködése kármegelőző
+                                funkció alkalmazását teszi lehetővé.
+                                <br> Eszközeink segítségével például:
+                            </p>
+                            <ul>
+                                <li class="iconlist" style="background-image: url(' /resources/img/energysmall.png');  
+                                                                               ">
+                                    Csőtörés érzékelésekor sérülések elkerülése érdekében lekapcsolódik a
+                                    szobában
+                                    az összes
+                                    áramkör.
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/water.png');  
+                                                                                ">
+                                    Csőtöréskor a vízkifolyás-érzékelővel
+                                    és az elektromos
+                                    elzáró (mozgató motor + golyóscsap)
+                                    segítségével automatikusan
+                                    elzárjuk a vizet.
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/flame.png');  
+                                                                               ">
+                                    Gázszivárgáskor a gázérzékelőnk
+                                    jóval a robbanásveszély
+                                    előtt aktiválja
+                                    a gázvészelzárót és egyúttal a szellőzőmotorok
+                                    is elindíthatók aktuátorokkal
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section5-r" id="large-securityrightId">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12 ">
+                        <img src="./resources/img/alarm.png" class="vh-100 w-auto mb-0" style="margin-bottom: 0;"
+                            alt="alarm">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section6-r" id="large-innovationrightId">
+                <div class="row align-items-center mb-5">
+
+                    <div class="col-sm-2 ml-3 h-100 ">
+                        <img class="w-100 h-auto" src="./resources/img/ujjitas.png" alt="">
+                    </div>
+                    <div class="col-sm-8 mx-2 ">
+                        <h1 class="header-text" class="header-text">
+                            Innovatív megoldások
+                        </h1>
+
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-sm-11 h-auto m-auto">
+                            <p class="text1 py-3">
+                                Forradalmi újdonságnak mondhatjuk a Videosec kinetikus
+                                kapcsolókat, melyek <br> <strong class="strong">igazán vezeték nélküli megoldást
+                                    biztosítanak </strong class="strong">
+                            </p>
+                            <ul>
+                                <li class="iconlist" style="background-image: url(' /resources/img/battery.png');  ">
+                                    Nincs szükség elemre! A gombnyomás kinetikus energiája
+                                    táplálja a kapcsolóba beépített adót.
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/materials.png');  ">
+                                    Bármilyen felületre felszrelhetőek
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/clock.png');  
+                                                                                                                                                                                                                                                                                                            ">
+                                    Többszázezres kapcsolási
+                                    élettartam
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/radio.png');  ">
+                                    A kapcsoló vezeték néküli jelet közvetít az vevőegység felé ami elvégzi a
+                                    kapcsolást.
+                                </li>
+
+                                <li class="iconlist" style="background-image: url(' /resources/img/water.png');  ">
+                                    Vizes környezetbe, vagy
+                                    kültéren is telepíthetőek. (IP67)
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section7-r " id="large-tuyarightId">
+                <div class="row h-100 align-items-end">
+                    <div class="col-12 ">
+                        <img src="./resources/img/tuya.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
+                            alt="radiator">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid " id="large-pelda1rightId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5">
+                            Rutinok
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/switch.png');">
+                                <br>
+                                <strong class="strong">A rendszer</strong class="strong"> először résnyire megemeli a
+                                sötétítőket, majd,
+                                amikor
+                                már
+                                hozzászokott a szemünk a
+                                fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong class="strong">
+                                Téli reggeleken a
+                                világítás ébreszt
+                                hasonlóan kíméletesen.
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/detector.png');">
+                                <br>
+                                <strong class="strong">Mozgásérzékelőink</strong class="strong"> jelei az igényeinknek
+                                megfelelően
+                                <strong class="strong">kapcsolják a
+                                    többi helyiség
+                                    világítását.</strong class="strong">
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                <br>
+                                <strong class="strong">A fűtés/légkondícionálás előttünk
+                                    ébred,</strong class="strong">
+                                hogy minket már kellemes
+                                hőmérséklet fogadjon
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
+                                <br>
+                                <strong class="strong">Amikor távozunk </strong class="strong"> otthonról
+                                telefonunk <strong class="strong"> emlékeztet, ha nem
+                                    élesítettük a riasztó rendszert.</strong class="strong">
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section2-r" id="large-pelda2rightId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-left">
+                            és automatizálás
+                        </h1>
+                        <img src="./resources/img/half-light-right-img.png" alt="heating" class="vw-50"
+                            style="width: 40vw;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section3-r" id="large-pelda3rightId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5">
+                            /beállítás/automatizalas
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                <br>
+                                Helyiségenként <strong class="strong">egy termosztát elhelyezésével</strong
+                                    class="strong"> , a
+                                hőmérséklet-beállítások
+                                automatizálásával <strong class="strong">30-45%-kal is csökkenthetjük fűtésünk
+                                    energiaigényét</strong class="strong"> .
+                                Valamint <strong class="strong">akár légkondicionálló</strong class="strong">
+                                rendszerünk
+                                <strong class="strong">vezérlésére</strong class="strong"> is alkalmazhatóak.
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
+                                <br>
+                                <strong class="strong">Távozáskor</strong class="strong">
+                                élesítjük a riasztót, ekkor <strong class="strong">termosztátjaink alacsony programra
+                                    váltanak.</strong class="strong"> Ha
+                                elutazunk, vagy korábban érünk haza, <strong class="strong">telefonról
+                                    módosíthatjuk beállításainkat.</strong class="strong">
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
+                                <br>
+                                <strong class="strong">Már meglévő radiátoraink</strong class="strong"> ütemezhető
+                                <strong class="strong">fűtésvezérlését</strong class="strong"> ZigBee radiátor
+                                termosztátokkal
+                                <strong class="strong">tudjuk megvalósítani.</strong class="strong">
+                                Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
+                                szüneteltethetjük a fűtést
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section4-r" id="large-pelda5rightId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-left">
+                            /önálló elzárás
+                            <img src="./resources/img/half-water-right-img.png" alt="heating" class="vw-50"
+                                style="width: 40vw;">
+                        </h1>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section7-r" id="large-pelda4rightId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5">
+                            /önálló elzárás
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
+                                <br>
+                                <strong class="strong">Egy gázérzékelőt használhatunk földgáz </strong class="strong">
+                                detektálására,
+                                ha a mennyezethez közel, <br>
+                                <strong class="strong">illetve
+                                    PB-gáz detektálására </strong class="strong"> is, ha a padlóhoz közel
+                                telepítjük. <br>
+
+                                A gázérzékelők katalitikus szenzorelemükkel már a <strong class="strong">robbanásképes
+                                    gázkoncentráció
+                                    6-8%-nál riasztanak. </strong class="strong"> <br>
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/smokedetector.png');">
+                                <br>
+                                <strong class="strong">Füst érzékkelőnk</strong class="strong"> szintén <strong
+                                    class="strong">képes vészhelyzeti
+                                    jelzést küldeni
+                                    a
+                                    rendszernek</strong class="strong"> amennyiben
+                                tűz ütött ki a helyiségben
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/gas.png');">
+                                <br>
+                                <strong class="strong">Az impulzus-vezérelt gázszelep
+                                    automatikusan elzárja a gázt </strong class="strong">
+                                és push-üzenetben tájékoztatást kapunk a vészhelyzetről.
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section6-r" id="large-pelda7rightId">
+                <div class="row vh-100 align-items-start mb-5 ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5 mr-0 text-left">
+                            biztonsági rendszer
+                        </h1>
+                        <img src="./resources/img/half-secure-right-img.png" alt="heating" class="vw-50"
+                            style="width: 40vw;">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ms-section vw-50 vh-100 container-fluid section5-r" id="large-pelda6rightId">
+                <div class="row vh-100 align-items-start ">
+                    <div class=" col-sm-12 mx-2  ">
+                        <h1 class=" header-text pt-5">
+                            fagymentesítése
+                        </h1>
+
+                    </div>
+                    <div class=" col-sm-12 m-auto">
+
+                        <ul>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                <br>
+                                <strong class="strong">Otthonaink hőmérsékletszabályzására fixen telepített
+                                    termosztátjaink
+                                    kitünő megoldást biztosítanak</strong class="strong"> . Képesek ezen felül
+                                páratartalom
+                                szabályzására is
+                                ha <strong class="strong">légkondicionállással vagy páraelszívó rendszerrel vannak
+                                    összekapcsolva</strong class="strong">
+                            </li>
+                            <li class="iconlist2" style="background-image: url(' /resources/img/connector.png');">
+                                <br>
+                                Nyaralóink, <strong class="strong">melléképületeink fagymentesítésére</strong
+                                    class="strong"> a fixen
+                                telepített
+                                termosztátok
+                                mellett az <strong class="strong">ideiglenesen
+                                    is telepíthető, aljzatba dugható wifi termosztát</strong class="strong"> és a hozzá
+                                csatlakoztatott
+                                elektromos olajradiátor
+                                <strong class="strong">hatékony megoldást kínál</strong class="strong"> .
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-left" class="ms-left">
+            <section class="ms-section vw-100 section1" id="coverleftId">
+                <div class="row h-50">
+                    <div class="col-sm-12 w-75 mx-5 my-auto">
+                        <div class=" page-header">
+                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
+                            <h1>
+                                Okos otthon? <br> <small>Inkább intelligens épület!</small>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <a href="#smarthome3">
+                    <div class="row text-center h-50">
+
+                        <div class="arrow-container">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                        </div>
+
+                    </div>
+                </a>
+
+            </section>
+            <section class="ms-section vw-100 section1" id="smarthomeleftId">
+                <div class="container-fluid vh-100">
+                    <div class="row mobile-top align-items-center ">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/smarthome.png" alt="energy icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Intelligens épület
+                            </h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-text">
+                                Az inteligens épületek nem csupán távvezérlést, hanem automatikus művelet
+                                végrehajtást is biztosítanak. <br><br>
+                                Így előre meghatározott körülményeknél,
+                                önállóan
+
+                                elindulhatnak vészhelyzeti vagy kényelmi funkcióink, anélkül hogy a
+                                felhasználónak
+                                bele
+                                kellene avatkoznia a folyamatba. Ennek köszönhetően extra biztonságot és csökkenti a
+                                felesleges feladatokkal töltött időt.<br><br>
+                                Bármelyik lakásba vagy irodába egyszerűen telepíthető, <br>
+                                legyen szó új építésről vagy felújításról.
+                                <br><br>
+
+                                <strong class="m-strong">Az inteligens otthon fő céljai: </strong class="strong">
+                                <br>
+
+                            </p>
+                        </div>
+                        <div class="col-4  text-center">
+                            <img style="width: 40%;" src="./resources/img/energy.png" alt="energy icon">
+                            <p class="list-text">energiafogyasztás <br> csökkentése</p>
+                        </div>
+                        <div class="col-4  text-center">
+                            <img style="width: 40%;" src="./resources/img/lock.png" alt="security icon">
+                            <p class="list-text">biztonság és vagyonvédelem hatékonyságának növelése</p>
+                        </div>
+                        <div class="col-4  text-center">
+                            <img style="width: 40%;" src="./resources/img/comfort.png" alt="comfort icon">
+                            <p class="list-text">lakó kényelmének <br> biztosítása</p>
+                        </div>
+                    </div>
+                    <div class="row mobile-bottom align-items-end ">
+                        <img id="cover1" class="" src="/resources/img/okosotthon.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section2" id="automationleftId">
+                <div class="container-fluid vh-100">
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/auto home.png" alt="energy icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Automatizálás
+                            </h1>
+                        </div>
+                        <div class="col-12">
+
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/detect.png');  
+                                                                                                                                                                                                                                                                                                                                                                        ">
+                                    <strong class="strong">Érzékel </strong class="strong"> egy vészhelyzetett vagy
+                                    elvégzendő feladatott,
+                                    például
+                                    tüzet
+                                    csőtörést vagy napfelkeltét.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/execute.png');  
+                                                                                                                                                                                                                                                                                                                                                                       ">
+                                    <strong class="strong">Végrehajtja </strong class="strong"> a megfelelő lépéseket a
+                                    feladatmegoldáshoz,
+                                    például
+                                    elzárja
+                                    a víz/gázcsapot vagy lekapcsolja az éjeli fényeket.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/notify.png');  
+                                                                                                                                                                                                                                                                                                                                                                        ">
+                                    <strong class="strong">Értesíti </strong class="strong"> a felhasználót a helyzetről
+                                    a feladatok elvégzése
+                                    után.
+                                    Így
+                                    az képes
+                                    ellenőrizni az elvégzés állapotátt. (kikapcsolható)
+                                </li>
+
+                            </ul>
+                            <p class="m-text">
+
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="/resources/img/automation.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section3" id="greenleftId">
+                <div class="container-fluid vh-100">
+
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/green home.png">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Energia hatékonyság
+                            </h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-text py-3">
+                                Eszközeink kitünő megoldást biztosítanak egy energiatakarékos otthon vagy iroda
+                                kialakítására. Automatikus folyamatokat alakíthatunk ki például:
+                            </p>
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/light.png');  
+                                                                                                                                                                                                                       ">
+                                    világítás csökkentése a használaton kívüli helyiségekben. (dimming)
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/temperature.png');  
+                                                                                                                                                                                                                        ">
+                                    épület beriasztásakor automatikus fűtés/világítás csökkentése vagy
+                                    lekapcsolása
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/window.png');  
+                                                                                                                                                                                                                       ">
+                                    nyitott nyílászáró érzékelése esetében fűtés/légkondicionálás lekapcsolása
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/sun.png');  
+                                                                                                                                                                                                                       ">
+                                    napfelkeltekor külső világítások automatikus lekapcsolása
+                                </li>
+                            </ul>
+                            <p class="m-text py-3">
+                                Mivel a rendszer teljesen önálló így az emberi figyelmetlenségből származó hibák
+                                száma
+                                is csökkenhet, valamint integrálható meglévő okos rendszerekhez is így azokkal
+                                is
+                                képesek eggyüt működni
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="/resources/img/radiator.png" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </section>
+            <section class="ms-section vw-100 section4 " id="safetyleftId">
+
+                <div class="container-fluid vh-100">
+
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/epuletbiztonsag.png"
+                                alt="epuletbiztonsag icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Épületbiztonság
+                            </h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-text py-3">
+                                Az épület eszközeinek automatikus eggyütműködése kármegelőző
+                                funkció alkalmazását teszi lehetővé.
+                                <br> Eszközeink segítségével például:
+                                <br>
+                            </p>
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/energysmall.png');  
+                                                                                                                                                                       ">
+                                    Csőtörés érzékelésekor sérülések elkerülése érdekében lekapcsolódik a
+                                    szobában
+                                    az összes
+                                    áramkör.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/water.png');  
+                                                                                                                                                                        ">
+                                    Csőtöréskor a vízkifolyás-érzékelővel
+                                    és az elektromos
+                                    elzáró (mozgató motor + golyóscsap)
+                                    segítségével automatikusan
+                                    elzárjuk a vizet.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/flame.png');  
+                                                                                                                                                                       ">
+                                    Gázszivárgáskor a gázérzékelőnk
+                                    jóval a robbanásveszély
+                                    előtt aktiválja
+                                    a gázvészelzárót és egyúttal a szellőzőmotorok
+                                    is elindíthatók aktuátorokkal
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="./resources/img/security.png" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </section>
+            <section class="ms-section vw-100 section5" id="securityleftId">
+
+                <div class="container-fluid vh-100">
+
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
+                                alt="vagyonbiztonsag icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Vagyonbiztonság
+                            </h1>
+                        </div>
+                        <div class="col-12">
+
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/connect.png');  
+                                                                                                                                                                                                                                                                                                                                                                                                                                            ">
+                                    Amikor az okos épületvezérlés riasztóként is
+                                    működik, akkor a mindennapi eszközeink is a részévé
+                                    vállnak (nyitás/mozgás, áramhasználat, hőmérséklet, víz vagy gáz
+                                    érzékelők).
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/notification.png');  
+                                                                                                                                                                                                                                                                                                                                                                                                                                           ">
+                                    A rendszer képes értesíteni minket amennyiben nyitva felejtettünk egy
+                                    ablakot
+                                    és automatikusan kikapcsolja a bekapcsolva hagyott eszközöket
+                                </li>
+
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/alert.png');  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ">
+                                    Beriasztott érzékelés esetében a szenzor egyedi push-üzenetet
+                                    küld nekünk, valamint igény szerint
+                                    automatikusan riaszt is és a távfelügyelethez (rendősrség)
+                                    is jelez.
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/key.png');  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ">
+                                    a hagyományos szirénázáson túl a redőnyök
+                                    és világítás kapcsolgatásával
+                                    és egyéb hatásokkal,
+                                    eltántoríthatjuk az illetéktelen
+                                    behatolókat.
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="./resources/img/alarm.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section class="ms-section vw-100 section6" id="innovationleftId">
+                <div class="container-fluid vh-100">
+
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
+                                alt="vagyonbiztonsag icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Vagyonbiztonság
+                            </h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-text py-3">
+                                Forradalmi újdonságnak mondhatjuk a Videosec kinetikus
+                                kapcsolókat, melyek <br> <strong class="m-strong">igazán vezeték nélküli megoldást
+                                    biztosítanak </strong>
+                            </p>
+                            <ul>
+                                <li class="iconlist" style="background-image: url(' /resources/img/battery.png');  ">
+                                    Nincs szükség elemre! A gombnyomás kinetikus energiája
+                                    táplálja a kapcsolóba beépített adót.
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/materials.png');  ">
+                                    Bármilyen felületre felszrelhetőek
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/clock.png');  
+                                                                                                                                                                                                                                                                                                                                                                                ">
+                                    Többszázezres kapcsolási
+                                    élettartam
+                                </li>
+                                <li class="iconlist" style="background-image: url(' /resources/img/radio.png');  ">
+                                    A kapcsoló vezeték néküli jelet közvetít az vevőegység felé ami elvégzi a
+                                    kapcsolást.
+                                </li>
+
+                                <li class="iconlist" style="background-image: url(' /resources/img/water.png');  ">
+                                    Vizes környezetbe, vagy
+                                    kültéren is telepíthetőek. (IP67)
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="./resources/img/kinetic.png" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+            </section>
+            <section class="ms-section vw-100 section7" id="tuyaleftId">
+                <div class="container-fluid vh-100">
+
+                    <div class="row h-50 align-items-center">
+                        <div class="col-3">
+                            <img style="width: 100%;" src="./resources/img/tuya home.png" alt="vagyonbiztonsag icon">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="m-header-text" class="header-text">
+                                Vezérlés
+                            </h1>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-text">
+                                Minden okos eszközünk a Tuya Szoftverrel képes eggyütműködni. <br> Segítségével
+                                egy
+                                felületen tudjuk irányítani, szobák vagy épületek alapján rendezni, állapotot
+                                lekérdezni vagy automatizálásokat létrehozni.
+                            </p>
+                            <ul>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/weather.png');  
+                                                                                                                                                                                                                                                   ">
+                                    Előre beállított idő dátum vagy akár napszak alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/controlpanel.png');  
+                                                                                                                                                                                                                                                                                                                            ">
+                                    Automatizalasok segitsegevel mas eszkozok állapota alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/location.png');  
+                                                                                                                                                                                                                                                                                                                                                                                                                                        ">
+                                    Telefonos lokáció alapján
+                                </li>
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/integration.png');  
+                                                                                                                                                                                                                                                   ">
+                                    Integrálható meglévő okos otthon eszközeivel (Google, Amazon, Samsung,
+                                    SmartLife)
+                                </li>
+
+                                <li class="iconlist"
+                                    style="background-image: url(' /resources/img/zigbee.png');  
+                                                                                                                                                                                                                                                                                       ">
+                                    Zigbee és WiFi hálózattal is működik
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="row h-50 text-center">
+                        <div class="col-12 h-100">
+                            <img id="cover1" style="object-fit: contain;" src="./resources/img/tuya.png" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+            <section class="ms-section vw-100 section4" id="pelda1leftId">
+                <div class="container h-100">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-right">
+                                Reggeli
+                            </h1>
+                        </div>
+                        <div class="col-sm-12 mr-5">
+                            <div class="carousel slide" id="carousel-370917">
+                                <ol class="carousel-indicators">
+                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
+                                    </li>
+                                    <li data-slide-to="1" data-target="#carousel-370917">
+                                    </li>
+                                    <li data-slide-to="2" data-target="#carousel-370917">
+                                    </li>
+                                    <li data-slide-to="3" data-target="#carousel-370917">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
+                                            src="./resources/img/pelda1-1.jpg" />
+                                        <div class="carousel-caption">
+                                            <h4>
+                                                Redőnyök
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
+                                            src="./resources/img/pelda1-2.jpg" />
+                                        <div class="carousel-caption">
+                                            <h4>
+                                                Mozgásérzékelés
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
+                                            src="./resources/img/pelda1-3.jpg" />
+                                        <div class="carousel-caption">
+                                            <h4>
+                                                Thermostat
+                                            </h4>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
+                                            src="./resources/img/pelda1-4.jpg" />
+                                        <div class="carousel-caption">
+                                            <h4>
+                                                Riasztó
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
+                                        class="carousel-control-prev-icon"></span> <span
+                                        class="sr-only">Previous</span></a>
+                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
+                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5">
+                                Rutinok
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+
+                            <ul>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/switch.png');">
+                                    <br>
+                                    <strong class="strong">A rendszer</strong class="strong"> először résnyire megemeli
+                                    a sötétítőket, majd,
+                                    amikor
+                                    már
+                                    hozzászokott a szemünk a
+                                    fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong
+                                        class="strong"> Téli reggeleken a
+                                    világítás ébreszt
+                                    hasonlóan kíméletesen.
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/detector.png');">
+                                    <br>
+                                    <strong class="strong">Mozgásérzékelőink</strong class="strong"> jelei az
+                                    igényeinknek megfelelően
+                                    <strong class="strong">kapcsolják a
+                                        többi helyiség
+                                        világítását.</strong class="strong">
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                    <br>
+                                    <strong class="strong">A fűtés/légkondícionálás előttünk
+                                        ébred,</strong class="strong">
+                                    hogy minket már kellemes
+                                    hőmérséklet fogadjon
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
+                                    <br>
+                                    <strong class="strong">Amikor távozunk </strong class="strong"> otthonról
+                                    telefonunk <strong class="strong"> emlékeztet, ha nem
+                                        élesítettük a riasztó rendszert.</strong class="strong">
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section2 " id="pelda2leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 text-right">
+                                Világításvezérlés
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+
+                            <ul>
+
+                                <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
+                                    <br>
+                                    <strong class="strong">Mozgásérzékelőink
+                                        éjszaka</strong class="strong"> a folyosón és a fürdőszobában
+                                    csak <strong class="strong">derengő fényt kapcsolnak be.<br> Nap közben a beállított
+                                        fényerőre váltanak.</strong class="strong">
+                                    Üres helyiségekben néhány perc után
+                                    készenléti/dekorációs/kikapcsolt módra állnak.
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/switch.png');">
+                                    <br>
+                                    <strong class="strong">Kinetikus kapcsolók</strong class="strong"> alkalmazásával a
+                                    kapcsolók
+                                    <strong class="strong">helye bármikor rugalmasan változtatható vezetékek,
+                                        akumulátorok, festés
+                                        és
+                                        vésés
+                                        nélkül.</strong class="strong">
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
+                                    <br>
+                                    Amennyiben <strong class="strong">a kapcsoló</strong class="strong"> túl magasan
+                                    van, <strong class="strong">bármikor
+                                        áthelyezhető alacsonyabbra</strong class="strong">
+                                    és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong
+                                        class="strong">
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/switch3.png');">
+                                    <br>
+                                    <strong class="strong">Egy gombnyomással képesek vagyunk
+                                        teljes kivilágításról mozi-módra váltani</strong class="strong"> . Ekkor a
+                                    redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
+                                    Időzített, vagy mozgásérzékelés-alapú
+                                    világítás-kapcsolás is megoldható.
+                                </li>
+
+                            </ul>
+                            <p class="m-text py-0">
+                                <br><br>
+                                .<br><br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-left">
+                                és automatizálás
+                            </h1>
+                            <img src="./resources/img/half-light-right-img.png" alt="heating" class="vw-50"
+                                style="width: 40vw;">
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section class="ms-section vw-100 section3" id="pelda3leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 vw-100">
+                            <h1 class=" header-text pt-5 mr-0 text-right">
+                                Fűtés-/Hűtésvezérlés
+                            </h1>
+                            <img src="./resources/img/half-temp-left-img.png" alt="heating" class="w-100">
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5">
+                                /beállítás/automatizalas
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+
+                            <ul>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                    <br>
+                                    Helyiségenként <strong class="strong">egy termosztát elhelyezésével</strong
+                                        class="strong"> , a
+                                    hőmérséklet-beállítások
+                                    automatizálásával <strong class="strong">30-45%-kal is csökkenthetjük fűtésünk
+                                        energiaigényét</strong class="strong"> .
+                                    Valamint <strong class="strong">akár légkondicionálló</strong class="strong">
+                                    rendszerünk
+                                    <strong class="strong">vezérlésére</strong class="strong"> is alkalmazhatóak.
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
+                                    <br>
+                                    <strong class="strong">Távozáskor</strong class="strong">
+                                    élesítjük a riasztót, ekkor <strong class="strong">termosztátjaink alacsony
+                                        programra
+                                        váltanak.</strong class="strong"> Ha
+                                    elutazunk, vagy korábban érünk haza, <strong class="strong">telefonról
+                                        módosíthatjuk beállításainkat.</strong class="strong">
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
+                                    <br>
+                                    <strong class="strong">Már meglévő radiátoraink</strong class="strong"> ütemezhető
+                                    <strong class="strong">fűtésvezérlését</strong class="strong"> ZigBee radiátor
+                                    termosztátokkal
+                                    <strong class="strong">tudjuk megvalósítani.</strong class="strong">
+                                    Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
+                                    szüneteltethetjük a fűtést
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section4" id="pelda5leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 text-right">
+                                Vízérzékelés
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+
+                            <ul>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor.png');">
+                                    <br>
+                                    Ha padlóra helyezett <strong class="strong">vízérzékelőink eggyike
+                                        vizet észlel,</strong class="strong"> a rendszer <strong class="strong">elzárja
+                                        a fővezeték motoros
+                                        vízcsapját</strong class="strong"> és
+                                    telefonunkon
+                                    értesít a riasztásról.
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/waterlock.png');">
+                                    <br>
+                                    A kerti öntözőrendszereink vezérlése is automatikus így
+                                    <strong class="strong">reggelenként magától elindul az öntözés</strong
+                                        class="strong">.
+                                    Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
+                                    önállóan.
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor2.png');">
+                                    <br>
+                                    A Vezérlésbe az időzítésen és az időjáráson túl különféle
+                                    <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong class="strong"> az
+                                    indítási és leállási
+                                    parancsot.
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/waterlock2.png');">
+                                    <br>
+                                    Az öntözőrendszer vízellátását <strong class="strong">elvégezhetjük motoros
+                                        működtetésű
+                                        golyóscsapokkal és
+                                        elektrotermikus
+                                        szelepvezérlőkkel is</strong class="strong">
+                                </li>
+
+                            </ul>
+                            <p class="m-text py-0">
+                                <br><br>
+                                .<br><br>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-left">
+                                /önálló elzárás
+                                <img src="./resources/img/half-water-right-img.png" alt="heating" class="vw-50"
+                                    style="width: 40vw;">
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section7" id="pelda4leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-right">
+                                Gázérzékelés
+                            </h1>
+                            <img src="./resources/img/half-flame-left-img.png" alt="heating" class="vw-100"
+                                style="width: 40vw;">
+                        </div>
+
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5">
+                                /önálló elzárás
+                            </h1>
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+                            <ul>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
+                                    <br>
+                                    <strong class="strong">Egy gázérzékelőt használhatunk földgáz </strong
+                                        class="strong"> detektálására,
+                                    ha a mennyezethez közel, <br>
+                                    <strong class="strong">illetve
+                                        PB-gáz detektálására </strong class="strong"> is, ha a padlóhoz közel
+                                    telepítjük. <br>
+
+                                    A gázérzékelők katalitikus szenzorelemükkel már a <strong
+                                        class="strong">robbanásképes
+                                        gázkoncentráció
+                                        6-8%-nál riasztanak. </strong class="strong"> <br>
+                                </li>
+                                <li class="iconlist2"
+                                    style="background-image: url(' /resources/img/smokedetector.png');">
+                                    <br>
+                                    <strong class="strong">Füst érzékkelőnk</strong class="strong"> szintén <strong
+                                        class="strong">képes vészhelyzeti
+                                        jelzést küldeni
+                                        a
+                                        rendszernek</strong class="strong"> amennyiben
+                                    tűz ütött ki a helyiségben
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/gas.png');">
+                                    <br>
+                                    <strong class="strong">Az impulzus-vezérelt gázszelep
+                                        automatikusan elzárja a gázt </strong class="strong">
+                                    és push-üzenetben tájékoztatást kapunk a vészhelyzetről.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="ms-section vw-100 section6" id="pelda7leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-left">
+                                biztonsági rendszer
+                            </h1>
+                            <img src="./resources/img/half-secure-right-img.png" alt="heating" class="vw-50"
+                                style="width: 40vw;">
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 text-right">
+                                Az egész épület egy
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 ">
+
+                            <ul>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
+                                    <br>
+                                    <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong
+                                        class="strong"> , vagyis egy betört
+                                    ablak esetében a
+                                    termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus
+                                        hőmérsékletvátozást</strong class="strong"> és
+                                    jelzi felénk!
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
+                                    <br>
+                                    Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik
+                                        kapcsolót</strong class="strong">
+                                    (vagy
+                                    más tuyahoz
+                                    kötött eszközt), az nem fog működni
+                                    hanem
+                                    <strong class="strong">riasztási jelzést küld!</strong class="strong">
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
+                                    <br>
+                                    Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong
+                                        class="strong">pontosan
+                                        követhetővé válik
+                                        hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
+                                    <strong class="strong">biztonságosan
+                                        elhagyhatjuk
+                                        az épületet.</strong class="strong">
+                                </li>
+                                <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
+                                    <br>
+                                    A riasztó egység
+                                    <strong class="strong">telefonról tudjuk időzíteni</strong class="strong"> (pl.:
+                                    iroda nyitásának ideje)
+                                    valamint
+                                    gps lokációja alapján <strong class="strong">automatikusan beriasztani az
+                                        épületet</strong class="strong"> ha
+                                    elhagytuk a környéket.
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ms-section vw-100 section5" id="pelda6leftId">
+                <div class="container-fluid">
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5 mr-0 text-right">
+                                Távoli Nyaralók
+                            </h1>
+                            <img src="./resources/img/half-snow-left-img.png" alt="heating" class="vw-100"
+                                style="width: 40vw;">
+                        </div>
+
+                    </div>
+                    <div class="row h-50">
+                        <div class=" col-sm-12 mx-2  ">
+                            <h1 class=" header-text pt-5">
+                                fagymentesítése
+                            </h1>
+
+                        </div>
+                        <div class=" col-sm-12 m-auto">
+
+                            <ul>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                                    <br>
+                                    <strong class="strong">Otthonaink hőmérsékletszabályzására fixen telepített
+                                        termosztátjaink
+                                        kitünő megoldást biztosítanak</strong class="strong"> . Képesek ezen felül
+                                    páratartalom
+                                    szabályzására is
+                                    ha <strong class="strong">légkondicionállással vagy páraelszívó rendszerrel vannak
+                                        összekapcsolva</strong class="strong">
+                                </li>
+                                <li class="iconlist2" style="background-image: url(' /resources/img/connector.png');">
+                                    <br>
+                                    Nyaralóink, <strong class="strong">melléképületeink fagymentesítésére</strong
+                                        class="strong"> a fixen
+                                    telepített
+                                    termosztátok
+                                    mellett az <strong class="strong">ideiglenesen
+                                        is telepíthető, aljzatba dugható wifi termosztát</strong class="strong"> és a
+                                    hozzá
+                                    csatlakoztatott
+                                    elektromos olajradiátor
+                                    <strong class="strong">hatékony megoldást kínál</strong class="strong"> .
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <div id="mobile-right" class="ms-right">
+            <div class="ms-section d-none" id="coverrightId">
+            </div>
+            <div class="ms-section d-none" id="smarthomerightId">
+            </div>
+            <div class="ms-section d-none" id="automationrightId">
+            </div>
+            <div class="ms-section d-none" id="greenrightId">
+            </div>
+            <div class="ms-section d-none" id="safetyrightId">
+            </div>
+            <div class="ms-section d-none" id="securityrightId">
+            </div>
+            <div class="ms-section d-none" id="innovationrightId">
+            </div>
+            <div class="ms-section d-none" id="tuyarightId">
+            </div>
+            <div class="ms-section d-none" id="pelda1rightId">
+            </div>
+            <div class="ms-section d-none" id="pelda2rightId">
+            </div>
+            <div class="ms-section d-none" id="pelda3rightId">
+            </div>
+            <div class="ms-section d-none" id="pelda5rightId">
+            </div>
+            <div class="ms-section d-none" id="pelda4rightId">
+            </div>
+            <div class="ms-section d-none" id="pelda7rightId">
+            </div>
+            <div class="ms-section" id="pelda6rightId">
+            </div>
+        </div>
+    </div>
+    <!-- OLD CODE
+            <div class="layout main " id="multiscroll">
+        <div class="home ">
+            <div class="container-fluid vh-100 vw-100">
+                <video class="video4K" playsinline autoplay muted loop id="bgvid">
+                    <source src="./resources/video/background4k.mp4" type="video/mp4">
+                </video>
+                <video class="video1080p" playsinline autoplay muted loop id="bgvid2">
+                    <source src="./resources/video/Background.m4v" type="video/mp4">
+
+                </video>
+
             </div>
             <div class="ms-left">
                 <div id="cover" data-anchor="cover" data-index="1"
@@ -120,7 +2008,7 @@
                                 legyen szó új építésről vagy felújításról.
                                 <br><br>
 
-                                <strong>Az inteligens otthon fő céljai: </strong>
+                                <strong class="strong">Az inteligens otthon fő céljai: </strong class="strong">
                                 <br>
 
                             </p>
@@ -142,11 +2030,7 @@
                 </div>
                 <div id="automation" data-anchor="automation" data-index="3"
                     class="ms-section vw-50 vh-100 container-fluid section2 ">
-                    <!-- <video autoplay muted loop id="myVideo" class="w-75 ml-5 rounded">
-                        <source src="./resources/video/morning.mp4" type="video/mp4">
-                        Your browser does not support HTML5 video.
-                        A böngészője nem támogatja a HTML5 videókat!
-                    </video>-->
+
                     <div class="row h-100 align-items-end">
                         <div class="col-12 ">
                             <img src="./resources/img/automation.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
@@ -424,30 +2308,30 @@
 
                                 <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
-                                    <strong>Mozgásérzékelőink
-                                        éjszaka</strong> a folyosón és a fürdőszobában
-                                    csak <strong>derengő fényt kapcsolnak be.<br> Nap közben a beállított
-                                        fényerőre váltanak.</strong>
+                                    <strong class="strong">Mozgásérzékelőink
+                                        éjszaka</strong class="strong"> a folyosón és a fürdőszobában
+                                    csak <strong class="strong">derengő fényt kapcsolnak be.<br> Nap közben a beállított
+                                        fényerőre váltanak.</strong class="strong">
                                     Üres helyiségekben néhány perc után
                                     készenléti/dekorációs/kikapcsolt módra állnak.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch.png');">
                                     <br>
-                                    <strong>Kinetikus kapcsolók</strong> alkalmazásával a kapcsolók
-                                    <strong>helye bármikor rugalmasan változtatható vezetékek, akumulátorok, festés és
+                                    <strong class="strong">Kinetikus kapcsolók</strong class="strong"> alkalmazásával a kapcsolók
+                                    <strong class="strong">helye bármikor rugalmasan változtatható vezetékek, akumulátorok, festés és
                                         vésés
-                                        nélkül.</strong>
+                                        nélkül.</strong class="strong">
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                     <br>
-                                    Amennyiben <strong>a kapcsoló</strong> túl magasan van, <strong>bármikor
-                                        áthelyezhető alacsonyabbra</strong>
-                                    és akár <strong>üvegre vagy kültérre is felszerelhetjük!</strong>
+                                    Amennyiben <strong class="strong">a kapcsoló</strong class="strong"> túl magasan van, <strong class="strong">bármikor
+                                        áthelyezhető alacsonyabbra</strong class="strong">
+                                    és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong class="strong">
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch3.png');">
                                     <br>
-                                    <strong>Egy gombnyomással képesek vagyunk
-                                        teljes kivilágításról mozi-módra váltani</strong> . Ekkor a
+                                    <strong class="strong">Egy gombnyomással képesek vagyunk
+                                        teljes kivilágításról mozi-módra váltani</strong class="strong"> . Ekkor a
                                     redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
                                     Időzített, vagy mozgásérzékelés-alapú
                                     világítás-kapcsolás is megoldható.
@@ -490,31 +2374,31 @@
                             <ul>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor.png');">
                                     <br>
-                                    Ha padlóra helyezett <strong>vízérzékelőink eggyike
-                                        vizet észlel,</strong> a rendszer <strong>elzárja a fővezeték motoros
-                                        vízcsapját</strong> és
+                                    Ha padlóra helyezett <strong class="strong">vízérzékelőink eggyike
+                                        vizet észlel,</strong class="strong"> a rendszer <strong class="strong">elzárja a fővezeték motoros
+                                        vízcsapját</strong class="strong"> és
                                     telefonunkon
                                     értesít a riasztásról.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/waterlock.png');">
                                     <br>
                                     A kerti öntözőrendszereink vezérlése is automatikus így
-                                    <strong>reggelenként magától elindul az öntözés</strong>.
+                                    <strong class="strong">reggelenként magától elindul az öntözés</strong class="strong">.
                                     Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
                                     önállóan.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor2.png');">
                                     <br>
                                     A Vezérlésbe az időzítésen és az időjáráson túl különféle
-                                    <strong>nedvességérzékelőkhöz is köthetjük</strong> az indítási és leállási
+                                    <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong class="strong"> az indítási és leállási
                                     parancsot.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/waterlock2.png');">
                                     <br>
-                                    Az öntözőrendszer vízellátását <strong>elvégezhetjük motoros működtetésű
+                                    Az öntözőrendszer vízellátását <strong class="strong">elvégezhetjük motoros működtetésű
                                         golyóscsapokkal és
                                         elektrotermikus
-                                        szelepvezérlőkkel is</strong>
+                                        szelepvezérlőkkel is</strong class="strong">
                                 </li>
 
                             </ul>
@@ -553,33 +2437,33 @@
                             <ul>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    <strong>Egész otthonunk része a riasztó rendszernek</strong> , vagyis egy betört
+                                    <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong class="strong"> , vagyis egy betört
                                     ablak esetében a
-                                    termosztátunk <strong>érzékeli a hirtelen drasztikus hőmérsékletvátozást</strong> és
+                                    termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus hőmérsékletvátozást</strong class="strong"> és
                                     jelzi felénk!
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                     <br>
-                                    Amennyiben a behatoló <strong>használni próbálja akármelyik kapcsolót</strong> (vagy
+                                    Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik kapcsolót</strong class="strong"> (vagy
                                     más tuyahoz
                                     kötött eszközt), az nem fog működni
                                     hanem
-                                    <strong>riasztási jelzést küld!</strong>
+                                    <strong class="strong">riasztási jelzést küld!</strong class="strong">
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
-                                    Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong>pontosan
+                                    Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong class="strong">pontosan
                                         követhetővé válik
-                                        hol tartózkodik a behatoló</strong> így amennyiben szükséges
-                                    <strong>biztonságosan
+                                        hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
+                                    <strong class="strong">biztonságosan
                                         elhagyhatjuk
-                                        az épületet.</strong>
+                                        az épületet.</strong class="strong">
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
                                     <br>
                                     A riasztó egység
-                                    <strong>telefonról tudjuk időzíteni</strong> (pl.: iroda nyitásának ideje) valamint
-                                    gps lokációja alapján <strong>automatikusan beriasztani az épületet</strong> ha
+                                    <strong class="strong">telefonról tudjuk időzíteni</strong class="strong"> (pl.: iroda nyitásának ideje) valamint
+                                    gps lokációja alapján <strong class="strong">automatikusan beriasztani az épületet</strong class="strong"> ha
                                     elhagytuk a környéket.
                                 </li>
 
@@ -630,15 +2514,15 @@
                     <div class="row mr-3">
                         <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
                             <p class="text1">
-                                Az inteligens otthon legfőbb előnye hogy az okos eszközök <i> <strong>egymással is
-                                        kommunikálnak. </strong>
+                                Az inteligens otthon legfőbb előnye hogy az okos eszközök   <strong class="strong">egymással is
+                                        kommunikálnak. </strong class="strong">
                                     Így
                                     otthonunk amennyiben képes rá
-                                    <strong>önállóan
+                                    <strong class="strong">önállóan
                                         megoldja a felmerülő problémákat,
                                         Ezt automatizálásnak
                                         nevezzük!
-                                    </strong>
+                                    </strong class="strong">
                                     <br>
                                     ekkor a rendszer:
                             </p>
@@ -646,21 +2530,21 @@
                                 <li class="iconlist"
                                     style="background-image: url(' /resources/img/detect.png');  
                                                                                                                                                                                                 ">
-                                    <strong>Érzékel </strong> egy vészhelyzetett vagy elvégzendő feladatott, például
+                                    <strong class="strong">Érzékel </strong class="strong"> egy vészhelyzetett vagy elvégzendő feladatott, például
                                     tüzet
                                     csőtörést vagy napfelkeltét.
                                 </li>
                                 <li class="iconlist"
                                     style="background-image: url(' /resources/img/execute.png');  
                                                                                                                                                                                                ">
-                                    <strong>Végrehajtja </strong> a megfelelő lépéseket a feladatmegoldáshoz, például
+                                    <strong class="strong">Végrehajtja </strong class="strong"> a megfelelő lépéseket a feladatmegoldáshoz, például
                                     elzárja
                                     a víz/gázcsapot vagy lekapcsolja az éjeli fényeket.
                                 </li>
                                 <li class="iconlist"
                                     style="background-image: url(' /resources/img/notify.png');  
                                                                                                                                                                                                 ">
-                                    <strong>Értesíti </strong> a felhasználót a helyzetről a feladatok elvégzése után.
+                                    <strong class="strong">Értesíti </strong class="strong"> a felhasználót a helyzetről a feladatok elvégzése után.
                                     Így
                                     az képes
                                     ellenőrizni az elvégzés állapotátt. (kikapcsolható)
@@ -762,8 +2646,8 @@
                             <div class="col-sm-11 h-auto m-auto">
                                 <p class="text1 py-3">
                                     Forradalmi újdonságnak mondhatjuk a Videosec kinetikus
-                                    kapcsolókat, melyek <br> <i> <strong>igazán vezeték nélküli megoldást
-                                            biztosítanak </strong>
+                                    kapcsolókat, melyek <br>   <strong class="strong">igazán vezeték nélküli megoldást
+                                            biztosítanak </strong class="strong">
                                 </p>
                                 <ul>
                                     <li class="iconlist"
@@ -820,32 +2704,32 @@
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/switch.png');">
                                     <br>
-                                    <strong>A rendszer</strong> először résnyire megemeli a sötétítőket, majd, amikor
+                                    <strong class="strong">A rendszer</strong class="strong"> először résnyire megemeli a sötétítőket, majd, amikor
                                     már
                                     hozzászokott a szemünk a
-                                    fényhez, <strong>beengedi a reggeli napsugarakat.</strong> Téli reggeleken a
+                                    fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong class="strong"> Téli reggeleken a
                                     világítás ébreszt
                                     hasonlóan kíméletesen.
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
-                                    <strong>Mozgásérzékelőink</strong> jelei az igényeinknek megfelelően
-                                    <strong>kapcsolják a
+                                    <strong class="strong">Mozgásérzékelőink</strong class="strong"> jelei az igényeinknek megfelelően
+                                    <strong class="strong">kapcsolják a
                                         többi helyiség
-                                        világítását.</strong>
+                                        világítását.</strong class="strong">
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    <strong>A fűtés/légkondícionálás előttünk
-                                        ébred,</strong>
+                                    <strong class="strong">A fűtés/légkondícionálás előttünk
+                                        ébred,</strong class="strong">
                                     hogy minket már kellemes
                                     hőmérséklet fogadjon
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
                                     <br>
-                                    <strong>Amikor távozunk </strong> otthonról
-                                    telefonunk <strong> emlékeztet, ha nem
-                                        élesítettük a riasztó rendszert.</strong>
+                                    <strong class="strong">Amikor távozunk </strong class="strong"> otthonról
+                                    telefonunk <strong class="strong"> emlékeztet, ha nem
+                                        élesítettük a riasztó rendszert.</strong class="strong">
 
                                 </li>
 
@@ -880,26 +2764,26 @@
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    Helyiségenként <strong>egy termosztát elhelyezésével</strong> , a
+                                    Helyiségenként <strong class="strong">egy termosztát elhelyezésével</strong class="strong"> , a
                                     hőmérséklet-beállítások
-                                    automatizálásával <strong>30-45%-kal is csökkenthetjük fűtésünk
-                                        energiaigényét</strong> .
-                                    Valamint <strong>akár légkondicionálló</strong> rendszerünk
-                                    <strong>vezérlésére</strong> is alkalmazhatóak.
+                                    automatizálásával <strong class="strong">30-45%-kal is csökkenthetjük fűtésünk
+                                        energiaigényét</strong class="strong"> .
+                                    Valamint <strong class="strong">akár légkondicionálló</strong class="strong"> rendszerünk
+                                    <strong class="strong">vezérlésére</strong class="strong"> is alkalmazhatóak.
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
                                     <br>
-                                    <strong>Távozáskor</strong>
-                                    élesítjük a riasztót, ekkor <strong>termosztátjaink alacsony programra
-                                        váltanak.</strong> Ha
-                                    elutazunk, vagy korábban érünk haza, <strong>telefonról
-                                        módosíthatjuk beállításainkat.</strong>
+                                    <strong class="strong">Távozáskor</strong class="strong">
+                                    élesítjük a riasztót, ekkor <strong class="strong">termosztátjaink alacsony programra
+                                        váltanak.</strong class="strong"> Ha
+                                    elutazunk, vagy korábban érünk haza, <strong class="strong">telefonról
+                                        módosíthatjuk beállításainkat.</strong class="strong">
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
                                     <br>
-                                    <strong>Már meglévő radiátoraink</strong> ütemezhető
-                                    <strong>fűtésvezérlését</strong> ZigBee radiátor termosztátokkal
-                                    <strong>tudjuk megvalósítani.</strong>
+                                    <strong class="strong">Már meglévő radiátoraink</strong class="strong"> ütemezhető
+                                    <strong class="strong">fűtésvezérlését</strong class="strong"> ZigBee radiátor termosztátokkal
+                                    <strong class="strong">tudjuk megvalósítani.</strong class="strong">
                                     Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
                                     szüneteltethetjük a fűtést
                                 </li>
@@ -935,29 +2819,29 @@
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
                                     <br>
-                                    <strong>Egy gázérzékelőt használhatunk földgáz </strong> detektálására,
+                                    <strong class="strong">Egy gázérzékelőt használhatunk földgáz </strong class="strong"> detektálására,
                                     ha a mennyezethez közel, <br>
-                                    <strong>illetve
-                                        PB-gáz detektálására </strong> is, ha a padlóhoz közel
+                                    <strong class="strong">illetve
+                                        PB-gáz detektálására </strong class="strong"> is, ha a padlóhoz közel
                                     telepítjük. <br>
 
-                                    A gázérzékelők katalitikus szenzorelemükkel már a <strong>robbanásképes
+                                    A gázérzékelők katalitikus szenzorelemükkel már a <strong class="strong">robbanásképes
                                         gázkoncentráció
-                                        6-8%-nál riasztanak. </strong> <br>
+                                        6-8%-nál riasztanak. </strong class="strong"> <br>
                                 </li>
                                 <li class="iconlist2"
                                     style="background-image: url(' /resources/img/smokedetector.png');">
                                     <br>
-                                    <strong>Füst érzékkelőnk</strong> szintén <strong>képes vészhelyzeti
+                                    <strong class="strong">Füst érzékkelőnk</strong class="strong"> szintén <strong class="strong">képes vészhelyzeti
                                         jelzést küldeni
                                         a
-                                        rendszernek</strong> amennyiben
+                                        rendszernek</strong class="strong"> amennyiben
                                     tűz ütött ki a helyiségben
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gas.png');">
                                     <br>
-                                    <strong>Az impulzus-vezérelt gázszelep
-                                        automatikusan elzárja a gázt </strong>
+                                    <strong class="strong">Az impulzus-vezérelt gázszelep
+                                        automatikusan elzárja a gázt </strong class="strong">
                                     és push-üzenetben tájékoztatást kapunk a vészhelyzetről.
 
                                 </li>
@@ -993,21 +2877,21 @@
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    <strong>Otthonaink hőmérsékletszabályzására fixen telepített termosztátjaink
-                                        kitünő megoldást biztosítanak</strong> . Képesek ezen felül páratartalom
+                                    <strong class="strong">Otthonaink hőmérsékletszabályzására fixen telepített termosztátjaink
+                                        kitünő megoldást biztosítanak</strong class="strong"> . Képesek ezen felül páratartalom
                                     szabályzására is
-                                    ha <strong>légkondicionállással vagy páraelszívó rendszerrel vannak
-                                        összekapcsolva</strong>
+                                    ha <strong class="strong">légkondicionállással vagy páraelszívó rendszerrel vannak
+                                        összekapcsolva</strong class="strong">
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/connector.png');">
                                     <br>
-                                    Nyaralóink, <strong>melléképületeink fagymentesítésére</strong> a fixen telepített
+                                    Nyaralóink, <strong class="strong">melléképületeink fagymentesítésére</strong class="strong"> a fixen telepített
                                     termosztátok
-                                    mellett az <strong>ideiglenesen
-                                        is telepíthető, aljzatba dugható wifi termosztát</strong> és a hozzá
+                                    mellett az <strong class="strong">ideiglenesen
+                                        is telepíthető, aljzatba dugható wifi termosztát</strong class="strong"> és a hozzá
                                     csatlakoztatott
                                     elektromos olajradiátor
-                                    <strong>hatékony megoldást kínál</strong> .
+                                    <strong class="strong">hatékony megoldást kínál</strong class="strong"> .
                                 </li>
 
                             </ul>
@@ -1016,11 +2900,12 @@
                 </div>
             </div>
         </div>
-        <script src="resources/js/dist/build.js"></script>
-        <script src="resources/js/fliptext.js"></script>
-        <script src="resources/js/textload.js"></script>
-
-
+    </div>
+    -->
+    <script src="resources/js/dist/build.js"></script>
+    <script src="resources/js/fliptext.js"></script>
+    <script src="resources/js/textload.js"></script>
+    <script src="resources/js/multiscroll.js"></script>
 </body>
 
 
