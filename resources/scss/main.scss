@@ -27,12 +27,22 @@ h2{
 }
 li {
   font-size: 1.1vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight:900;
 }
+
+p{
+    font-size: 1.1vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight:800;
+}
+
 html{
   
   font-family: 'Roboto', sans-serif;
   
   font-weight: 100;
+
 }
 
 
@@ -47,6 +57,39 @@ html{
   background-position: left;
   font-size: 1.5vh;
 }
+
+
+.m-iconlist{
+  margin: 0vh;
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
+  /*top left bottom*/
+  padding-top: 1.3vh;
+  padding-bottom: 1.3vh;
+  padding-left: 6.5h;
+	list-style: none;
+	background-size:5vh;
+  background-repeat: no-repeat; 
+  background-position: left;
+  font-size: 1.5vh;
+}
+
+.m-iconlist2{
+    margin: 0vh;
+	margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
+  /*top left bottom*/
+  padding-top: 1.3vh;
+  padding-bottom: 1.3vh;
+  padding-left: 9vh;
+	list-style: none;
+	background-size:7.5vh;
+  background-repeat: no-repeat; 
+  background-position: left;
+  font-size: 1.5vh;
+}
+
+
 
 .iconlist{
     
@@ -182,8 +225,8 @@ span{
   left: 50%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vmin;
+  transform: translate(-23vw, -50%);
+  width: 60vw;
 }
 .animated-title > div {
   height: 50%;
@@ -222,4 +265,62 @@ span{
   animation-fill-mode: forwards;
   top: 0;
   transform: translate(0, -100%);
+}
+
+
+//sidenavigation bar--------------------------------------------------------------------
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 700;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5vh;
+}
+
+.sidenav a {
+  margin: 0.2vh 0.2vh 0.2vh 2vh;
+  text-decoration: none;
+  font-size: 1.8vh;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 1vh;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 3vh;
+  margin-right: 75%;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  z-index: 100;
+      position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 70;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    z-index: 9999;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

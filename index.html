@@ -12,14 +12,57 @@
     <link rel="stylesheet" href="resources/css/style.css" />
     <link rel="stylesheet" href="resources/css/arrow.css" />
     <script></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </head>
 
+
 <body>
+    <div id="mySidenav" class="sidenav text-center">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <a href="#cover" onclick="closeNav()">Borító</a>
+        <a href="#smarthome" onclick="closeNav()">Intelligens épület</a>
+        <a href="#automation" onclick="closeNav()">Automatizálás</a>
+        <a href="#green" onclick="closeNav()">Energia hatékonyság</a>
+        <a href="#safety" onclick="closeNav()">Épületbiztonság</a>
+        <a href="#security" onclick="closeNav()">Vagyonbiztonság</a>
+        <a href="#innovation" onclick="closeNav()">Innováció</a>
+        <a href="#tuya" onclick="closeNav()">Vezérlés</a>
+        <p class="pt-5" style="font-size: 2vh; color: white;">Gyakorlati Példák:</p>
+        <a href="#pelda1" onclick="closeNav()">Reggeli Rutinok</a>
+        <a href="#pelda2" onclick="closeNav()">Világításvezérlés</a>
+        <a href="#pelda3" onclick="closeNav()">Fűtés-/Hűtésvezérlés</a>
+        <a href="#pelda5" onclick="closeNav()">Vízérzékelés</a>
+        <a href="#pelda4" onclick="closeNav()">Gázérzékelés</a>
+        <a href="#pelda7" onclick="closeNav()">Biztonság</a>
+        <a href="#pelda6" onclick="closeNav()">Fagymentesítés</a>
+
+
+
+
+    </div>
+
+
+
+    <ul id="menu" class="  m-3 mr-5">
+        <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="">
+    </ul>
+
     <div id="containerDivID">
-        <div id="large-left" class="ms-left">
-            <div class="ms-section vh-100 vw-100 container-fluid bg-warning" id="coverleftId">
+
+
+        <div id="large-left" class="ms-left ">
+
+            <div class="ms-section pt-2 vh-100 vw-100 container-fluid bg-warning" id="coverleftId">
                 <div class="row w-50" style="height: 90%;">
-                    <div class="col-12 my-auto">
+                    <div class="col-12 my-auto ml-auto">
                         <div class="animated-title">
                             <div class="text-top">
                                 <div>
@@ -38,9 +81,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-section vw-100 vh-100 container-fluid " id="smarthomeleftId">
+            <div class="ms-section  vw-100 vh-100 container-fluid " id="smarthomeleftId">
                 <div class="row">
-                    <div class="col-6 container-fluid section1 vh-100">
+                    <div class="pl-5 col-6 container-fluid section1 vh-100">
                         <div class=" row align-items-center mb-5">
                             <div class="col-sm-2 ml-3 h-100 ">
                                 <img class=" w-100 h-auto" src="./resources/img/smarthome.png" alt="">
@@ -52,7 +95,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2">
+                            <div class="col-12 mx-5 mt-0 px-5 pb-5 mb-2">
                                 <p class="text1">
                                     Az inteligens épületek nem csupán távvezérlést, hanem automatikus művelet
                                     végrehajtást is biztosítanak. <br><br>
@@ -96,7 +139,7 @@
                 </div>
 
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section2" id="automationleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section2" id="automationleftId">
                 <div class="row h-100 align-items-end">
                     <div class="col-12 ">
                         <img src="./resources/img/automation.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
@@ -105,7 +148,7 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section3" id="greenleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section3" id="greenleftId">
                 <div class="row align-items-center mb-5">
                     <div class="col-sm-2 ml-3 h-100 ">
                         <img class="w-100 h-auto" src="./resources/img/green home.png" alt="">
@@ -155,7 +198,7 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section4 " id="safetyleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section4 " id="safetyleftId">
                 <div class="row h-100 align-items-end">
                     <div class="col-12 ">
                         <img src="./resources/img/security.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
@@ -164,7 +207,7 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section5" id="securityleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section5" id="securityleftId">
                 <div class="row align-items-center mb-5">
                     <div class="col-sm-2 ml-3 h-100 ">
                         <img class="w-100 h-auto" src="./resources/img/Vagyonbiztonsag.png" alt="">
@@ -221,7 +264,7 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section6" id="innovationleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section6" id="innovationleftId">
                 <div class="row h-100 align-items-end">
                     <div class="col-12 ">
                         <img src="./resources/img/kinetic.png" class="vh-100 w-100 mb-0" style="margin-left: -2%"
@@ -230,7 +273,7 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section7" id="tuyaleftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section7" id="tuyaleftId">
                 <div class="row align-items-center mb-5">
 
                     <div class="col-sm-2 ml-3 h-100 ">
@@ -285,9 +328,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid  " id="pelda1leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid  " id="pelda1leftId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Reggeli
                         </h1>
@@ -350,49 +393,49 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section2 " id="pelda2leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section2 " id="pelda2leftId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 text-right">
                             Világításvezérlés
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
 
                             <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                 <br>
                                 <strong class="strong">Mozgásérzékelőink
-                                    éjszaka</strong class="strong"> a folyosón és a fürdőszobában
+                                    éjszaka</strong> a folyosón és a fürdőszobában
                                 csak <strong class="strong">derengő fényt kapcsolnak be.<br> Nap közben a beállított
-                                    fényerőre váltanak.</strong class="strong">
+                                    fényerőre váltanak.</strong>
                                 Üres helyiségekben néhány perc után
                                 készenléti/dekorációs/kikapcsolt módra állnak.
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/switch.png');">
                                 <br>
-                                <strong class="strong">Kinetikus kapcsolók</strong class="strong"> alkalmazásával a
+                                <strong class="strong">Kinetikus kapcsolók</strong> alkalmazásával a
                                 kapcsolók
                                 <strong class="strong">helye bármikor rugalmasan változtatható vezetékek, akumulátorok,
                                     festés
                                     és
                                     vésés
-                                    nélkül.</strong class="strong">
+                                    nélkül.</strong>
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                 <br>
-                                Amennyiben <strong class="strong">a kapcsoló</strong class="strong"> túl magasan van,
+                                Amennyiben <strong class="strong">a kapcsoló</strong> túl magasan van,
                                 <strong class="strong">bármikor
-                                    áthelyezhető alacsonyabbra</strong class="strong">
+                                    áthelyezhető alacsonyabbra</strong>
                                 és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong
                                     class="strong">
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/switch3.png');">
                                 <br>
                                 <strong class="strong">Egy gombnyomással képesek vagyunk
-                                    teljes kivilágításról mozi-módra váltani</strong class="strong"> . Ekkor a
+                                    teljes kivilágításról mozi-módra váltani</strong> . Ekkor a
                                 redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
                                 Időzített, vagy mozgásérzékelés-alapú
                                 világítás-kapcsolás is megoldható.
@@ -407,9 +450,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section3" id="pelda3leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section3" id="pelda3leftId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 vw-50">
+                    <div class=" col-12 vw-50">
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Fűtés-/Hűtésvezérlés
                         </h1>
@@ -420,37 +463,37 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section4" id="pelda5leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section4" id="pelda5leftId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 text-right">
                             Vízérzékelés
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
                             <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor.png');">
                                 <br>
                                 Ha padlóra helyezett <strong class="strong">vízérzékelőink eggyike
-                                    vizet észlel,</strong class="strong"> a rendszer <strong class="strong">elzárja a
+                                    vizet észlel,</strong> a rendszer <strong class="strong">elzárja a
                                     fővezeték motoros
-                                    vízcsapját</strong class="strong"> és
+                                    vízcsapját</strong> és
                                 telefonunkon
                                 értesít a riasztásról.
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/waterlock.png');">
                                 <br>
                                 A kerti öntözőrendszereink vezérlése is automatikus így
-                                <strong class="strong">reggelenként magától elindul az öntözés</strong class="strong">.
+                                <strong class="strong">reggelenként magától elindul az öntözés</strong>.
                                 Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
                                 önállóan.
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor2.png');">
                                 <br>
                                 A Vezérlésbe az időzítésen és az időjáráson túl különféle
-                                <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong class="strong"> az
+                                <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong> az
                                 indítási és leállási
                                 parancsot.
                             </li>
@@ -459,7 +502,7 @@
                                 Az öntözőrendszer vízellátását <strong class="strong">elvégezhetjük motoros működtetésű
                                     golyóscsapokkal és
                                     elektrotermikus
-                                    szelepvezérlőkkel is</strong class="strong">
+                                    szelepvezérlőkkel is</strong>
                             </li>
 
                         </ul>
@@ -471,9 +514,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section7" id="pelda4leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section7" id="pelda4leftId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Gázérzékelés
                         </h1>
@@ -483,15 +526,15 @@
 
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section6" id="pelda7leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section6" id="pelda7leftId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 text-right">
                             Az egész épület egy
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 ">
+                    <div class=" col-12 ">
 
                         <ul>
                             <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
@@ -501,36 +544,36 @@
                                 vagyis egy betört
                                 ablak esetében a
                                 termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus
-                                    hőmérsékletvátozást</strong class="strong"> és
+                                    hőmérsékletvátozást</strong> és
                                 jelzi felénk!
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                 <br>
                                 Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik
-                                    kapcsolót</strong class="strong">
+                                    kapcsolót</strong>
                                 (vagy
                                 más tuyahoz
                                 kötött eszközt), az nem fog működni
                                 hanem
-                                <strong class="strong">riasztási jelzést küld!</strong class="strong">
+                                <strong class="strong">riasztási jelzést küld!</strong>
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                 <br>
                                 Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong class="strong">pontosan
                                     követhetővé válik
-                                    hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
+                                    hol tartózkodik a behatoló</strong> így amennyiben szükséges
                                 <strong class="strong">biztonságosan
                                     elhagyhatjuk
-                                    az épületet.</strong class="strong">
+                                    az épületet.</strong>
                             </li>
                             <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
                                 <br>
                                 A riasztó egység
-                                <strong class="strong">telefonról tudjuk időzíteni</strong class="strong"> (pl.: iroda
+                                <strong class="strong">telefonról tudjuk időzíteni</strong> (pl.: iroda
                                 nyitásának ideje)
                                 valamint
                                 gps lokációja alapján <strong class="strong">automatikusan beriasztani az
-                                    épületet</strong class="strong"> ha
+                                    épületet</strong> ha
                                 elhagytuk a környéket.
                             </li>
 
@@ -538,9 +581,9 @@
                     </div>
                 </div>
             </div>
-            <div class="ms-section vw-50 vh-100 container-fluid section5" id="pelda6leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section5" id="pelda6leftId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Távoli Nyaralók
                         </h1>
@@ -557,7 +600,7 @@
                     <div class="col-6 h-75 ml-auto bg-warning">
                         <img class="h-100" src="./resources/img/cover-icon.png" alt="">
                     </div>
-                    <div class="col-sm-12 h-25 pt-5   ">
+                    <div class="col-12 h-25 pt-5   ">
                         <div id="section10" class="demo mt-5">
                             <a href="#first"><span></span>Scroll</a>
                         </div>
@@ -568,7 +611,6 @@
             <div class="ms-section vw-50 vh-100 container-fluid section1-r" id="large-smarthomerightId">
                 <img id="cover1" src="/resources/img/okosotthon.png" alt="">
             </div>
-
             <div class="ms-section vw-50 vh-100 container-fluid section2-r" id="large-automationrightId">
                 <div class="row align-items-center mb-3">
                     <div class="col-sm-2 ml-3  ">
@@ -581,7 +623,7 @@
                     </div>
                 </div>
                 <div class="row mr-3">
-                    <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
+                    <div class="col-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
                         <p class="text1">
                             Az inteligens otthon legfőbb előnye hogy az okos eszközök <strong class="strong">egymással
                                 is
@@ -761,39 +803,39 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid " id="large-pelda1rightId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5">
                             Rutinok
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
                             <li class="iconlist2" style="background-image: url(' /resources/img/switch.png');">
                                 <br>
-                                <strong class="strong">A rendszer</strong class="strong"> először résnyire megemeli a
+                                <strong class="strong">A rendszer</strong> először résnyire megemeli a
                                 sötétítőket, majd,
                                 amikor
                                 már
                                 hozzászokott a szemünk a
-                                fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong class="strong">
+                                fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong>
                                 Téli reggeleken a
                                 világítás ébreszt
                                 hasonlóan kíméletesen.
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/detector.png');">
                                 <br>
-                                <strong class="strong">Mozgásérzékelőink</strong class="strong"> jelei az igényeinknek
+                                <strong class="strong">Mozgásérzékelőink</strong> jelei az igényeinknek
                                 megfelelően
                                 <strong class="strong">kapcsolják a
                                     többi helyiség
-                                    világítását.</strong class="strong">
+                                    világítását.</strong>
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                 <br>
                                 <strong class="strong">A fűtés/légkondícionálás előttünk
-                                    ébred,</strong class="strong">
+                                    ébred,</strong>
                                 hogy minket már kellemes
                                 hőmérséklet fogadjon
                             </li>
@@ -801,7 +843,7 @@
                                 <br>
                                 <strong class="strong">Amikor távozunk </strong> otthonról
                                 telefonunk <strong class="strong"> emlékeztet, ha nem
-                                    élesítettük a riasztó rendszert.</strong class="strong">
+                                    élesítettük a riasztó rendszert.</strong>
 
                             </li>
 
@@ -811,7 +853,7 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section2-r" id="large-pelda2rightId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             és automatizálás
                         </h1>
@@ -823,13 +865,13 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section3-r" id="large-pelda3rightId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5">
                             /beállítás/automatizalas
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
                             <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
@@ -839,25 +881,25 @@
                                 , a
                                 hőmérséklet-beállítások
                                 automatizálásával <strong class="strong">30-45%-kal is csökkenthetjük fűtésünk
-                                    energiaigényét</strong class="strong"> .
-                                Valamint <strong class="strong">akár légkondicionálló</strong class="strong">
+                                    energiaigényét</strong> .
+                                Valamint <strong class="strong">akár légkondicionálló</strong>
                                 rendszerünk
-                                <strong class="strong">vezérlésére</strong class="strong"> is alkalmazhatóak.
+                                <strong class="strong">vezérlésére</strong> is alkalmazhatóak.
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
                                 <br>
-                                <strong class="strong">Távozáskor</strong class="strong">
+                                <strong class="strong">Távozáskor</strong>
                                 élesítjük a riasztót, ekkor <strong class="strong">termosztátjaink alacsony programra
-                                    váltanak.</strong class="strong"> Ha
+                                    váltanak.</strong> Ha
                                 elutazunk, vagy korábban érünk haza, <strong class="strong">telefonról
-                                    módosíthatjuk beállításainkat.</strong class="strong">
+                                    módosíthatjuk beállításainkat.</strong>
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
                                 <br>
-                                <strong class="strong">Már meglévő radiátoraink</strong class="strong"> ütemezhető
-                                <strong class="strong">fűtésvezérlését</strong class="strong"> ZigBee radiátor
+                                <strong class="strong">Már meglévő radiátoraink</strong> ütemezhető
+                                <strong class="strong">fűtésvezérlését</strong> ZigBee radiátor
                                 termosztátokkal
-                                <strong class="strong">tudjuk megvalósítani.</strong class="strong">
+                                <strong class="strong">tudjuk megvalósítani.</strong>
                                 Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
                                 szüneteltethetjük a fűtést
                             </li>
@@ -868,7 +910,7 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section4-r" id="large-pelda5rightId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             /önálló elzárás
                             <img src="./resources/img/half-water-right-img.png" alt="heating" class="vw-50"
@@ -880,13 +922,13 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section7-r" id="large-pelda4rightId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5">
                             /önálló elzárás
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
                             <li class="iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
@@ -904,11 +946,11 @@
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/smokedetector.png');">
                                 <br>
-                                <strong class="strong">Füst érzékkelőnk</strong class="strong"> szintén <strong
-                                    class="strong">képes vészhelyzeti
+                                <strong class="strong">Füst érzékkelőnk</strong> szintén <strong class="strong">képes
+                                    vészhelyzeti
                                     jelzést küldeni
                                     a
-                                    rendszernek</strong class="strong"> amennyiben
+                                    rendszernek</strong> amennyiben
                                 tűz ütött ki a helyiségben
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/gas.png');">
@@ -925,7 +967,7 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section6-r" id="large-pelda7rightId">
                 <div class="row vh-100 align-items-start mb-5 ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             biztonsági rendszer
                         </h1>
@@ -937,24 +979,24 @@
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section5-r" id="large-pelda6rightId">
                 <div class="row vh-100 align-items-start ">
-                    <div class=" col-sm-12 mx-2  ">
+                    <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5">
                             fagymentesítése
                         </h1>
 
                     </div>
-                    <div class=" col-sm-12 m-auto">
+                    <div class=" col-12 m-auto">
 
                         <ul>
-                            <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
+                            <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
                                 <br>
-                                <strong class="strong">Otthonaink hőmérsékletszabályzására fixen telepített
+                                <strong class="strong">Otthonaink hőmérsékletszabályzására radiátorra helyezhető
                                     termosztátjaink
-                                    kitünő megoldást biztosítanak</strong class="strong"> . Képesek ezen felül
+                                    kitünő megoldást biztosítanak.</strong> Képesek ezen felül
                                 páratartalom
                                 szabályzására is
                                 ha <strong class="strong">légkondicionállással vagy páraelszívó rendszerrel vannak
-                                    összekapcsolva</strong class="strong">
+                                    összekapcsolva</strong>
                             </li>
                             <li class="iconlist2" style="background-image: url(' /resources/img/connector.png');">
                                 <br>
@@ -963,10 +1005,10 @@
                                 telepített
                                 termosztátok
                                 mellett az <strong class="strong">ideiglenesen
-                                    is telepíthető, aljzatba dugható wifi termosztát</strong class="strong"> és a hozzá
+                                    is telepíthető, aljzatba dugható wifi termosztát</strong> és a hozzá
                                 csatlakoztatott
                                 elektromos olajradiátor
-                                <strong class="strong">hatékony megoldást kínál</strong class="strong"> .
+                                <strong class="strong">hatékony megoldást kínál</strong> .
                             </li>
 
                         </ul>
@@ -975,19 +1017,35 @@
             </div>
         </div>
         <div id="mobile-left" class="ms-left">
-            <section class="ms-section vw-100 section1" id="coverleftId">
-                <div class="row h-50">
-                    <div class="col-sm-12 w-75 mx-5 my-auto">
-                        <div class=" page-header">
-                            <img class="w-100" src="./resources/img/logo.png" alt="logo">
-                            <h1>
-                                Okos otthon? <br> <small>Inkább intelligens épület!</small>
-                            </h1>
+            <section class="ms-section pt-2 vw-100 bg-warning " id="coverleftId">
+                <div class="row h-75 mt-0 ">
+                    <div class="col-12 wv-100 mr-auto  pl-0 ml-0 h-50">
+                        <div class="animated-title vh-25"
+                            style="margin-left: -30vw; margin-top: -30vw; transform: scale(1.45); ">
+                            <div class="text-top">
+                                <div>
+                                    <span>Okos otthon? </span>
+                                    <span>Inkább intelligens épület!
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="text-bottom">
+                                <div
+                                    style="font-weight: 700; font-size: 9vw; font-family:Arial, Helvetica, sans-serif;">
+                                    Videosec
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-12 wv-100 mr-auto  m-0 p-0  h-50 text-center">
+                        <a href="#smarthome" class=""><img style="height: 50vh; margin-top: 5vh;"
+                                src="./resources/img/cover-icon.png" alt=""></a>
+                    </div>
                 </div>
-                <a href="#smarthome3" class="">
-                    <div class="row text-center h-50">
+
+                <a href="#smarthome" class="">
+
+                    <div class="row text-center h-25">
 
                         <div class="arrow-container">
                             <div class="chevron"></div>
@@ -999,9 +1057,9 @@
                 </a>
 
             </section>
-            <section class="ms-section vw-100 section1" id="smarthomeleftId">
+            <section class="ms-section pt-2 vw-100 section1" id="smarthomeleftId">
                 <div class="container-fluid vh-100">
-                    <div class="row mobile-top align-items-center ">
+                    <div class="row h-100 align-items-center ">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/smarthome.png" alt="energy icon">
                         </div>
@@ -1043,15 +1101,16 @@
                             <img style="width: 40%;" src="./resources/img/comfort.png" alt="comfort icon">
                             <p class="list-text">lakó kényelmének <br> biztosítása</p>
                         </div>
+                        <div class="col-12">
+                            <img id="cover1" class="" src="/resources/img/okosotthon.png" alt="">
+                        </div>
                     </div>
-                    <div class="row mobile-bottom align-items-end mt-3">
-                        <img id="cover1" class="" src="/resources/img/okosotthon.png" alt="">
-                    </div>
+
                 </div>
             </section>
-            <section class="ms-section vw-100 section2" id="automationleftId">
+            <section class="ms-section pt-2 vw-100 section2" id="automationleftId">
                 <div class="container-fluid vh-100">
-                    <div class="row mobile-top align-items-center">
+                    <div class="row h-100 align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/auto home.png" alt="energy icon">
                         </div>
@@ -1118,19 +1177,17 @@
                             </p>
 
                         </div>
-
-                    </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
+                        <div class="col-12 ">
                             <img id="cover1" style="object-fit: contain;" src="/resources/img/automation.png" alt="">
                         </div>
+
                     </div>
+
                 </div>
             </section>
-            <section class="ms-section vw-100 section3" id="greenleftId">
+            <section class="ms-section pt-2 vw-100 section3" id="greenleftId">
                 <div class="container-fluid vh-100">
-
-                    <div class="row mobile-top align-items-center">
+                    <div class="row align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/green home.png">
                         </div>
@@ -1173,31 +1230,16 @@
                                 képesek eggyüt működni
                             </p>
                         </div>
-
-                    </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
-                            <img id="cover1" style="object-fit:contain;" src="/resources/img/radiator.png" alt="">
+                        <div class="col-12 text-center">
+                            <img id="cover1" class="w-75 mr-5" style="object-fit:contain;"
+                                src="/resources/img/radiator.png" alt="">
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
                 </div>
-
             </section>
-            <section class="ms-section vw-100 section4 " id="safetyleftId">
-
+            <section class="ms-section pt-2 vw-100 section4 " id="safetyleftId">
                 <div class="container-fluid vh-100">
-
-                    <div class="row mobile-top align-items-center">
+                    <div class="row h-100 align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/epuletbiztonsag.png"
                                 alt="epuletbiztonsag icon">
@@ -1244,32 +1286,19 @@
                             </ul>
 
                         </div>
-
-                    </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
-                            <img id="cover1" style="object-fit: contain;" class="pb-3"
-                                src="./resources/img/security.png" alt="">
+                        <div class="col-12 text-center">
+                            <img id="cover1" class="w-75 " style="object-fit:contain;" src="/resources/img/security.png"
+                                alt="">
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
                 </div>
 
             </section>
-            <section class="ms-section vw-100 section5" id="securityleftId">
+            <section class="ms-section pt-2 vw-100 section5" id="securityleftId">
 
                 <div class="container-fluid vh-100">
 
-                    <div class="row mobile-top align-items-center">
+                    <div class="row h-100 align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
                                 alt="vagyonbiztonsag icon">
@@ -1320,22 +1349,20 @@
 
 
                         </div>
-
-                    </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
-                            <img id="cover1" style="object-fit: contain;" class="pb-3" src="./resources/img/alarm.png"
-                                alt="">
+                        <div class="col-12 text-center">
+                            <img id="cover1" class="w-75 mr-5" style="object-fit:contain;"
+                                src="/resources/img/alarm.png" alt="">
                         </div>
                     </div>
+
                 </div>
 
 
             </section>
-            <section class="ms-section vw-100 section6" id="innovationleftId">
+            <section class="ms-section pt-2 vw-100 section6" id="innovationleftId">
                 <div class="container-fluid vh-100">
 
-                    <div class="row mobile-top align-items-center">
+                    <div class="row align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
                                 alt="vagyonbiztonsag icon">
@@ -1378,13 +1405,12 @@
                             </ul>
 
                         </div>
-
-                    </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
-                            <img id="cover1" style="object-fit: contain;" src="./resources/img/kinetic.png" alt="">
+                        <div class="col-12 text-center">
+                            <img id="cover1" class="w-75 mr-5" style="object-fit:contain;"
+                                src="./resources/img/kinetic.png" alt="">
                         </div>
                     </div>
+
 
 
 
@@ -1399,10 +1425,10 @@
 
 
             </section>
-            <section class="ms-section vw-100 section7" id="tuyaleftId">
+            <section class="ms-section pt-2 vw-100 section7" id="tuyaleftId">
                 <div class="container-fluid vh-100">
 
-                    <div class="row mobile-top align-items-center">
+                    <div class="row align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/tuya home.png" alt="vagyonbiztonsag icon">
                         </div>
@@ -1449,13 +1475,14 @@
                             </ul>
 
                         </div>
+                        <div class="col-12 text-center">
+                            <img id="cover1" class="w-75 mr-5" style="object-fit:contain;"
+                                src="./resources/img/tuya.png" alt="">
+                        </div>
+
 
                     </div>
-                    <div class="row mobile-bottom text-center">
-                        <div class="col-12 h-100">
-                            <img id="cover1" style="object-fit: contain;" src="./resources/img/tuya.png" alt="">
-                        </div>
-                    </div>
+
 
 
 
@@ -1468,15 +1495,15 @@
 
                 </div>
             </section>
-            <section class="ms-section vw-100 section4" id="pelda1leftId">
+            <section class="ms-section pt-2 vw-100 section1" id="pelda1leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text pt-5 text-center">
+                    <div class="row h-100">
+                        <div class=" col-12">
+                            <h1 class=" m-header-text text-left">
                                 Reggeli Rutinok
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -1532,14 +1559,12 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 mb-auto h-auto ">
 
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/switch.png');">
-                                    <br>
-                                    <strong class="m-strong">A rendszer</strong class="m-strong"> először résnyire
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/switch.png');">
+
+                                    <strong class="m-strong">A rendszer</strong> először résnyire
                                     megemeli
                                     a sötétítőket, majd,
                                     amikor
@@ -1551,26 +1576,27 @@
                                     világítás ébreszt
                                     hasonlóan kíméletesen.
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/detector.png');">
-                                    <br>
-                                    <strong class="m-strong">Mozgásérzékelőink</strong class="m-strong"> jelei az
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/detector.png');">
+
+                                    <strong class="m-strong">Mozgásérzékelőink</strong> jelei az
                                     igényeinknek megfelelően
                                     <strong class="m-strong">kapcsolják a
                                         többi helyiség
-                                        világítását.</strong class="m-strong">
+                                        világítását.</strong>
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/thermostat.png');">
-                                    <br>
+                                <li class="m-iconlist2"
+                                    style="background-image: url(' /resources/img/thermostat.png');">
+
                                     <strong class="m-strong">A fűtés/légkondícionálás előttünk
-                                        ébred,</strong class="m-strong">
+                                        ébred,</strong>
                                     hogy minket már kellemes
                                     hőmérséklet fogadjon
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/panel.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/panel.png');">
+
                                     <strong class="m-strong">Amikor távozunk </strong> otthonról
                                     telefonunk <strong class="m-strong"> emlékeztet, ha nem
-                                        élesítettük a riasztó rendszert.</strong class="m-strong">
+                                        élesítettük a riasztó rendszert.</strong>
 
                                 </li>
 
@@ -1579,17 +1605,17 @@
                     </div>
                 </div>
             </section>
-            <section class="ms-section vw-100 section2 " id="pelda2leftId">
+            <section class="ms-section pt-2 vw-100 section6 " id="pelda2leftId">
 
 
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row h-75">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Világításvezérlés
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -1645,44 +1671,44 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto h-auto">
 
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/detector.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/detector.png');">
+
                                     <strong class="m-strong">Mozgásérzékelőink
-                                        éjszaka</strong class="m-strong"> a folyosón és a fürdőszobában
+                                        éjszaka</strong> a folyosón és a fürdőszobában
                                     csak <strong class="m-strong">derengő fényt kapcsolnak be.<br> Nap közben a
                                         beállított
-                                        fényerőre váltanak.</strong class="m-strong">
+                                        fényerőre váltanak.</strong>
                                     Üres helyiségekben néhány perc után
                                     készenléti/dekorációs/kikapcsolt módra állnak.
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/switch.png');">
-                                    <br>
-                                    <strong class="m-strong">Kinetikus kapcsolók</strong class="m-strong">
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/switch.png');">
+
+                                    <strong class="m-strong">Kinetikus kapcsolók</strong>
                                     alkalmazásával a
                                     kapcsolók
                                     <strong class="m-strong">helye bármikor rugalmasan változtatható vezetékek,
                                         akumulátorok, festés
                                         és
                                         vésés
-                                        nélkül.</strong class="m-strong">
+                                        nélkül.</strong>
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/switch2.png');">
-                                    <br>
-                                    Amennyiben <strong class="m-strong">a kapcsoló</strong class="m-strong"> túl magasan
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/switch2.png');">
+
+                                    Amennyiben <strong class="m-strong">a kapcsoló</strong> túl magasan
                                     van, <strong class="m-strong">bármikor
-                                        áthelyezhető alacsonyabbra</strong class="m-strong">
+                                        áthelyezhető alacsonyabbra</strong>
                                     és akár <strong class="m-strong">üvegre vagy kültérre is felszerelhetjük!</strong
                                         class="m-strong">
-                                </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/switch3.png');">
                                     <br>
+                                    <br>
+                                </li>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/switch3.png');">
+
                                     <strong class="m-strong">Egy gombnyomással képesek vagyunk
-                                        teljes kivilágításról mozi-módra váltani</strong class="m-strong"> . Ekkor a
+                                        teljes kivilágításról mozi-módra váltani</strong> . Ekkor a
                                     redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
                                     Időzített, vagy mozgásérzékelés-alapú
                                     világítás-kapcsolás is megoldható.
@@ -1694,15 +1720,15 @@
                 </div>
 
             </section>
-            <section class="ms-section vw-100 section3" id="pelda3leftId">
+            <section class="ms-section pt-2 vw-100 section3" id="pelda3leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row h-100">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Fűtés-/Hűtésvezérlés
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -1758,38 +1784,37 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/thermostat.png');">
-                                    <br>
+                                <li class="m-iconlist2"
+                                    style="background-image: url(' /resources/img/thermostat.png');">
+
                                     Helyiségenként <strong class="m-strong">egy termosztát elhelyezésével</strong
                                         class="m-strong"> , a
                                     hőmérséklet-beállítások
                                     automatizálásával <strong class="m-strong">30-45%-kal is csökkenthetjük fűtésünk
-                                        energiaigényét</strong class="m-strong"> .
-                                    Valamint <strong class="m-strong">akár légkondicionálló</strong class="m-strong">
+                                        energiaigényét</strong> .
+                                    Valamint <strong class="m-strong">akár légkondicionálló</strong>
                                     rendszerünk
-                                    <strong class="m-strong">vezérlésére</strong class="m-strong"> is alkalmazhatóak.
+                                    <strong class="m-strong">vezérlésére</strong> is alkalmazhatóak.
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/panel.png');">
-                                    <br>
-                                    <strong class="m-strong">Távozáskor</strong class="m-strong">
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/panel.png');">
+
+                                    <strong class="m-strong">Távozáskor</strong>
                                     élesítjük a riasztót, ekkor <strong class="m-strong">termosztátjaink alacsony
                                         programra
-                                        váltanak.</strong class="m-strong"> Ha
+                                        váltanak.</strong> Ha
                                     elutazunk, vagy korábban érünk haza, <strong class="m-strong">telefonról
-                                        módosíthatjuk beállításainkat.</strong class="m-strong">
+                                        módosíthatjuk beállításainkat.</strong>
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/gas2.png');">
-                                    <br>
-                                    <strong class="m-strong">Már meglévő radiátoraink</strong class="m-strong">
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/gas2.png');">
+
+                                    <strong class="m-strong">Már meglévő radiátoraink</strong>
                                     ütemezhető
-                                    <strong class="m-strong">fűtésvezérlését</strong class="m-strong"> ZigBee radiátor
+                                    <strong class="m-strong">fűtésvezérlését</strong> ZigBee radiátor
                                     termosztátokkal
-                                    <strong class="m-strong">tudjuk megvalósítani.</strong class="m-strong">
+                                    <strong class="m-strong">tudjuk megvalósítani.</strong>
                                     Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
                                     szüneteltethetjük a fűtést
                                 </li>
@@ -1799,15 +1824,15 @@
                     </div>
                 </div>
             </section>
-            <section class="ms-section vw-100 section4" id="pelda5leftId">
+            <section class="ms-section pt-2 vw-100 section4" id="pelda5leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row h-100">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Vízérzékelés/önálló elzárás
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -1863,45 +1888,44 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/leaksensor.png');">
-                                    <br>
+                                <li class="m-iconlist2"
+                                    style="background-image: url(' /resources/img/leaksensor.png');">
+
                                     Ha padlóra helyezett <strong class="m-strong">vízérzékelőink eggyike
-                                        vizet észlel,</strong class="m-strong"> a rendszer <strong
-                                        class="m-strong">elzárja
+                                        vizet észlel,</strong> a rendszer <strong class="m-strong">elzárja
                                         a fővezeték motoros
-                                        vízcsapját</strong class="m-strong"> és
+                                        vízcsapját</strong> és
                                     telefonunkon
                                     értesít a riasztásról.
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/waterlock.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/waterlock.png');">
+
                                     A kerti öntözőrendszereink vezérlése is automatikus így
                                     <strong class="m-strong">reggelenként magától elindul az öntözés</strong
                                         class="m-strong">.
                                     Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
                                     önállóan.
                                 </li>
-                                <li class="m-iconlist"
+                                <li class="m-iconlist2"
                                     style="background-image: url(' /resources/img/leaksensor2.png');">
-                                    <br>
+
                                     A Vezérlésbe az időzítésen és az időjáráson túl különféle
                                     <strong class="m-strong">nedvességérzékelőkhöz is köthetjük</strong
                                         class="m-strong"> az
                                     indítási és leállási
                                     parancsot.
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/waterlock2.png');">
-                                    <br>
+                                <li class="m-iconlist2"
+                                    style="background-image: url(' /resources/img/waterlock2.png');">
+
                                     Az öntözőrendszer vízellátását <strong class="m-strong">elvégezhetjük motoros
                                         működtetésű
                                         golyóscsapokkal és
                                         elektrotermikus
-                                        szelepvezérlőkkel is</strong class="m-strong">
+                                        szelepvezérlőkkel is</strong>
                                 </li>
 
                             </ul>
@@ -1909,15 +1933,15 @@
                     </div>
                 </div>
             </section>
-            <section class="ms-section vw-100 section7" id="pelda4leftId">
+            <section class="ms-section pt-2 vw-100 section7" id="pelda4leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row h-100">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Gázérzékelés/önálló elzárás
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -1973,38 +1997,33 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 mt-0 mb-auto">
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/gassensor.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
+
                                     <strong class="m-strong">Egy gázérzékelőt használhatunk földgáz </strong
                                         class="m-strong">
                                     detektálására,
-                                    ha a mennyezethez közel, <br>
+                                    ha a mennyezethez közel,
                                     <strong class="m-strong">illetve
                                         PB-gáz detektálására </strong> is, ha a padlóhoz közel
-                                    telepítjük. <br>
-
-                                    A gázérzékelők katalitikus szenzorelemükkel már a <strong
-                                        class="m-strong">robbanásképes
+                                    telepítjük, így már a <strong class="m-strong">robbanásképes
                                         gázkoncentráció
-                                        6-8%-nál riasztanak. </strong> <br>
+                                        6-8%-nál riasztanak. </strong>
                                 </li>
-                                <li class="m-iconlist"
+                                <li class="m-iconlist2"
                                     style="background-image: url(' /resources/img/smokedetector.png');">
-                                    <br>
-                                    <strong class="m-strong">Füst érzékkelőnk</strong class="m-strong"> szintén <strong
+
+                                    <strong class="m-strong">Füst érzékkelőnk</strong> szintén <strong
                                         class="m-strong">képes
                                         vészhelyzeti
                                         jelzést küldeni
                                         a
-                                        rendszernek</strong class="m-strong"> amennyiben
+                                        rendszernek</strong> amennyiben
                                     tűz ütött ki a helyiségben
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/gas.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/gas.png');">
+
                                     <strong class="m-strong">Az impulzus-vezérelt gázszelep
                                         automatikusan elzárja a gázt </strong>
                                     és push-üzenetben tájékoztatást kapunk a vészhelyzetről.
@@ -2015,16 +2034,15 @@
                 </div>
 
             </section>
-            <section class="ms-section vw-100 section6" id="pelda7leftId">
-
+            <section class="ms-section pt-2 vw-100 section6" id="pelda7leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row h-100">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Az egész épület egy biztonsági rendszer
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -2080,51 +2098,49 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
+                            <ul class="mb-auto">
+                                <li class="m-iconlist2"
+                                    style="background-image: url(' /resources/img/thermostat.png');">
 
-                            <ul class="mt-5">
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/thermostat.png');">
-                                    <br>
                                     <strong class="m-strong">Egész otthonunk része a riasztó rendszernek</strong
                                         class="m-strong"> ,
                                     vagyis egy
                                     betört
                                     ablak esetében a
                                     termosztátunk <strong class="m-strong">érzékeli a hirtelen drasztikus
-                                        hőmérsékletvátozást</strong class="m-strong"> és
+                                        hőmérsékletvátozást</strong> és
                                     jelzi felénk!
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/detector.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/detector.png');">
+
                                     Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong
-                                        class="strong">pontosan
+                                        class="m-strong">pontosan
                                         követhetővé válik
-                                        hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
-                                    <strong class="strong">biztonságosan
+                                        hol tartózkodik a behatoló</strong> így amennyiben szükséges
+                                    <strong class="m-strong">biztonságosan
                                         elhagyhatjuk
-                                        az épületet.</strong class="strong">
+                                        az épületet.</strong>
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/switch2.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/switch2.png');">
+
                                     Amennyiben a behatoló <strong class="m-strong">használni próbálja akármelyik
-                                        kapcsolót</strong class="m-strong">
+                                        kapcsolót</strong>
                                     (vagy
                                     más tuyahoz
                                     kötött eszközt), az nem fog működni
                                     hanem
-                                    <strong class="m-strong">riasztási jelzést küld!</strong class="m-strong">
+                                    <strong class="m-strong">riasztási jelzést küld!</strong>
                                 </li>
 
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/panel.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/panel.png');">
+
                                     A riasztó egység
-                                    <strong class="m-strong">telefonról tudjuk időzíteni</strong class="m-strong"> (pl.:
+                                    <strong class="m-strong">telefonról tudjuk időzíteni</strong> (pl.:
                                     iroda nyitásának ideje)
                                     valamint
                                     gps lokációja alapján <strong class="m-strong">automatikusan beriasztani az
-                                        épületet</strong class="m-strong"> ha
+                                        épületet</strong> ha
                                     elhagytuk a környéket.
                                 </li>
 
@@ -2132,17 +2148,16 @@
                         </div>
                     </div>
                 </div>
-
             </section>
-            <section class="ms-section vw-100 section5" id="pelda6leftId">
+            <section class="ms-section pt-2 vw-100 section1" id="pelda6leftId">
                 <div class="container h-100">
-                    <div class="row mobile-bottom">
-                        <div class=" col-sm-12 ">
-                            <h1 class=" m-header-text text-center">
+                    <div class="row vh-100">
+                        <div class=" col-12 ">
+                            <h1 class=" m-header-text text-left">
                                 Távoli Nyaralók fagymentesítése
                             </h1>
                         </div>
-                        <div class="col-sm-12 mx-5">
+                        <div class="col-12 mx-1">
                             <div class="carousel slide" id="carousel-370917">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-370917" class="active">
@@ -2198,33 +2213,31 @@
                                         class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mobile-top">
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 mb-auto">
                             <ul>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/thermostat.png');">
-                                    <br>
-                                    <strong class="m-strong">Otthonaink hőmérsékletszabályzására fixen telepített
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/gas2.png');">
+
+                                    <strong class="m-strong">Otthonaink hőmérsékletszabályzására radiátorra helyezhető
                                         termosztátjaink
-                                        kitünő megoldást biztosítanak</strong class="m-strong"> . Képesek ezen felül
+                                        kitünő megoldást biztosítanak.</strong> Képesek ezen felül
                                     páratartalom
                                     szabályzására is
                                     ha <strong class="m-strong">légkondicionállással vagy páraelszívó rendszerrel vannak
-                                        összekapcsolva</strong class="m-strong">
+                                        összekapcsolva</strong>
                                 </li>
-                                <li class="m-iconlist" style="background-image: url(' /resources/img/connector.png');">
-                                    <br>
+                                <li class="m-iconlist2" style="background-image: url(' /resources/img/connector.png');">
+
                                     Nyaralóink, <strong class="m-strong">melléképületeink fagymentesítésére</strong
                                         class="m-strong"> a
                                     fixen
                                     telepített
                                     termosztátok
                                     mellett az <strong class="m-strong">ideiglenesen
-                                        is telepíthető, aljzatba dugható wifi termosztát</strong class="m-strong"> és a
+                                        is telepíthető, aljzatba dugható wifi termosztát</strong> és a
                                     hozzá
                                     csatlakoztatott
                                     elektromos olajradiátor
-                                    <strong class="m-strong">hatékony megoldást kínál</strong class="m-strong"> .
+                                    <strong class="m-strong">hatékony megoldást kínál</strong> .
                                 </li>
 
                             </ul>
@@ -2318,7 +2331,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2">
+                        <div class="col-12 mx-5 mt-0 px-5 pb-5 mb-2">
                             <p class="text1">
                                 Az inteligens épületek nem csupán távvezérlést, hanem automatikus művelet
                                 végrehajtást is biztosítanak. <br><br>
@@ -2555,7 +2568,7 @@
                 </div>
                 <div id="pelda1" data-anchor="pelda1" data-index="9" class="ms-section container-fluid section4 ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-right">
                                 Reggeli
                             </h1>
@@ -2622,42 +2635,42 @@
                 <div id="pelda2" data-anchor="pelda2" data-index="10"
                     class="ms-section vw-50 vh-100 container-fluid section2 ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 text-right">
                                 Világításvezérlés
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
 
                                 <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
                                     <strong class="strong">Mozgásérzékelőink
-                                        éjszaka</strong class="strong"> a folyosón és a fürdőszobában
+                                        éjszaka</strong> a folyosón és a fürdőszobában
                                     csak <strong class="strong">derengő fényt kapcsolnak be.<br> Nap közben a beállított
-                                        fényerőre váltanak.</strong class="strong">
+                                        fényerőre váltanak.</strong>
                                     Üres helyiségekben néhány perc után
                                     készenléti/dekorációs/kikapcsolt módra állnak.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch.png');">
                                     <br>
-                                    <strong class="strong">Kinetikus kapcsolók</strong class="strong"> alkalmazásával a kapcsolók
+                                    <strong class="strong">Kinetikus kapcsolók</strong> alkalmazásával a kapcsolók
                                     <strong class="strong">helye bármikor rugalmasan változtatható vezetékek, akumulátorok, festés és
                                         vésés
-                                        nélkül.</strong class="strong">
+                                        nélkül.</strong>
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                     <br>
-                                    Amennyiben <strong class="strong">a kapcsoló</strong class="strong"> túl magasan van, <strong class="strong">bármikor
-                                        áthelyezhető alacsonyabbra</strong class="strong">
-                                    és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong class="strong">
+                                    Amennyiben <strong class="strong">a kapcsoló</strong> túl magasan van, <strong class="strong">bármikor
+                                        áthelyezhető alacsonyabbra</strong>
+                                    és akár <strong class="strong">üvegre vagy kültérre is felszerelhetjük!</strong>
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch3.png');">
                                     <br>
                                     <strong class="strong">Egy gombnyomással képesek vagyunk
-                                        teljes kivilágításról mozi-módra váltani</strong class="strong"> . Ekkor a
+                                        teljes kivilágításról mozi-módra váltani</strong> . Ekkor a
                                     redőnyök leereszkednek, a hangulatvilágítás bekapcsol.
                                     Időzített, vagy mozgásérzékelés-alapú
                                     világítás-kapcsolás is megoldható.
@@ -2675,7 +2688,7 @@
                 <div id="pelda3" data-anchor="pelda3" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section3 ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 vw-50">
+                        <div class=" col-12 vw-50">
                             <h1 class=" header-text pt-5 mr-0 text-right">
                                 Fűtés-/Hűtésvezérlés
                             </h1>
@@ -2689,34 +2702,34 @@
                 <div id="pelda5" data-anchor="pelda5" data-index="12"
                     class="ms-section vw-50 vh-100 container-fluid section4 ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 text-right">
                                 Vízérzékelés
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor.png');">
                                     <br>
                                     Ha padlóra helyezett <strong class="strong">vízérzékelőink eggyike
-                                        vizet észlel,</strong class="strong"> a rendszer <strong class="strong">elzárja a fővezeték motoros
-                                        vízcsapját</strong class="strong"> és
+                                        vizet észlel,</strong> a rendszer <strong class="strong">elzárja a fővezeték motoros
+                                        vízcsapját</strong> és
                                     telefonunkon
                                     értesít a riasztásról.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/waterlock.png');">
                                     <br>
                                     A kerti öntözőrendszereink vezérlése is automatikus így
-                                    <strong class="strong">reggelenként magától elindul az öntözés</strong class="strong">.
+                                    <strong class="strong">reggelenként magától elindul az öntözés</strong>.
                                     Azonban időjárás alapján esős idő után a rendszer feleslegesen nem indul el
                                     önállóan.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/leaksensor2.png');">
                                     <br>
                                     A Vezérlésbe az időzítésen és az időjáráson túl különféle
-                                    <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong class="strong"> az indítási és leállási
+                                    <strong class="strong">nedvességérzékelőkhöz is köthetjük</strong> az indítási és leállási
                                     parancsot.
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/waterlock2.png');">
@@ -2724,7 +2737,7 @@
                                     Az öntözőrendszer vízellátását <strong class="strong">elvégezhetjük motoros működtetésű
                                         golyóscsapokkal és
                                         elektrotermikus
-                                        szelepvezérlőkkel is</strong class="strong">
+                                        szelepvezérlőkkel is</strong>
                                 </li>
 
                             </ul>
@@ -2739,7 +2752,7 @@
                 <div id="pelda4" data-anchor="pelda4" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section7 ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-right">
                                 Gázérzékelés
                             </h1>
@@ -2752,44 +2765,44 @@
                 <div id="pelda7" data-anchor="pelda7" data-index="14"
                     class="ms-section vw-50 vh-100 container-fluid section6 ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 text-right">
                                 Az egész épület egy
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 ">
+                        <div class=" col-12 ">
 
                             <ul>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong class="strong"> , vagyis egy betört
+                                    <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong> , vagyis egy betört
                                     ablak esetében a
-                                    termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus hőmérsékletvátozást</strong class="strong"> és
+                                    termosztátunk <strong class="strong">érzékeli a hirtelen drasztikus hőmérsékletvátozást</strong> és
                                     jelzi felénk!
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/switch2.png');">
                                     <br>
-                                    Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik kapcsolót</strong class="strong"> (vagy
+                                    Amennyiben a behatoló <strong class="strong">használni próbálja akármelyik kapcsolót</strong> (vagy
                                     más tuyahoz
                                     kötött eszközt), az nem fog működni
                                     hanem
-                                    <strong class="strong">riasztási jelzést küld!</strong class="strong">
+                                    <strong class="strong">riasztási jelzést küld!</strong>
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
                                     Mozgásérzékelőink és ajtónyitás érzékelőink segítségével <strong class="strong">pontosan
                                         követhetővé válik
-                                        hol tartózkodik a behatoló</strong class="strong"> így amennyiben szükséges
+                                        hol tartózkodik a behatoló</strong> így amennyiben szükséges
                                     <strong class="strong">biztonságosan
                                         elhagyhatjuk
-                                        az épületet.</strong class="strong">
+                                        az épületet.</strong>
                                 </li>
                                 <li class="iconlist3" style="background-image: url(' /resources/img/panel.png');">
                                     <br>
                                     A riasztó egység
-                                    <strong class="strong">telefonról tudjuk időzíteni</strong class="strong"> (pl.: iroda nyitásának ideje) valamint
-                                    gps lokációja alapján <strong class="strong">automatikusan beriasztani az épületet</strong class="strong"> ha
+                                    <strong class="strong">telefonról tudjuk időzíteni</strong> (pl.: iroda nyitásának ideje) valamint
+                                    gps lokációja alapján <strong class="strong">automatikusan beriasztani az épületet</strong> ha
                                     elhagytuk a környéket.
                                 </li>
 
@@ -2800,7 +2813,7 @@
                 <div id="pelda6" data-anchor="pelda6" data-index="13"
                     class="ms-section vw-50 vh-100 container-fluid section5 ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-right">
                                 Távoli Nyaralók
                             </h1>
@@ -2816,7 +2829,7 @@
                     class="ms-section active vh-100  container-fluid fullscreen ">
                     <div class="row h-100 vw-100 text-center ">
 
-                        <div id="section10" class="col-sm-12 mt-auto  demo ">
+                        <div id="section10" class="col-12 mt-auto  demo ">
                             <a href="#first"><span></span>Scroll</a>
                         </div>
                     </div>
@@ -2838,7 +2851,7 @@
                         </div>
                     </div>
                     <div class="row mr-3">
-                        <div class="col-sm-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
+                        <div class="col-12 mx-5 mt-0 px-5 pb-5 mb-2 ">
                             <p class="text1">
                                 Az inteligens otthon legfőbb előnye hogy az okos eszközök   <strong class="strong">egymással is
                                         kommunikálnak. </strong>
@@ -3019,35 +3032,35 @@
                 <div id="pelda1-r" data-anchor="pelda1" data-index="9"
                     class="ms-section vw-50 vh-100 container-fluid section4-r ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5">
                                 Rutinok
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/switch.png');">
                                     <br>
-                                    <strong class="strong">A rendszer</strong class="strong"> először résnyire megemeli a sötétítőket, majd, amikor
+                                    <strong class="strong">A rendszer</strong> először résnyire megemeli a sötétítőket, majd, amikor
                                     már
                                     hozzászokott a szemünk a
-                                    fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong class="strong"> Téli reggeleken a
+                                    fényhez, <strong class="strong">beengedi a reggeli napsugarakat.</strong> Téli reggeleken a
                                     világítás ébreszt
                                     hasonlóan kíméletesen.
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/detector.png');">
                                     <br>
-                                    <strong class="strong">Mozgásérzékelőink</strong class="strong"> jelei az igényeinknek megfelelően
+                                    <strong class="strong">Mozgásérzékelőink</strong> jelei az igényeinknek megfelelően
                                     <strong class="strong">kapcsolják a
                                         többi helyiség
-                                        világítását.</strong class="strong">
+                                        világítását.</strong>
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
                                     <strong class="strong">A fűtés/légkondícionálás előttünk
-                                        ébred,</strong class="strong">
+                                        ébred,</strong>
                                     hogy minket már kellemes
                                     hőmérséklet fogadjon
                                 </li>
@@ -3055,7 +3068,7 @@
                                     <br>
                                     <strong class="strong">Amikor távozunk </strong> otthonról
                                     telefonunk <strong class="strong"> emlékeztet, ha nem
-                                        élesítettük a riasztó rendszert.</strong class="strong">
+                                        élesítettük a riasztó rendszert.</strong>
 
                                 </li>
 
@@ -3066,7 +3079,7 @@
                 <div id="pelda2-r" data-anchor="pelda2" data-index="10"
                     class="ms-section vw-50 vh-100 container-fluid section2-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-left">
                                 és automatizálás
                             </h1>
@@ -3079,37 +3092,37 @@
                 <div id="pelda3-r" data-anchor="pelda3" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section3-r ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5">
                                 /beállítás/automatizalas
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
-                                    Helyiségenként <strong class="strong">egy termosztát elhelyezésével</strong class="strong"> , a
+                                    Helyiségenként <strong class="strong">egy termosztát elhelyezésével</strong> , a
                                     hőmérséklet-beállítások
                                     automatizálásával <strong class="strong">30-45%-kal is csökkenthetjük fűtésünk
-                                        energiaigényét</strong class="strong"> .
-                                    Valamint <strong class="strong">akár légkondicionálló</strong class="strong"> rendszerünk
-                                    <strong class="strong">vezérlésére</strong class="strong"> is alkalmazhatóak.
+                                        energiaigényét</strong> .
+                                    Valamint <strong class="strong">akár légkondicionálló</strong> rendszerünk
+                                    <strong class="strong">vezérlésére</strong> is alkalmazhatóak.
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/panel.png');">
                                     <br>
-                                    <strong class="strong">Távozáskor</strong class="strong">
+                                    <strong class="strong">Távozáskor</strong>
                                     élesítjük a riasztót, ekkor <strong class="strong">termosztátjaink alacsony programra
-                                        váltanak.</strong class="strong"> Ha
+                                        váltanak.</strong> Ha
                                     elutazunk, vagy korábban érünk haza, <strong class="strong">telefonról
-                                        módosíthatjuk beállításainkat.</strong class="strong">
+                                        módosíthatjuk beállításainkat.</strong>
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gas2.png');">
                                     <br>
-                                    <strong class="strong">Már meglévő radiátoraink</strong class="strong"> ütemezhető
-                                    <strong class="strong">fűtésvezérlését</strong class="strong"> ZigBee radiátor termosztátokkal
-                                    <strong class="strong">tudjuk megvalósítani.</strong class="strong">
+                                    <strong class="strong">Már meglévő radiátoraink</strong> ütemezhető
+                                    <strong class="strong">fűtésvezérlését</strong> ZigBee radiátor termosztátokkal
+                                    <strong class="strong">tudjuk megvalósítani.</strong>
                                     Kábelezést nem igényelnek valamint ablaknyitáskor automatikusan
                                     szüneteltethetjük a fűtést
                                 </li>
@@ -3121,7 +3134,7 @@
                 <div id="pelda5-r" data-anchor="pelda5" data-index="12"
                     class="ms-section vw-50 vh-100 container-fluid section4-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-left">
                                 /önálló elzárás
                                 <img src="./resources/img/half-water-right-img.png" alt="heating" class="vw-50"
@@ -3134,13 +3147,13 @@
                 <div id="pelda4-r" data-anchor="pelda4" data-index="11"
                     class="ms-section vw-50 vh-100 container-fluid section7-r ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5">
                                 /önálló elzárás
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gassensor.png');">
@@ -3158,10 +3171,10 @@
                                 <li class="iconlist2"
                                     style="background-image: url(' /resources/img/smokedetector.png');">
                                     <br>
-                                    <strong class="strong">Füst érzékkelőnk</strong class="strong"> szintén <strong class="strong">képes vészhelyzeti
+                                    <strong class="strong">Füst érzékkelőnk</strong> szintén <strong class="strong">képes vészhelyzeti
                                         jelzést küldeni
                                         a
-                                        rendszernek</strong class="strong"> amennyiben
+                                        rendszernek</strong> amennyiben
                                     tűz ütött ki a helyiségben
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/gas.png');">
@@ -3179,7 +3192,7 @@
                 <div id="pelda7-r" data-anchor="pelda7" data-index="14"
                     class="ms-section vw-50 vh-100 container-fluid section6-r ">
                     <div class="row vh-100 align-items-start mb-5 ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5 mr-0 text-left">
                                 biztonsági rendszer
                             </h1>
@@ -3192,32 +3205,32 @@
                 <div id="pelda6-r" data-anchor="pelda6" data-index="13"
                     class="ms-section vw-50 vh-100 container-fluid section5-r ">
                     <div class="row vh-100 align-items-start ">
-                        <div class=" col-sm-12 mx-2  ">
+                        <div class=" col-12 mx-2  ">
                             <h1 class=" header-text pt-5">
                                 fagymentesítése
                             </h1>
 
                         </div>
-                        <div class=" col-sm-12 m-auto">
+                        <div class=" col-12 m-auto">
 
                             <ul>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/thermostat.png');">
                                     <br>
                                     <strong class="strong">Otthonaink hőmérsékletszabályzására fixen telepített termosztátjaink
-                                        kitünő megoldást biztosítanak</strong class="strong"> . Képesek ezen felül páratartalom
+                                        kitünő megoldást biztosítanak.</strong> Képesek ezen felül páratartalom
                                     szabályzására is
                                     ha <strong class="strong">légkondicionállással vagy páraelszívó rendszerrel vannak
-                                        összekapcsolva</strong class="strong">
+                                        összekapcsolva</strong>
                                 </li>
                                 <li class="iconlist2" style="background-image: url(' /resources/img/connector.png');">
                                     <br>
-                                    Nyaralóink, <strong class="strong">melléképületeink fagymentesítésére</strong class="strong"> a fixen telepített
+                                    Nyaralóink, <strong class="strong">melléképületeink fagymentesítésére</strong> a fixen telepített
                                     termosztátok
                                     mellett az <strong class="strong">ideiglenesen
-                                        is telepíthető, aljzatba dugható wifi termosztát</strong class="strong"> és a hozzá
+                                        is telepíthető, aljzatba dugható wifi termosztát</strong> és a hozzá
                                     csatlakoztatott
                                     elektromos olajradiátor
-                                    <strong class="strong">hatékony megoldást kínál</strong class="strong"> .
+                                    <strong class="strong">hatékony megoldást kínál</strong> .
                                 </li>
 
                             </ul>
@@ -3228,6 +3241,17 @@
         </div>
     </div>
     -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
     <script src="resources/js/dist/build.js"></script>
     <script src="resources/js/fliptext.js"></script>
     <script src="resources/js/textload.js"></script>
