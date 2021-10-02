@@ -4,6 +4,7 @@ import '../scss/mobile_scroll.scss';
 import '../scss/intro.scss';
 import '../scss/navbar.scss';
 import '../scss/carosell.scss';
+import '../scss/coverload.scss';
 
 import 'jquery/dist/jquery.min';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -19,7 +20,7 @@ import './multiscroll';
 import './navbar';
 
 import './carosel';
-import { effect } from "./vanta_effect";
+//import { effect } from "./vanta_effect";
 
 effect;
 

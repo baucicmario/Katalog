@@ -44,6 +44,7 @@ span{
 .animated-title > div.text-top {
   border-bottom: 1vmin solid rgb(255, 255, 255);
   top: 0;
+  width: 50vw;
 }
 .animated-title > div.text-top div {
   animation: showTopText 1s;
