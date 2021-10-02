@@ -29,9 +29,7 @@ $(document).ready(function () {
         $('#mobile-right').removeClass('d-none');
         $('#mobile-right').addClass('ms-right');
     }
-
     //medium screen scaling
-
     if ($(window).width() > $(window).height() * 1.8) {
         //remove class
         $('#large-pelda1rightId').removeClass('medium-large-pelda1rightId');
@@ -95,10 +93,9 @@ $(document).ready(function () {
         $('#large-pelda7rightId').addClass('medium-large-pelda7rightId');
         $('#pelda7leftId').addClass('medium-pelda7leftId');
     }
-
     //multiscroll engine
     $('#containerDivID').multiscroll({
-        anchors: ['cover', 'smarthome', 'automation', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6'],
+        anchors: ['cover', 'smarthome', 'automation', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8'],
         menu: '#menu',
         navigationPosition: 'left',
         navigation: false,
@@ -109,10 +106,7 @@ $(document).ready(function () {
         scrollingSpeed: 1000
 
     });
-
-
 });
-
 $(window).on('resize', function () {
     location.reload();
 })

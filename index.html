@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katalog</title>
     <link rel="stylesheet" href="resources/css/dist/appstyle.css" />
-    <link rel="stylesheet" href="resources/css/fliptext.css" />
-    <link rel="stylesheet" href="resources/css/textload.css" />
     <link rel="stylesheet" href="resources/css/sections.css" />
     <link rel="stylesheet" href="resources/css/style.css" />
     <link rel="stylesheet" href="resources/css/arrow.css" />
-    <script></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -22,7 +21,6 @@
         }
     </script>
 </head>
-
 
 <body>
     <div id="mySidenav" class="sidenav text-center">
@@ -48,16 +46,10 @@
 
 
     </div>
-
-
-
     <ul id="menu" class="   mt-2 mr-5">
         <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="">
     </ul>
-
     <div id="containerDivID">
-
-
         <div id="large-left" class="ms-left ">
 
             <div class="ms-section pt-2 vh-100 vw-100 container-fluid bg-warning" id="coverleftId">
@@ -78,6 +70,7 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -265,9 +258,9 @@
                 </div>
             </div>
             <div class="ms-section pt-2 vw-50 vh-100 container-fluid section6" id="innovationleftId">
-                <div class="row h-100 align-items-end">
-                    <div class="col-12 ">
-                        <img src="./resources/img/kinetic.png" class="vh-100  mr-0" alt="radiator">
+                <div class="row h-100 ">
+                    <div class="col-12">
+                        <img src="./resources/img/kinetic.png" class="w-100" alt="radiator">
                     </div>
 
                 </div>
@@ -334,65 +327,76 @@
                             Reggeli
                         </h1>
                     </div>
-                    <div class="col-sm-10">
-                        <div class="carousel slide rounded" id="carousel-1">
-                            <ol class="carousel-indicators">
-                                <li data-slide-to="0" data-target="#carousel-1" class="active">
-                                </li>
-                                <li data-slide-to="1" data-target="#carousel-1">
-                                </li>
-                                <li data-slide-to="2" data-target="#carousel-1">
-                                </li>
-                                <li data-slide-to="3" data-target="#carousel-1">
-                                </li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100 rounded" alt="Carousel Bootstrap First"
-                                        src="./resources/img/pelda1-1.jpg" />
-                                    <div class="carousel-caption">
-                                        <h4>
-                                            Redőnyök
-                                        </h4>
+                    <div class="col-10">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 1-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel1" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel1" data-slide-to="1" class=""></li>
+                                        <li data-target="#carousel1" data-slide-to="2" class=""></li>
+                                        <li data-target="#carousel1" data-slide-to="3" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda1-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Redőnyök
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda1-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Mozgásérzékelés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda1-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Thermostat
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda1-4.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Riasztó
+                                                </h4>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
-                                <div class="carousel-item ">
-                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Second"
-                                        src="./resources/img/pelda1-2.jpg" />
-                                    <div class="carousel-caption">
-                                        <h4>
-                                            Mozgásérzékelés
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Third"
-                                        src="./resources/img/pelda1-3.jpg" />
-                                    <div class="carousel-caption">
-                                        <h4>
-                                            Thermostat
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block rounded w-100" alt="Carousel Bootstrap Third"
-                                        src="./resources/img/pelda1-4.jpg" />
-                                    <div class="carousel-caption">
-                                        <h4>
-                                            Riasztó
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div> <a class="carousel-control-prev" href="#carousel-1" data-slide="prev"><span
-                                    class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
-                            <a class="carousel-control-next" href="#carousel-1" data-slide="next"><span
-                                    class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                            </div>
+                            <!-- End Carousel Card -->
+
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section2 " id="pelda2leftId">
+            <div class="ms-section pt-2 vw-50 vh-100 container-fluid section5 " id="pelda2leftId">
                 <div class="row vh-100 align-items-start ">
                     <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 text-right">
@@ -455,8 +459,62 @@
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Fűtés-/Hűtésvezérlés
                         </h1>
-                        <img src="./resources/img/half-temp-left-img.png" alt="heating" class="vw-50"
-                            style="width: 40vw;">
+                    </div>
+                    <div class="col-10">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 3-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel3" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel3" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel3" data-slide-to="1" class=""></li>
+                                        <li data-target="#carousel3" data-slide-to="2" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda3-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Thermostat
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda3-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Távozás
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda3-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    fűtésvezérlését
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
+
+                        </div>
                     </div>
 
 
@@ -519,8 +577,62 @@
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Gázérzékelés
                         </h1>
-                        <img src="./resources/img/half-flame-left-img.png" alt="heating" class="vw-50"
-                            style="width: 40vw;">
+                    </div>
+                    <div class="col-10">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 5-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel5" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel5" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel5" data-slide-to="1" class=""></li>
+                                        <li data-target="#carousel5" data-slide-to="2" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda5-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Redőnyök
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda5-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Mozgásérzékelés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda5-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Thermostat
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
+
+                        </div>
                     </div>
 
                 </div>
@@ -536,7 +648,7 @@
                     <div class=" col-12 ">
 
                         <ul>
-                            <li class="iconlist3" style="background-image: url(' /resources/img/thermostat.png');">
+                            <li class="iconlist3" style="background-image: url(' /resources/img/gas2.png');">
                                 <br>
                                 <strong class="strong">Egész otthonunk része a riasztó rendszernek</strong
                                     class="strong"> ,
@@ -586,12 +698,57 @@
                         <h1 class=" header-text pt-5 mr-0 text-right">
                             Távoli Nyaralók
                         </h1>
-                        <img src="./resources/img/half-snow-left-img.png" alt="heating" class="vw-50"
-                            style="width: 40vw;">
+                    </div>
+                    <div class="col-10">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 7-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel7" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel7" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel7" data-slide-to="1" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda7-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Termosztát
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda7-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Fagymentesítés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel7" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel7" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
+
+                        </div>
                     </div>
 
                 </div>
             </div>
+
         </div>
         <div id="large-right" class="ms-right">
             <div class="ms-section vh-100  container-fluid fullscreen " id="large-coverrightId">
@@ -678,7 +835,7 @@
             <div class="ms-section vw-50 vh-100 container-fluid section3-r " id="large-greenrightId">
                 <div class="row">
                     <div class="col-12 ">
-                        <img src="./resources/img/radiator.png" class="w-100 h-auto" alt="radiator">
+                        <img src="./resources/img/radiator.png" class="vh-100 h-auto" alt="radiator">
                     </div>
 
                 </div>
@@ -856,8 +1013,76 @@
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             és automatizálás
                         </h1>
-                        <img src="./resources/img/half-light-right-img.png" alt="heating" class="vw-50"
-                            style="width: 40vw;">
+                    </div>
+                    <div class="col-10 ml-auto">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 2-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel2" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel2" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel2" data-slide-to="1" class="">
+                                        </li>
+                                        <li data-target="#carousel2" data-slide-to="2" class="">
+                                        </li>
+                                        <li data-target="#carousel2" data-slide-to="3" class="">
+                                        </li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda2-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Mozgásérzékelés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda2-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    vezeték/elem nélkül
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda2-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Mozgatható
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda2-4.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Több parancs
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
+
+
+                        </div>
                     </div>
 
                 </div>
@@ -912,11 +1137,64 @@
                     <div class=" col-12 mx-2  ">
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             /önálló elzárás
-                            <img src="./resources/img/half-water-right-img.png" alt="heating" class="vw-50"
-                                style="width: 40vw;">
                         </h1>
                     </div>
+                    <div class="col-10 ml-auto">
+                        <div class="section" id="carousel">
+                            <!-- Carousel Card 4-->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel4" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel4" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel4" data-slide-to="1" class=""></li>
+                                        <li data-target="#carousel4" data-slide-to="2" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda4-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Vízérzékelő
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda4-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Automata öntözés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda4-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Időjárás alapján
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
 
+
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="ms-section vw-50 vh-100 container-fluid section7-r" id="large-pelda4rightId">
@@ -970,8 +1248,73 @@
                         <h1 class=" header-text pt-5 mr-0 text-left">
                             biztonsági rendszer
                         </h1>
-                        <img src="./resources/img/half-secure-right-img.png" alt="heating" class="vw-50"
-                            style="width: 40vw;">
+
+                    </div>
+                    <div class="col-10 ml-auto">
+                        <div class="section" id="carousel">
+
+                            <!-- Carousel Card 6 -->
+                            <div class="card card-raised card-carousel">
+                                <div id="carousel6" class="carousel slide carousel-fade" data-ride="carousel"
+                                    data-interval="3000">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel6" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carousel6" data-slide-to="1" class=""></li>
+                                        <li data-target="#carousel6" data-slide-to="2" class=""></li>
+                                        <li data-target="#carousel6" data-slide-to="3" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./resources/img/pelda6-1.jpg"
+                                                alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Hőmérséklet
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda6-2.jpg"
+                                                alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Világítás riasztás
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda6-3.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Betörő követés
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./resources/img/pelda6-4.jpg"
+                                                alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h4>
+                                                    Okos riasztó
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+                                        <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+                                        <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Carousel Card -->
+
+                        </div>
                     </div>
 
                 </div>
@@ -1058,7 +1401,7 @@
             </section>
             <section class="ms-section pt-2 vw-100 section1" id="smarthomeleftId">
                 <div class="container-fluid vh-100">
-                    <div class="row h-100 align-items-center ">
+                    <div class="row vh-100 pb-5 align-items-center ">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/smarthome.png" alt="energy icon">
                         </div>
@@ -1100,7 +1443,7 @@
                             <img style="width: 40%;" src="./resources/img/comfort.png" alt="comfort icon">
                             <p class="list-text">lakó kényelmének <br> biztosítása</p>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 h-auto">
                             <img id="cover1" class="" src="/resources/img/okosotthon.png" alt="">
                         </div>
                     </div>
@@ -1108,7 +1451,7 @@
                 </div>
             </section>
             <section class="ms-section pt-2 vw-100 section2" id="automationleftId">
-                <div class="container-fluid vh-100">
+                <div class="container-fluid vh-100 pb-5 ">
                     <div class="row h-100 align-items-center">
                         <div class="col-3">
                             <img style="width: 100%;" src="./resources/img/auto home.png" alt="energy icon">
@@ -1503,59 +1846,71 @@
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+                                <!-- Carousel Card 1-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel1" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel1" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel1" data-slide-to="1" class=""></li>
+                                            <li data-target="#m-carousel1" data-slide-to="2" class=""></li>
+                                            <li data-target="#m-carousel1" data-slide-to="3" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda1-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Redőnyök
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda1-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Mozgásérzékelés
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda1-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Thermostat
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda1-4.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Riasztó
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel1" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel1" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
+
                             </div>
                         </div>
                         <div class=" col-12 mb-auto h-auto ">
@@ -1576,12 +1931,13 @@
                                     hasonlóan kíméletesen.
                                 </li>
                                 <li class="m-iconlist2" style="background-image: url(' /resources/img/detector.png');">
-
+                                    <br>
                                     <strong class="m-strong">Mozgásérzékelőink</strong> jelei az
                                     igényeinknek megfelelően
                                     <strong class="m-strong">kapcsolják a
                                         többi helyiség
                                         világítását.</strong>
+                                    <br><br>
                                 </li>
                                 <li class="m-iconlist2"
                                     style="background-image: url(' /resources/img/thermostat.png');">
@@ -1604,73 +1960,85 @@
                     </div>
                 </div>
             </section>
-            <section class="ms-section pt-2 vw-100 section6 " id="pelda2leftId">
-
-
-                <div class="container h-100">
-                    <div class="row h-75">
+            <section class="ms-section pt-2 vw-100 section5 " id="pelda2leftId">
+                <div class="container vh-100">
+                    <div class="row ">
                         <div class=" col-12 ">
                             <h1 class=" m-header-text text-left">
                                 Világításvezérlés
                             </h1>
                         </div>
-                        <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                        <div class="col-12">
+                            <div class="section" id="carousel">
+                                <!-- Carousel Card 2-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel2" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel2" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel2" data-slide-to="1" class="">
+                                            </li>
+                                            <li data-target="#m-carousel2" data-slide-to="2" class="">
+                                            </li>
+                                            <li data-target="#m-carousel2" data-slide-to="3" class="">
+                                            </li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda2-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Mozgásérzékelés
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda2-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        vezeték/elem nélkül
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda2-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Mozgatható
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda2-4.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Több parancs
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel2" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel2" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
                             </div>
                         </div>
-                        <div class=" col-12 m-auto h-auto">
+                        <div class=" col-12 ">
 
                             <ul>
                                 <li class="m-iconlist2" style="background-image: url(' /resources/img/detector.png');">
@@ -1728,59 +2096,62 @@
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+
+                                <!-- Carousel Card 3-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel3" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel3" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel3" data-slide-to="1" class=""></li>
+                                            <li data-target="#m-carousel3" data-slide-to="2" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda3-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Thermostat
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda3-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Távozás
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda3-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        fűtésvezérlését
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel3" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel3" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
+
                             </div>
                         </div>
                         <div class=" col-12 m-auto">
@@ -1826,65 +2197,67 @@
             <section class="ms-section pt-2 vw-100 section4" id="pelda5leftId">
                 <div class="container h-100">
                     <div class="row h-100">
-                        <div class=" col-12 ">
+                        <div class=" col-10 ">
                             <h1 class=" m-header-text text-left">
                                 Vízérzékelés/önálló elzárás
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+                                <!-- Carousel Card 4-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel4" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel4" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel4" data-slide-to="1" class=""></li>
+                                            <li data-target="#m-carousel4" data-slide-to="2" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda4-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Vízérzékelő
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda4-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Automata öntözés
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda4-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Időjárás alapján
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel4" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel4" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
+
                             </div>
                         </div>
                         <div class=" col-12 m-auto">
@@ -1941,59 +2314,62 @@
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+
+                                <!-- Carousel Card 5-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel5" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel5" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel5" data-slide-to="1" class=""></li>
+                                            <li data-target="#m-carousel5" data-slide-to="2" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda5-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Redőnyök
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda5-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Mozgásérzékelés
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda5-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Thermostat
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel5" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel5" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
+
                             </div>
                         </div>
                         <div class=" col-12 mt-0 mb-auto">
@@ -2042,59 +2418,71 @@
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+
+                                <!-- Carousel Card 6 -->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel6" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel6" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel6" data-slide-to="1" class=""></li>
+                                            <li data-target="#m-carousel6" data-slide-to="2" class=""></li>
+                                            <li data-target="#m-carousel6" data-slide-to="3" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda6-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Hőmérséklet
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda6-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Világítás
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda6-3.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Betörő követés
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda6-4.jpg"
+                                                    alt="Third slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Okos riasztó
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel6" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel6" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
                             </div>
                         </div>
                         <div class=" col-12 m-auto">
@@ -2157,59 +2545,51 @@
                             </h1>
                         </div>
                         <div class="col-12 mx-1">
-                            <div class="carousel slide" id="carousel-370917">
-                                <ol class="carousel-indicators">
-                                    <li data-slide-to="0" data-target="#carousel-370917" class="active">
-                                    </li>
-                                    <li data-slide-to="1" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="2" data-target="#carousel-370917">
-                                    </li>
-                                    <li data-slide-to="3" data-target="#carousel-370917">
-                                    </li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap First"
-                                            src="./resources/img/pelda1-1.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Redőnyök
-                                            </h4>
+                            <div class="section" id="carousel">
+
+                                <!-- Carousel Card 7-->
+                                <div class="card card-raised card-carousel">
+                                    <div id="m-carousel7" class="carousel slide carousel-fade" data-ride="carousel"
+                                        data-interval="3000">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#m-carousel7" data-slide-to="0" class="active">
+                                            </li>
+                                            <li data-target="#m-carousel7" data-slide-to="1" class=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="d-block w-100" src="./resources/img/pelda7-1.jpg"
+                                                    alt="First slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Termosztát
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="d-block w-100" src="./resources/img/pelda7-2.jpg"
+                                                    alt="Second slide">
+                                                <div class="carousel-caption d-none d-md-block">
+                                                    <h4>
+                                                        Fagymentesítés
+                                                    </h4>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <a class="carousel-control-prev" href="#m-carousel7" role="button"
+                                            data-slide="prev">
+                                            <i class="bg-dark material-icons">keyboard_arrow_left</i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#m-carousel7" role="button"
+                                            data-slide="next">
+                                            <i class="bg-dark material-icons">keyboard_arrow_right</i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
                                     </div>
-                                    <div class="carousel-item ">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Second"
-                                            src="./resources/img/pelda1-2.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Mozgásérzékelés
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-3.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Thermostat
-                                            </h4>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" alt="Carousel Bootstrap Third"
-                                            src="./resources/img/pelda1-4.jpg" />
-                                        <div class="carousel-caption">
-                                            <h4>
-                                                Riasztó
-                                            </h4>
-                                        </div>
-                                    </div>
-                                </div> <a class="carousel-control-prev" href="#carousel-370917" data-slide="prev"><span
-                                        class="carousel-control-prev-icon"></span> <span
-                                        class="sr-only">Previous</span></a>
-                                <a class="carousel-control-next" href="#carousel-370917" data-slide="next"><span
-                                        class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                                </div>
+                                <!-- End Carousel Card -->
+
                             </div>
                         </div>
                         <div class=" col-12 mb-auto">
@@ -2247,36 +2627,36 @@
             </section>
 
         </div>
-        <div id="mobile-right" class="ms-right">
-            <div class="ms-section d-none" id="coverrightId">
+        <div id="mobile-right" style="margin-top: -100vh;" class="ms-right">
+            <div class="ms-section" style="width: 0vw;" id="coverrightId">
             </div>
-            <div class="ms-section d-none" id="smarthomerightId">
+            <div class="ms-section" style="width: 0vw;" id="smarthomerightId">
             </div>
-            <div class="ms-section d-none" id="automationrightId">
+            <div class="ms-section" style="width: 0vw;" id="automationrightId">
             </div>
-            <div class="ms-section d-none" id="greenrightId">
+            <div class="ms-section" style="width: 0vw;" id="greenrightId">
             </div>
-            <div class="ms-section d-none" id="safetyrightId">
+            <div class="ms-section" style="width: 0vw;" id="safetyrightId">
             </div>
-            <div class="ms-section d-none" id="securityrightId">
+            <div class="ms-section" style="width: 0vw;" id="securityrightId">
             </div>
-            <div class="ms-section d-none" id="innovationrightId">
+            <div class="ms-section" style="width: 0vw;" id="innovationrightId">
             </div>
-            <div class="ms-section d-none" id="tuyarightId">
+            <div class="ms-section" style="width: 0vw;" id="tuyarightId">
             </div>
-            <div class="ms-section d-none" id="pelda1rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda1rightId">
             </div>
-            <div class="ms-section d-none" id="pelda2rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda2rightId">
             </div>
-            <div class="ms-section d-none" id="pelda3rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda3rightId">
             </div>
-            <div class="ms-section d-none" id="pelda5rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda5rightId">
             </div>
-            <div class="ms-section d-none" id="pelda4rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda4rightId">
             </div>
-            <div class="ms-section d-none" id="pelda7rightId">
+            <div class="ms-section" style="width: 0vw;" id="pelda7rightId">
             </div>
-            <div class="ms-section" id="pelda6rightId">
+            <div class="ms-section bg-primary" style="width: 1vw; margin-left: 200vw;" id="pelda6rightId">
             </div>
         </div>
     </div>
@@ -2573,7 +2953,7 @@
                             </h1>
                         </div>
                         <div class="col-sm-10">
-                            <div class="carousel slide" id="carousel-1">
+                            <div class="carousel slide carousel-fade" id="carousel-1">
                                 <ol class="carousel-indicators">
                                     <li data-slide-to="0" data-target="#carousel-1" class="active">
                                     </li>
@@ -3241,20 +3621,9 @@
     </div>
     -->
     <script>
-        function openNav() {
-            document.getElementById("mySidenav").style.width = "250px";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
 
-        function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
     </script>
     <script src="resources/js/dist/build.js"></script>
-    <script src="resources/js/fliptext.js"></script>
-    <script src="resources/js/textload.js"></script>
-    <script src="resources/js/multiscroll.js"></script>
 </body>
 
 

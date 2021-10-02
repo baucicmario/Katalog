@@ -9,28 +9,21 @@
 img{
     object-fit:scale-down;
 }
-
 .list-text {
     font-size: 1.3vh;
     color: rgb(255, 255, 255);
 }
-
 #list1 li {
     color: rgb(255, 255, 255);
     margin-left: 1rem;
 }
-
 .ms-section {
     vertical-align: top;
 }
-
 .mobile-screen{
 height: 95vh;
 }
-
-
 h4{
-    
   font-family: 'Roboto', sans-serif;
   background-color: rgba(84, 84, 84, 0.521);
   font-size: 2vw;
@@ -42,74 +35,19 @@ h4{
   margin-right: auto;
 }
 
-.mobile-top{
-height: 64vh;
-}
-.mobile-bottom{
-height: 30vh;
-}
 
-.icon-scroll,
-.icon-scroll:before {
-    position: absolute;
-    left: 50%;
-}
-.icon-scroll {
-    width: 60px;
-    height: 100px;
-    margin-left: -40px;
-    bottom: 20px;
-    margin-top: -70px;
-    border: 2px solid #fff;
-    border-radius: 50px
-}
-@media (max-width: 767px) {
-    .icon-scroll {
-        position: relative
-    }
-}
-.icon-scroll:before {
-    content: '';
-    width: 16px;
-    height: 16px;
-    background: #fff;
-    margin-left: -8px;
-    top: 16px;
-    border-radius: 8px;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-name: scroll
-}
-@keyframes scroll {
-    0% {
-        opacity: 1
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(26px)
-    }
+
+.strong{
+    font-size: 1.1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.m-strong{
+  
+    font-size: 1.5vh;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
@@ -118,3 +56,30 @@ height: 30vh;
     z-index: 70;
    right: 0vw;
 }
+
+
+
+li {
+  font-size: 1.1vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight:900;
+}
+
+p{
+  font-size: 1.1vw;
+  font-family: 'Barlow', sans-serif;
+  font-weight:800;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
