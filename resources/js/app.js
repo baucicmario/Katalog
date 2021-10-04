@@ -1,4 +1,7 @@
 import '../css/arrow.css'
+import '../css/style.css'
+import '../css/sections.css'
+import '../css/arrow.css'
 import '../scss/main.scss';
 import '../scss/mobile_scroll.scss';
 import '../scss/intro.scss';
@@ -20,6 +23,8 @@ import './multiscroll';
 import './navbar';
 
 import './carosel';
+
+import '../css/sections.css'
 //import { effect } from "./vanta_effect";
 
 effect;
