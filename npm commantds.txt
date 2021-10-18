@@ -1,27 +1,27 @@
 npm
-PS D:\GIT\Katalog> npm run install                   
-PS D:\GIT\Katalog> npm build                         
-PS D:\GIT\Katalog> npm install all                   
-PS D:\GIT\Katalog> npm audit fix                     
-PS D:\GIT\Katalog> npm install                       
-PS D:\GIT\Katalog> npm install webpack               
-PS D:\GIT\Katalog> npm install --save-dev webpack    
-PS D:\GIT\Katalog> npm install --save-dev webpack-cli
-PS D:\GIT\Katalog> npm install --global webpack      
-PS D:\GIT\Katalog> Warning                           
-PS D:\GIT\Katalog> rm -rf node_modules               
-PS D:\GIT\Katalog> rm package-lock.json yarn.lock    
-PS D:\GIT\Katalog> npm cache clear --force           
-PS D:\GIT\Katalog> npm install -g npm@latest         
-PS D:\GIT\Katalog> npm list --global           
-PS D:\GIT\Katalog> npm init --y         
-PS D:\GIT\Katalog> npm audit                                            
-PS D:\GIT\Katalog> npm audit fix --force             
-PS D:\GIT\Katalog> clear                             
-PS D:\GIT\Katalog> npm run build         
-PS D:\GIT\Katalog> npm install --save-dev @babel/core@7.1.0 @babel/cli@7.1.0 @babel/preset-env@7.1.0 @babel/preset-react@7.0.0            
-PS D:\GIT\Katalog> npm init -y
-PS D:\GIT\Katalog> npm install babel-cli@6 babel-preset-react-app@3
-PS D:\GIT\Katalog> npx babel --watch src --out-dir . --presets react-app/prod
-PS D:\GIT\Katalog> npm install
-PS D:\GIT\Katalog> npm run dev
+npm run install                   
+npm build                         
+npm install all                   
+npm audit fix                     
+npm install                       
+npm install webpack               
+npm install --save-dev webpack    
+npm install --save-dev webpack-cli
+npm install --global webpack      
+Warning                           
+rm -rf node_modules               
+rm package-lock.json yarn.lock    
+npm cache clear --force           
+npm install -g npm@latest         
+npm list --global           
+npm init --y         
+npm audit                                            
+npm audit fix --force             
+clear                             
+npm run build         
+npm install --save-dev @babel/core@7.1.0 @babel/cli@7.1.0 @babel/preset-env@7.1.0 @babel/preset-react@7.0.0            
+npm init -y
+npm install babel-cli@6 babel-preset-react-app@3
+npx babel --watch src --out-dir . --presets react-app/prod
+npm install
+npm run dev
