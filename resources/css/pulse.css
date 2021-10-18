@@ -1,0 +1,38 @@
+
+.avatar {
+  height: 10%;
+    position: relative;
+    width: 100%;
+  }
+  
+  .avatar img {
+    position: relative;
+    width: 90%;
+    z-index: 2;
+  }
+  
+
+  
+  @keyframes pulse {
+    to {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+  }
+  
+  .avatar::before,
+  .avatar::after {
+    animation: pulse 2s linear infinite;
+    border: rgba(255, 255, 255, 0.479) solid 50px;
+    border-radius: 9999px;
+    box-sizing: border-box;
+    content: ' ';
+    height: 80%;
+    left: -0%;
+    opacity: .6;
+    position: absolute;
+    transform: scale(0.2);
+    width: 100%;
+    z-index: 1;
+  }
+  
