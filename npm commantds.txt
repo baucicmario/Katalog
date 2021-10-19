@@ -23,5 +23,5 @@ npm install --save-dev @babel/core@7.1.0 @babel/cli@7.1.0 @babel/preset-env@7.1.
 npm init -y
 npm install babel-cli@6 babel-preset-react-app@3
 npx babel --watch src --out-dir . --presets react-app/prod
-npm install
-npm run dev
+npm install popper.js --save
+npm install bootstrap

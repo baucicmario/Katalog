@@ -1,8 +1,13 @@
 {
   "dependencies": {
-    "bootstrap": "4.3.1",
+    "@popperjs/core": "^2.10.2",
+    "all": "0.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "bootstrap": "^4.3.1",
     "jquery": "^3.6.0",
     "multiscroll.js": "^0.2.3",
+    "popper.js": "^1.16.1",
     "rfs": "^9.0.5",
     "three": "^0.133.1",
     "vanta": "^0.5.21"
@@ -11,6 +16,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0",
@@ -24,7 +33,7 @@
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
     "webpack": "^5.58.2",
-    "webpack-cli": "^4.9.0",
+    "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.1.0"
   },
   "scripts": {
