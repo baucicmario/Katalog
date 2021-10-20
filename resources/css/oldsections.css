@@ -1,5 +1,5 @@
 .section1-r {
-background: linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
+background: linear-gradient(90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
     color: rgb(255, 255, 255);
 }
 #large-emptyleftId{
@@ -7,31 +7,31 @@ background: linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%
     z-index: 70;
 }
 .section1 {
-background: linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
+background: linear-gradient(270deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section5 {
-    background: linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+    background: linear-gradient(-90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
     color: rgb(255, 255, 255);
 }
 .section5-r {
-    background: linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
     color: rgb(255, 255, 255);
 }
 .section3-r {
-background: linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background: linear-gradient(-90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section3 {
-background: linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background: linear-gradient(90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section4-r {
-background: linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background: linear-gradient(90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section4 {
-background: linear-gradient(-90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background: linear-gradient(-90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section2 {
@@ -43,11 +43,11 @@ background: linear-gradient(90deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rg
     color: rgb(255, 255, 255);
 }
 .section6-r {
-background: linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background: linear-gradient(270deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
 color: white;
 }
 .section6 {
-background: linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background: linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section7 {
@@ -71,22 +71,22 @@ background-size: cover;
 }
 .large-pelda2rightId{
 color: white;
-background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
 background-size: cover; 
 }
 .pelda2leftId{
 color: white;
-background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
 background-size: cover; 
 }
 .pelda3leftId{
 color: white;
-background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
 background-size: cover; 
 }
 .large-pelda3rightId{
 color: white;
-background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
 background-size: cover; 
 }
 .pelda4leftId{
@@ -101,12 +101,12 @@ background-size: cover;
 }
 .large-pelda5rightId{
 color: white;
-background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
 background-size: cover; 
 }
 .pelda5leftId{
 color: white;
-background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
 background-size: cover; 
 }
 .large-pelda6rightId{
@@ -121,13 +121,19 @@ background-size: cover;
 }
 .large-pelda7rightId{
 color: white;
-background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
 background-size: cover; 
 }
 .pelda7leftId{
 color: white;
+background: rgb(53,0,107);
+background: -moz-linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+background: linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#35006b",endColorstr="#6f31ad",GradientType=1);
+
     color: rgb(255, 255, 255);
-background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
 background-size: cover; 
 }
 
@@ -151,25 +157,25 @@ background-repeat: no-repeat;
 }
 .medium-large-pelda2rightId{
 color: white;
-background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda2leftId{
 color: white;
-background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(229, 22, 56, 1) 0%, rgba(170, 9, 35, 1) 44%, rgba(96, 0, 15, 1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda3leftId{
 color: white;
-background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-large-pelda3rightId{
 color: white;
-background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(12,110,15,1) 0%, rgba(24,177,30,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
@@ -187,13 +193,13 @@ background-repeat: no-repeat;
 }
 .medium-large-pelda5rightId{
 color: white;
-background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda5leftId{
 color: white;
-background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
+background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(65,155,233,1) 0%, rgba(56,133,200,1) 49%, rgba(37,87,131,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
@@ -211,14 +217,20 @@ background-repeat: no-repeat;
 }
 .medium-large-pelda7rightId{
 color: white;
-background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda7leftId{
 color: white;
+background: rgb(53,0,107);
+background: -moz-linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+background: linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#35006b",endColorstr="#6f31ad",GradientType=1);
+
     color: rgb(255, 255, 255);
-background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(53,0,107,1) 0%, rgba(94,0,189,1) 32%, rgba(111,49,173,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
