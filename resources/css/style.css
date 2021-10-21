@@ -37,15 +37,15 @@ h4{
 
 
 
-.strong{
-    font-weight: 900;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+strong{
+    font-family:  sans-serif;
+    font-weight:900;
 }
 
-.m-strong{
+#mobile-left strong{
   
-    font-size: 1.5vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:900;
 }
 
 
@@ -61,17 +61,27 @@ h4{
 li {
   font-size: 1.1vw;
   font-family: 'Barlow', sans-serif;
-  font-weight:900;
+  font-weight:100;
 }
 
 p{
   font-size: 1.1vw;
   font-family: 'Barlow', sans-serif;
-  font-weight:800;
+  font-weight:100;
+}
+#mobile-left p{
+  font-size: 1.5vh;
+  font-family: 'Barlow', sans-serif;
+  font-weight:500;
+}
+#mobile-left li{
+  font-size: 1.5vh;
+  font-family: 'Barlow', sans-serif;
+  font-weight:700;
 }
 
 html{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'montserrat-regular',sans-serif;
   font-weight: 100;
 }
 
