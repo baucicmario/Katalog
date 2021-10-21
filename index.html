@@ -51,24 +51,38 @@
 
     </div>
     <div id="menu" class="  mt-2 mr-5">
-        <img style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="menuicon">
-        <img style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/wifi-logo.png" alt="menuicon">
-        <img style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/tuya mini logo.png" alt="menuicon">
+        <img id="zigbee-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/zigbee-logo.png"
+            alt="zigbee-logo">
+        <img id="wifi-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/wifi-logo.png"
+            alt="wifi-logo">
+        <img id="tuya-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/tuya mini logo.png"
+            alt="tuya-logo">
         <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
-       
+
     </div>
     <div id="containerDivID">
         <div id="large-left" class="ms-left ">
 
             <section class="ms-section vh-100 vw-100 container-fluid bg-warning" id="coverleftId">
-                <div class="row w-50" style="height: 90%;">
-                    <div class="col-12 my-auto ml-auto">
+                <div class="row w-50 vh-100">
+                    <div class="col-12 my-auto  ml-auto" style="height: 88%;">
                         <div class="animated-title mt-4">
                             <div class="text-top ">
                                 <div>
-                                    <span style="font-size: 3vw;">Okos</span>
-                                    <span style="font-size: 4vw;">Intelligens</span>
-                                    <span style="font-size: 5vw;">Biztonságos</span>
+                                    <table>
+                                        <tr>
+                                            <td style="text-align: right;">
+                                                <span style="font-size: 3vw;">Okos</span>
+                                                <span style="font-size: 4vw;">Intelligens</span>
+                                                <span style="font-size: 5vw;">Biztonságos</span>
+                                            </td>
+                                            <td>
+                                                <span style="font-size: 4vw;"><br></span>
+                                                <span class="tracking-in-expand"
+                                                    style="margin-bottom: 5vw; font-size: 7vw;">otthon</span>
+                                            </td>
+                                        </tr>
+                                    </table>
                                 </div>
                             </div>
                             <div class="text-bottom">
@@ -76,8 +90,21 @@
                                     <img style="height: 9vw;" src="./resources/img/logo.png" alt="videosec">
                                 </div>
                             </div>
+
                         </div>
                     </div>
+
+                    <div class="col-12" style="height: 12%; margin-top: -30%;transform: scale(2);">
+                        <a href="#smarthome">
+                            <div class="arrow-container" style="margin-bottom: auto;">
+                                <div class="chevron"></div>
+                                <div class="chevron"></div>
+                                <div class="chevron"></div>
+                            </div>
+
+                        </a>
+                    </div>
+
                 </div>
             </section>
             <section class="ms-section  vw-100 vh-100 container-fluid " id="smarthomeleftId">
@@ -735,14 +762,16 @@
             </section>
             <section class="ms-section vw-100 vh-100 container-fluid " id="pelda6outerleftId">
                 <div class="row vh-100 ">
-                    <div class="col-6" id="pelda6leftId">
+                    <div class="col-6 vertical-center" id="pelda6leftId">
                         <div class="row">
-                            <div class=" col-12 mx-2  ">
+                            <div class=" col-12 mx-2  vh-25" style="height: 25vh;">
                                 <h1 class=" header-text pt-5 mr-0 text-right">
                                     Távoli nyaralók
                                 </h1>
                             </div>
-                            <div class="col-10">
+                        </div>
+                        <div class="row  ">
+                            <div class="col-10 vh-75 mt-auto">
                                 <div class="section">
 
                                     <!-- Carousel Card 7-->
@@ -780,7 +809,7 @@
                                                         alt="First slide temperature control">
                                                     <div class="carousel-caption d-none d-md-block">
                                                         <h4>
-                                                            Termosztát
+                                                            Olajradiátor 
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -832,7 +861,7 @@
                         <img class="w-100 h-auto" src="./resources/img/auto home.png" alt="smart building">
                     </div>
                     <div class="col-sm-8 mx-2">
-                        <h1 class=" header-text" >
+                        <h1 class=" header-text">
                             Automatizálás
                         </h1>
                     </div>
@@ -852,9 +881,9 @@
                                 style="background-image: url(' ./resources/img/detect.png');  
                                                                                                                                                                                                                                         ">
                                 Automatizációt <strong class="strong">elindító esemény bekövetkezése</strong>: <br>
-                                 - egy érzékelő által szolgáltatott állapotváltozási jelzés (pl. füst-, víz- vagy
+                                - egy érzékelő által szolgáltatott állapotváltozási jelzés (pl. füst-, víz- vagy
                                 mozgásérzékelő stb.) <br>
-                                 - egy ütemezett feladat idejének elérése (pl. napkelte)&nbsp; </li>
+                                - egy ütemezett feladat idejének elérése (pl. napkelte)&nbsp; </li>
                             <li class="iconlist"
                                 style="background-image: url(' ./resources/img/execute.png');  
                                                                                                                                                                                                                                        ">
@@ -1278,7 +1307,8 @@
                                 <div class="col-9">
                                     <p class="text1"> Tragédiák megelőzése érdekében, ha egy mai otthonban bármilyen
                                         nyílt égésterű berendezés található, akkor elengedhetetlen a
-                                        <strong class="strong">Gáz és füstérzékelők</strong> alkalmazása. Jelzéseiknek hatására a
+                                        <strong class="strong">Gáz és füstérzékelők</strong> alkalmazása. Jelzéseiknek
+                                        hatására a
                                         riasztással együtt elindulhat egy szellőztető berendezés is. Az impulzus-<strong
                                             class="strong">vezérelt gázszelep</strong> automatikusan elzárja a gázt és
                                         push-üzenetben tájékoztatást kapunk a vészhelyzetről.
@@ -1394,6 +1424,16 @@
                                 <div class="col-3 avatar">
                                     <img src=" ./resources/img/connector.png" class="w-100" alt="">
                                 </div>
+                                <div class="col-9">
+                                    <p class="text1">
+                                        Amennyiben valamely nyílászáró nyitva maradt a rendszer értesíti a felhasználót, és
+                                        igény szerint megállítja a fűtést. Így megelőzhető az esetleges energia
+                                        pazarlás.
+                                    </p>
+                                </div>
+                                <div class="col-3 avatar">
+                                    <img src=" ./resources/img/door-sensor.png" class="w-100" alt="">
+                                </div>
                             </div>
 
                         </div>
@@ -1431,18 +1471,18 @@
                                 <div class="chevron"></div>
                                 <div class="chevron"></div>
                             </div>
-                        </a>  
+                        </a>
                     </div>
                     <div class="col-12 wv-100 mr-auto  m-0 p-0  h-50 text-center">
-                        
+
                         <a href="#smarthome" class=""><img style="width: 100vw; margin-top: 0vh;"
                                 src="./resources/img/cover-icon.png" alt=""></a>
-                                
-                
+
+
                     </div>
                 </div>
 
-                
+
             </section>
             <section class="ms-section vw-100 h-100 section1" id="smarthomeleftId-m">
                 <div class="container-fluid h-100">

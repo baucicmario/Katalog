@@ -19,11 +19,13 @@ background: linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100
     color: rgb(255, 255, 255);
 }
 .section3-r {
-background: linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
+background: linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 60%,rgba(25,171,29,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section3 {
-background: linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
+background: linear-gradient(90deg, rgba(0,164,5,1) 0%, rgba(0,187,4,1) 37%, rgba(25,171,29,1) 85%);
+
+
     color: rgb(255, 255, 255);
 }
 .section4-r {

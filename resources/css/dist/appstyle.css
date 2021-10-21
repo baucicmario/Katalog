@@ -178,16 +178,37 @@ html{
 
 
 
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+}
 
 
 
-
-
-
-
-
-
-
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 
@@ -228,19 +249,19 @@ background: linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100
     color: rgb(255, 255, 255);
 }
 .section5 {
-    background: linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+    background: linear-gradient(-90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section5-r {
-    background: linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section3-r {
-background: linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background: linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section3 {
-background: linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background: linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section4-r {
@@ -260,11 +281,11 @@ background: linear-gradient(90deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rg
     color: rgb(255, 255, 255);
 }
 .section6-r {
-background: linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background: linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
 color: white;
 }
 .section6 {
-background: linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background: linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
     color: rgb(255, 255, 255);
 }
 .section7 {
@@ -278,32 +299,32 @@ color: white;
 
 .large-pelda1rightId{
 color: white;
-background: url(/resources/js/dist9b159a5ea6754b0d0e7f.png), linear-gradient(90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background: url(/resources/js/dist9b159a5ea6754b0d0e7f.png), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size:cover; 
 }
 .pelda1leftId{
 color: white;
-background: url(/resources/js/distc4728ca1e545a7cde534.png), linear-gradient(270deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background: url(/resources/js/distc4728ca1e545a7cde534.png), linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: cover; 
 }
 .large-pelda2rightId{
 color: white;
-background-image: url(/resources/js/distedad9a18067e9e20b09d.png), linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url(/resources/js/distedad9a18067e9e20b09d.png), linear-gradient(90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
 background-size: cover; 
 }
 .pelda2leftId{
 color: white;
-background-image: url(/resources/js/distb478604e018e8225d82b.png), linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url(/resources/js/distb478604e018e8225d82b.png), linear-gradient(-90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
 background-size: cover; 
 }
 .pelda3leftId{
 color: white;
-background-image: url(/resources/js/dist88fc7ff67b9aac4099e6.png), linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url(/resources/js/dist88fc7ff67b9aac4099e6.png), linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
 background-size: cover; 
 }
 .large-pelda3rightId{
 color: white;
-background-image: url(/resources/js/dist68b1bc208995f60b5485.png), linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url(/resources/js/dist68b1bc208995f60b5485.png), linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
 background-size: cover; 
 }
 .pelda4leftId{
@@ -328,23 +349,23 @@ background-size: cover;
 }
 .large-pelda6rightId{
 color: white;
-background-image: url(/resources/js/dist1e9d542440e250924088.png), linear-gradient(90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background-image: url(/resources/js/dist1e9d542440e250924088.png), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: cover; 
 }
 .pelda6leftId{
 color: white;
-background-image: url(/resources/js/distf2ca6cd2b7198ad44c84.png), linear-gradient(-90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background-image: url(/resources/js/distf2ca6cd2b7198ad44c84.png), linear-gradient(-90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: cover; 
 }
 .large-pelda7rightId{
 color: white;
-background-image: url(/resources/js/dist5448dfb976a559a097c2.png), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url(/resources/js/dist5448dfb976a559a097c2.png), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
 background-size: cover; 
 }
 .pelda7leftId{
 color: white;
     color: rgb(255, 255, 255);
-background-image: url(/resources/js/distf4725e43371b355037f8.png), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url(/resources/js/distf4725e43371b355037f8.png), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
 background-size: cover; 
 }
 
@@ -355,38 +376,38 @@ background-size: cover;
 
 .medium-large-pelda1rightId{
 color: white;
-background: url(/resources/js/dist9b159a5ea6754b0d0e7f.png), linear-gradient(90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background: url(/resources/js/dist9b159a5ea6754b0d0e7f.png), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size:contain; 
 background-repeat: no-repeat;
 
 }
 .medium-pelda1leftId{
 color: white;
-background: url(/resources/js/distc4728ca1e545a7cde534.png), linear-gradient(270deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background: url(/resources/js/distc4728ca1e545a7cde534.png), linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-large-pelda2rightId{
 color: white;
-background-image: url(/resources/js/distedad9a18067e9e20b09d.png), linear-gradient(90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url(/resources/js/distedad9a18067e9e20b09d.png), linear-gradient(90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda2leftId{
 color: white;
-background-image: url(/resources/js/distb478604e018e8225d82b.png), linear-gradient(-90deg, rgba(255,26,26,1) 0%, rgba(223,11,11,1) 42%, rgba(162,0,0,1) 100%);
+background-image: url(/resources/js/distb478604e018e8225d82b.png), linear-gradient(-90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda3leftId{
 color: white;
-background-image: url(/resources/js/dist88fc7ff67b9aac4099e6.png), linear-gradient(90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url(/resources/js/dist88fc7ff67b9aac4099e6.png), linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-large-pelda3rightId{
 color: white;
-background-image: url(/resources/js/dist68b1bc208995f60b5485.png), linear-gradient(-90deg, rgba(16,162,21,1) 0%, rgba(28,226,36,1) 100%);
+background-image: url(/resources/js/dist68b1bc208995f60b5485.png), linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
@@ -416,26 +437,26 @@ background-repeat: no-repeat;
 }
 .medium-large-pelda6rightId{
 color: white;
-background-image: url(/resources/js/dist1e9d542440e250924088.png), linear-gradient(90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background-image: url(/resources/js/dist1e9d542440e250924088.png), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda6leftId{
 color: white;
-background-image: url(/resources/js/distf2ca6cd2b7198ad44c84.png), linear-gradient(-90deg, rgba(20,72,140,1) 0%, rgba(13,46,91,1) 100%);
+background-image: url(/resources/js/distf2ca6cd2b7198ad44c84.png), linear-gradient(-90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-large-pelda7rightId{
 color: white;
-background-image: url(/resources/js/dist5448dfb976a559a097c2.png), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url(/resources/js/dist5448dfb976a559a097c2.png), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }
 .medium-pelda7leftId{
 color: white;
     color: rgb(255, 255, 255);
-background-image: url(/resources/js/distf4725e43371b355037f8.png), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(128,0,255,1) 40%, rgba(139,40,237,1) 87%, rgba(144,61,228,1) 100%);
+background-image: url(/resources/js/distf4725e43371b355037f8.png), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
 background-size: contain; 
 background-repeat: no-repeat;
 }

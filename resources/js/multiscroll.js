@@ -13,6 +13,9 @@ $(document).ready(function () {
         $('#large-left').addClass('ms-left');
         $('#large-right').removeClass('d-none');
         $('#large-right').addClass('ms-right');
+        $('#wifi-logo').removeClass('d-none');
+        $('#tuya-logo').removeClass('d-none');
+        $('#zigbee-logo').removeClass('d-none');
 
 
 
@@ -22,6 +25,9 @@ $(document).ready(function () {
         $('#large-left').removeClass('ms-left');
         $('#large-right').addClass('d-none');
         $('#large-right').removeClass('ms-right');
+        $('#wifi-logo').addClass('d-none');
+        $('#tuya-logo').addClass('d-none');
+        $('#zigbee-logo').addClass('d-none');
 
 
         $('#mobile-left').removeClass('d-none');
