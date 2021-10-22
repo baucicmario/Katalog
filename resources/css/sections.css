@@ -70,6 +70,7 @@ color: white;
 .noscroll{
     overflow: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth
 }
 
 

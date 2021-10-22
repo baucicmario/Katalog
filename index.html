@@ -19,11 +19,18 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
+        function openNav2() {
+            document.getElementById("mySidenav2").style.width = "250px";
+        }
+
+        function closeNav2() {
+            document.getElementById("mySidenav2").style.width = "0";
+        }
     </script>
 </head>
 
 <body class="noscroll">
-    <div id="mySidenav" class="sidenav text-center">
+    <div id="mySidenav" class=" sidenav text-center">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
         <a href="#cover" onclick="closeNav()">Borító</a>
         <a href="#smarthome" onclick="closeNav()">Intelligens épület</a>
@@ -50,7 +57,34 @@
 
 
     </div>
-    <div id="menu" class="  mt-2 mr-5">
+    <div id="mySidenav2" class=" sidenav text-center">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">X</a>
+        <a href="#m-cover" onclick="closeNav()">Borító</a>
+        <a href="#m-smarthome" onclick="closeNav()">Intelligens épület</a>
+        <a href="#m-automation" onclick="closeNav()">Automatizálás</a>
+        <a href="#m-green" onclick="closeNav()">Energia hatékonyság</a>
+        <a href="#m-safety" onclick="closeNav()">Épületbiztonság</a>
+        <a href="#m-security" onclick="closeNav()">Vagyonbiztonság</a>
+        <a href="#m-innovation" onclick="closeNav()">Kinetikus kapcsolók</a>
+        <a href="#m-tuya" onclick="closeNav()">Vezérlés</a>
+        <p class="pt-5" style="font-size: 2vh; color: white;">Gyakorlati Példák:</p>
+        <a href="#m-pelda1" onclick="closeNav()">Reggeli Rutinok</a>
+        <a href="#m-pelda2" onclick="closeNav()">Világításvezérlés</a>
+        <a href="#m-pelda3" onclick="closeNav()">Fűtés-/Hűtésvezérlés</a>
+        <a href="#m-pelda5" onclick="closeNav()">Vízérzékelés</a>
+        <a href="#m-pelda4" onclick="closeNav()">Gázérzékelés</a>
+        <a href="#m-pelda7" onclick="closeNav()">Biztonság</a>
+        <a href="#m-pelda6" onclick="closeNav()">Fagymentesítés</a>
+
+
+        <p class="pt-5" style="font-size: 2vh; color: white;">Termekek:</p>
+        <a href="#m-pelda8" onclick="closeNav()">termekoldal</a>
+
+
+
+
+    </div>
+    <div id="menu" class=" d-none mt-2 mr-5">
         <img id="zigbee-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/zigbee-logo.png"
             alt="zigbee-logo">
         <img id="wifi-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/wifi-logo.png"
@@ -58,6 +92,16 @@
         <img id="tuya-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/tuya mini logo.png"
             alt="tuya-logo">
         <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
+
+    </div>
+    <div id="menu" class="  mt-2 mr-5">
+        <img id="zigbee-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/zigbee-logo.png"
+            alt="zigbee-logo">
+        <img id="wifi-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/wifi-logo.png"
+            alt="wifi-logo">
+        <img id="tuya-logo" style="width: 7vh; cursor: pointer;" class="mr-3" src="./resources/img/tuya mini logo.png"
+            alt="tuya-logo">
+        <img onclick="openNav2()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
 
     </div>
     <div id="containerDivID">
@@ -125,7 +169,8 @@
                                 <p class="text1">Az intelligens megoldások a közvetlen vezérlésen túl lehetővé teszik,
                                     hogy bizonyos eseményekre vagy körülmények együtt állása esetén
                                     <strong>automatikusan, emberi beavatkozás nélkül</strong> reagáljon és
-                                    beavatkozzon a rendszer.</p>
+                                    beavatkozzon a rendszer.
+                                </p>
                                 <p class="text1">A létrehozható különböző automatizációkkal a lecsökkenő késedelem miatt
                                     növekszik a működési biztonság, valamint az energiahatékonyság is.&nbsp;</p>
                                 <p class="text1">Bármelyik otthonba, irodába vagy bármilyen létesítménybe
@@ -1473,10 +1518,10 @@
     </div>
 
     <div id="mobile-left">
-        <section class=" py-5  bg-warning " id="coverleftId-m">
+        <section class=" py-5  bg-warning " id="m-cover">
             <div class="row ">
                 <div class="col-10 wv-100 mx-auto my-5 py-5 ">
-                    <div  style="transform: scale(1.7); margin-top: 38%;margin-bottom: 58%;">
+                    <div style="transform: scale(1.7); margin-top: 38%;margin-bottom: 58%;">
                         <div class="animated-title">
                             <div class="text-top">
                                 <div>
@@ -1506,8 +1551,8 @@
                 </div>
                 <div class="col-12  text-center">
 
-                    <a href="#smarthome" class="mt-5"><img style="width: 98%;"
-                            src="./resources/img/cover-icon.png" alt=""></a>
+                    <a href="#smarthome" class="mt-5"><img style="width: 98%;" src="./resources/img/cover-icon.png"
+                            alt=""></a>
 
 
                 </div>
@@ -1515,7 +1560,7 @@
 
 
         </section>
-        <section class=" py-5 section1" id="smarthomeleftId-m">
+        <section class=" py-5 section1" id="m-smarthome">
             <div class="container-fluid h-100">
                 <div class="row align-items-center">
                     <div class="col-3">
@@ -1555,7 +1600,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5 section2" id="automationleftId-m">
+        <section class=" py-5 section2" id="m-automation">
             <div class="container-fluid h-100">
                 <div class="row align-items-center">
                     <div class="col-3">
@@ -1596,13 +1641,12 @@
                         </ul>
                     </div>
                     <div class="col-12 text-center">
-                        <img src="./resources/img/automation.png" class=" w-100 mt-0"
-                            alt="automation phone image">
+                        <img src="./resources/img/automation.png" class=" w-100 mt-0" alt="automation phone image">
                     </div>
                 </div>
             </div>
         </section>
-        <section class=" py-5 section3" id="greenleftId-m">
+        <section class=" py-5 section3" id="m-green">
             <div class="container-fluid ">
                 <div class="row align-items-center">
                     <div class="col-3">
@@ -1650,12 +1694,11 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5 section4 " id="safetyleftId-m">
+        <section class=" py-5 section4 " id="m-safety">
             <div class="container-fluid ">
                 <div class="row h-100 align-items-center">
                     <div class="col-3">
-                        <img style="width: 100%;" src="./resources/img/epuletbiztonsag.png"
-                            alt="epuletbiztonsag icon">
+                        <img style="width: 100%;" src="./resources/img/epuletbiztonsag.png" alt="epuletbiztonsag icon">
                     </div>
                     <div class="col-8">
                         <h1 class="m-header-text">
@@ -1696,14 +1739,13 @@
             </div>
 
         </section>
-        <section class=" py-5 section5" id="securityleftId-m">
+        <section class=" py-5 section5" id="m-security">
 
             <div class="container-fluid ">
 
                 <div class="row h-100 align-items-center">
                     <div class="col-3">
-                        <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
-                            alt="vagyonbiztonsag icon">
+                        <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png" alt="vagyonbiztonsag icon">
                     </div>
                     <div class="col-8">
                         <h1 class="m-header-text">
@@ -1755,13 +1797,12 @@
 
 
         </section>
-        <section class=" py-5 section6" id="innovationleftId-m">
+        <section class=" py-5 section6" id="m-innovation">
             <div class="container-fluid ">
 
                 <div class="row align-items-center">
                     <div class="col-3 pb-3 pt-3">
-                        <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png"
-                            alt="vagyonbiztonsag icon">
+                        <img style="width: 100%;" src="./resources/img/Vagyonbiztonsag.png" alt="vagyonbiztonsag icon">
                     </div>
                     <div class="col-9 pb-2 pt-3">
                         <h1 class="m-header-text">
@@ -1845,7 +1886,7 @@
 
 
         </section>
-        <section class=" py-5 section7" id="tuyaleftId-m">
+        <section class=" py-5 section7" id="m-tuya">
             <div class="container-fluid ">
 
                 <div class="row align-items-center">
@@ -1915,7 +1956,7 @@
 
             </div>
         </section>
-        <section class=" py-5  section1" id="pelda1leftId-m">
+        <section class=" py-5  section1" id="m-pelda1">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2044,7 +2085,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5  section5 " id="pelda2leftId-m">
+        <section class=" py-5  section5 " id="m-pelda2">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2192,7 +2233,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5  section3" id="pelda3leftId-m">
+        <section class=" py-5  section3" id="m-pelda3">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2302,7 +2343,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5  section4" id="pelda5leftId-m">
+        <section class=" py-5  section4" id="m-pelda5">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2423,7 +2464,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5  section7" id="pelda4leftId-m">
+        <section class=" py-5  section7" id="m-pelda4">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2470,13 +2511,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#m-carousel5" role="button"
-                                    data-slide="prev">
+                                <a class="carousel-control-prev" href="#m-carousel5" role="button" data-slide="prev">
                                     <i class="bg-dark material-icons">keyboard_arrow_left</i>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#m-carousel5" role="button"
-                                    data-slide="next">
+                                <a class="carousel-control-next" href="#m-carousel5" role="button" data-slide="next">
                                     <i class="bg-dark material-icons">keyboard_arrow_right</i>
                                     <span class="sr-only">Next</span>
                                 </a>
@@ -2530,7 +2569,7 @@
             </div>
 
         </section>
-        <section class=" py-5  section6" id="pelda7leftId-m">
+        <section class=" py-5  section6" id="m-pelda7">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">
@@ -2663,7 +2702,7 @@
                 </div>
             </div>
         </section>
-        <section class=" py-5  section1" id="pelda6leftId-m">
+        <section class=" py-5  section1" id="m-pelda6">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-10 mt-0 pt-0 mb-0">

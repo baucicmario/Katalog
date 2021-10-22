@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 
      //medium screen scaling
-     if ($(window).width() > $(window).height() * 1.85) {
+     if ($(window).width() > $(window).height() * 1.7) {
         $('.ms-section > .row').removeClass('bgcontain');
         $('#pelda6leftId > div').removeClass('bgcontain');
         $('.ms-section > .row').addClass('bgcover');
