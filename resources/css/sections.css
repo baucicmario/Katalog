@@ -2,10 +2,6 @@
 background: linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
     color: rgb(255, 255, 255);
 }
-#large-emptyleftId{
-    position: relative;
-    z-index: 70;
-}
 .section1 {
 background: linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
     color: rgb(255, 255, 255);
@@ -24,9 +20,7 @@ background: linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 60%,
 }
 .section3 {
 background: linear-gradient(90deg, rgba(0,164,5,1) 0%, rgba(0,187,4,1) 37%, rgba(25,171,29,1) 85%);
-
-
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 }
 .section4-r {
 background: linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
@@ -61,166 +55,21 @@ background: linear-gradient(90deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rg
 color: white;
 }
 
-.large-pelda1rightId{
-color: white;
-background: url("/resources/img/half-sun-right.png"), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size:cover; 
-}
-.pelda1leftId{
-color: white;
-background: url("/resources/img/half-sun-left.png"), linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: cover; 
-}
-.large-pelda2rightId{
-color: white;
-background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
-background-size: cover; 
-}
-.pelda2leftId{
-color: white;
-background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
-background-size: cover; 
-}
-.pelda3leftId{
-color: white;
-background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
-background-size: cover; 
-}
-.large-pelda3rightId{
-color: white;
-background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
-background-size: cover; 
-}
-.pelda4leftId{
-color: white;
-background-image: url("/resources/img/half-flame-left.png"), linear-gradient(270deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rgba(154,41,0,1) 100%);
-background-size: cover; 
-}
-.large-pelda4rightId{
-color: white;
-background-image: url("/resources/img/half-flame-right.png"), linear-gradient(90deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rgba(154,41,0,1) 100%);
-background-size: cover; 
-}
-.large-pelda5rightId{
-color: white;
-background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
-background-size: cover; 
-}
-.pelda5leftId{
-color: white;
-background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
-background-size: cover; 
-}
-.large-pelda6rightId{
-color: white;
-background-image: url("/resources/img/half-snow-right.png"), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: cover; 
-}
-.pelda6leftId{
-color: white;
-background-image: url("/resources/img/half-snow-left.png"), linear-gradient(-90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: cover; 
-}
-.large-pelda7rightId{
-color: white;
-background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
-background-size: cover; 
-}
-.pelda7leftId{
-color: white;
-    color: rgb(255, 255, 255);
-background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
-background-size: cover; 
+
+
+
+.bgcover{
+    background-size:cover; 
 }
 
-.orangesection{
-    background-color: #FF4C00;
-
+.bgcontain{
+    background-size:contain; 
+    background-repeat: no-repeat;
 }
 
-.medium-large-pelda1rightId{
-color: white;
-background: url("/resources/img/half-sun-right.png"), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size:contain; 
-background-repeat: no-repeat;
 
-}
-.medium-pelda1leftId{
-color: white;
-background: url("/resources/img/half-sun-left.png"), linear-gradient(270deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda2rightId{
-color: white;
-background-image: url("/resources/img/half-light-right.png"), linear-gradient(90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda2leftId{
-color: white;
-background-image: url("/resources/img/half-light-left.png"), linear-gradient(-90deg, rgba(255,50,50,1) 0%, rgba(255,47,47,1) 44%, rgba(198,0,0,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda3leftId{
-color: white;
-background-image: url("/resources/img/half-temp-left.png"), linear-gradient(90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda3rightId{
-color: white;
-background-image: url("/resources/img/half-temp-right.png"), linear-gradient(-90deg, rgba(23,203,29,1) 0%, rgba(76,255,82,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda4leftId{
-color: white;
-background-image: url("/resources/img/half-flame-left.png"), linear-gradient(270deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rgba(154,41,0,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda4rightId{
-color: white;
-background-image: url("/resources/img/half-flame-right.png"), linear-gradient(90deg, rgba(255,98,0,1) 0%, rgba(255,68,0,1) 69%, rgba(154,41,0,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda5rightId{
-color: white;
-background-image: url("/resources/img/half-water-right.png"), linear-gradient(90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda5leftId{
-color: white;
-background-image: url("/resources/img/half-water-left.png"), linear-gradient(-90deg, rgba(70,169,255,1) 0%, rgba(68,157,235,1) 67%, rgba(38,101,157,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda6rightId{
-color: white;
-background-image: url("/resources/img/half-snow-right.png"), linear-gradient(90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda6leftId{
-color: white;
-background-image: url("/resources/img/half-snow-left.png"), linear-gradient(-90deg, rgba(44,131,245,1) 0%, rgba(25,95,190,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-large-pelda7rightId{
-color: white;
-background-image: url("/resources/img/half-secure-right.png"), linear-gradient(270deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
-.medium-pelda7leftId{
-color: white;
-    color: rgb(255, 255, 255);
-background-image: url("/resources/img/half-secure-left.png"), linear-gradient(90deg, rgba(89,0,181,1) 0%, rgba(154,52,255,1) 41%, rgba(172,91,255,1) 100%);
-background-size: contain; 
-background-repeat: no-repeat;
-}
+
+
+
+
+
