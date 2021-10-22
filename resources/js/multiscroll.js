@@ -67,12 +67,10 @@ $(document).ready(function () {
     $(window).resize(function () {
         var nw = $(window).width();
         if(oldwidth>nw*1.1){
-            alert("I am smaller");
             location.reload();
 
         }else{
             if(oldwidth*1.1<nw){
-                alert("I am bigger");
                 location.reload();
             }
         }       
