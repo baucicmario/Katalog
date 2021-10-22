@@ -67,7 +67,9 @@ color: white;
     background-repeat: no-repeat;
 }
 
-
+.noscroll{
+    overflow: scroll;
+}
 
 
 
