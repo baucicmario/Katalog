@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 
 
-    if ($(window).width() > $(window).height()) {
+    if ($(window).width()*0.8 > $(window).height()) {
 
         $('#mobile-left').addClass('d-none');
         $('#mobile-left').removeClass('ms-left');
