@@ -1,6 +1,7 @@
 import React from 'react';
 import * as THREE from 'three';
-import WAVES from "vanta/src/vanta.waves"; 'vanta/dist/vanta.waves.min';
+import WAVES from "vanta/src/vanta.waves";
+'vanta/dist/vanta.waves.min';
 
 
 export const effect = WAVES({
@@ -15,4 +16,3 @@ export const effect = WAVES({
     scaleMobile: 1.00,
     color: 0x077894
 });
-

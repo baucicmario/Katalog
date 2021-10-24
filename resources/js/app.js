@@ -28,4 +28,3 @@ import '../css/sections.css'
 //import { effect } from "./vanta_effect";
 
 effect;
-

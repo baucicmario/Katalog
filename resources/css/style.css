@@ -3,144 +3,152 @@
     height: 100%;
     width: 100%;
 }
-.fullscreen{
+
+.fullscreen {
     margin-left: -100%;
 }
-img{
-    object-fit:scale-down;
+
+img {
+    object-fit: scale-down;
 }
+
 .list-text {
     font-size: 1.3vh;
     color: rgb(255, 255, 255);
 }
+
 #list1 li {
     color: rgb(255, 255, 255);
     margin-left: 1rem;
 }
+
 .ms-section {
     vertical-align: top;
 }
-.mobile-screen{
-height: 95vh;
-}
-h4{
-  font-family: 'Roboto', sans-serif;
-  background-color: rgba(84, 84, 84, 0.521);
-  font-size: 2vw;
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  width: 65%;
-  margin-left: auto;
-  border-radius: 10px;
-  margin-right: auto;
+
+.mobile-screen {
+    height: 95vh;
 }
 
-
-
-strong{
-    font-family:  sans-serif;
-    font-weight:900;
+h4 {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(84, 84, 84, 0.521);
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 65%;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-right: auto;
 }
 
-#mobile-left strong{
-  
+strong {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+#mobile-left strong {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight:900;
+    font-weight: 900;
 }
-
-
 
 #menu {
     position: fixed;
     z-index: 70;
-   right: 0vw;
+    right: 0vw;
 }
-
-
 
 li {
-  font-size: 1.1vw;
-  font-family: 'Barlow', sans-serif;
-  font-weight:100;
+    font-size: 1.1vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
 }
 
-p{
-  font-size: 1.1vw;
-  font-family: 'Barlow', sans-serif;
-  font-weight:100;
-}
-#mobile-left p{
-  font-size: 2vh;
-  font-family: 'Barlow', sans-serif;
-  font-weight:500;
-}
-#mobile-left li{
-  font-size: 2vh;
-  font-family: 'Barlow', sans-serif;
-  font-weight:500;
+p {
+    font-size: 1.1vw;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
 }
 
-html{
-  font-family: 'montserrat-regular',sans-serif;
-  font-weight: 100;
+#mobile-left p {
+    font-size: 2vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
 }
 
+#mobile-left li {
+    font-size: 2vh;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
 
+html {
+    font-family: 'montserrat-regular', sans-serif;
+    font-weight: 100;
+}
 
 .tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }
 
-
-
- @-webkit-keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes tracking-in-expand {
-  0% {
-    letter-spacing: -0.5em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 98vw;
+    height: 90vh;
+}
 
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
 
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tg  {border-collapse:collapse;border-spacing:0; width: 98vw; height: 90vh;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}

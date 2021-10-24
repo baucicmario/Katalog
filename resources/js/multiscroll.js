@@ -1,17 +1,16 @@
-
-$(document).ready(function () {
+$(document).ready(function() {
     //small screen right side removal
 
 
 
-     //medium screen scaling
-     if ($(window).width() > $(window).height() * 1.7) {
+    //medium screen scaling
+    if ($(window).width() > $(window).height() * 1.7) {
         $('.ms-section > .row').removeClass('bgcontain');
         $('#pelda6leftId > div').removeClass('bgcontain');
         $('.ms-section > .row').addClass('bgcover');
         $('#pelda6leftId > div').addClass('bgcover');
-    } else{
-        
+    } else {
+
         $('.ms-section > .row').addClass('bgcontain');
         $('#pelda6leftId > div').addClass('bgcontain');
         $('.ms-section > .row').removeClass('bgcover');
@@ -22,7 +21,7 @@ $(document).ready(function () {
 
 
 
-    if ($(window).width()*0.8 > $(window).height()) {
+    if ($(window).width() * 0.8 > $(window).height()) {
         //big screen
         $('#mobile-left').addClass('d-none');
         $('#mobile-left').removeClass('ms-left');
@@ -60,21 +59,21 @@ $(document).ready(function () {
         $('#mobile-right').addClass('ms-right');
         $('#menu2').removeClass('d-none');
         $('#menu').addClass('d-none');
-//big screen
+        //big screen
     }
 
 
     var oldwidth = $(window).width();
-    $(window).resize(function () {
+    $(window).resize(function() {
         var nw = $(window).width();
-        if(oldwidth>nw*1.1){
+        if (oldwidth > nw * 1.1) {
             location.reload();
 
-        }else{
-            if(oldwidth*1.1<nw){
+        } else {
+            if (oldwidth * 1.1 < nw) {
                 location.reload();
             }
-        }       
+        }
     });
 
 
@@ -85,8 +84,3 @@ $(document).ready(function () {
 
 
 });
-
-
-
-
-
