@@ -37,11 +37,11 @@ $(document).ready(function() {
         $('#menu').removeClass('d-none');
 
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8', 'large-empty', 'large-empty1', 'large-empty2', 'large-empty3', 'large-empty4', 'large-empty5', 'large-empty6'],
+            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8', 'large-empty', 'large-empty1', 'large-empty2', 'large-empty3', 'large-empty4', 'large-empty5', 'large-empty6'],
             menu: '#menu',
             navigationPosition: 'left',
             navigation: false,
-            navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés'],
+            navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés'],
             verticalCentered: true,
             navigationColor: '#FFFFFF',
         });
