@@ -14,8 +14,10 @@
     box-shadow: 0 9px #999;
   }
   
-  .button:hover {background-color: #e7e7e7;
-    border: 5px solid #ffffff;}
+  .button:hover {background-color: #ffffff;
+    border: 5px solid #ffffff;
+    color: #FF5600;
+}
   
   .button:active {
     background-color: #646464;
