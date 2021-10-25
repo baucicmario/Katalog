@@ -277,7 +277,7 @@ html {
 }
 
 .section3-r {
-    background: linear-gradient(-90deg, rgba(23, 203, 29, 1) 0%, rgba(76, 255, 82, 1) 60%, rgba(25, 171, 29, 1) 100%);
+    background: linear-gradient(-90deg, rgba(23, 203, 29, 1) 0%, rgb(35, 211, 41) 60%, rgba(25, 171, 29, 1) 100%);
     color: rgb(255, 255, 255);
 }
 

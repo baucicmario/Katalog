@@ -37,7 +37,7 @@ $(document).ready(function() {
         $('#menu').removeClass('d-none');
 
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8', 'large-empty', 'large-empty1', 'large-empty2', 'large-empty3', 'large-empty4', 'large-empty5', 'large-empty6'],
+            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8', 'large-empty', 'large-empty1', 'large-empty2', 'large-empty3', 'large-empty4', 'large-empty5', 'large-empty6','pelda8'],
             menu: '#menu',
             navigationPosition: 'left',
             navigation: false,
