@@ -29,15 +29,15 @@ $(document).ready(function() {
         $('#mobile-right').removeClass('ms-right');
 
 
-        $('#large-left').removeClass('d-none');
-        $('#large-left').addClass('ms-left');
-        $('#large-right').removeClass('d-none');
-        $('#large-right').addClass('ms-right');
+        $('#left').removeClass('d-none');
+        $('#left').addClass('ms-left');
+        $('#right').removeClass('d-none');
+        $('#right').addClass('ms-right');
         $('#menu2').addClass('d-none');
         $('#menu').removeClass('d-none');
 
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda5', 'pelda4', 'pelda7', 'pelda6', 'pelda8', 'large-empty', 'large-empty1', 'large-empty2', 'large-empty3', 'large-empty4', 'large-empty5', 'large-empty6','pelda8'],
+            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'katalog'],
             menu: '#menu',
             navigationPosition: 'left',
             navigation: false,
@@ -47,10 +47,10 @@ $(document).ready(function() {
         });
     } else {
         //small screen
-        $('#large-left').addClass('d-none');
-        $('#large-left').removeClass('ms-left');
-        $('#large-right').addClass('d-none');
-        $('#large-right').removeClass('ms-right');
+        $('#left').addClass('d-none');
+        $('#left').removeClass('ms-left');
+        $('#right').addClass('d-none');
+        $('#right').removeClass('ms-right');
 
 
         $('#mobile-left').removeClass('d-none');
