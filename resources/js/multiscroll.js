@@ -26,6 +26,7 @@ $(document).ready(function () {
         $('#menu2').addClass('d-none');
         $('#menu').removeClass('d-none');
         $('.ms-section').addClass('container-fluid');
+		$('#mobile-left > section').addClass('pt-5');
 
     //multiscroll engine
         $('#containerDivID').multiscroll({
