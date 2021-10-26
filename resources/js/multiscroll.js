@@ -1,7 +1,4 @@
-$(document).ready(function() {
-    //small screen right side removal
-
-
+$(document).ready(function () {
 
     //medium screen scaling
     if ($(window).width() > $(window).height() * 1.7) {
@@ -10,32 +7,27 @@ $(document).ready(function() {
         $('.ms-section > .row').addClass('bgcover');
         $('#pelda6leftId > div').addClass('bgcover');
     } else {
-
         $('.ms-section > .row').addClass('bgcontain');
         $('#pelda6leftId > div').addClass('bgcontain');
         $('.ms-section > .row').removeClass('bgcover');
         $('#pelda6leftId > div').removeClass('bgcover');
     }
-    //multiscroll engine
-
-
-
-
+    //big screen scaling
     if ($(window).width() * 0.8 > $(window).height()) {
-        //big screen
+
         $('#mobile-left').addClass('d-none');
         $('#mobile-left').removeClass('ms-left');
         $('#mobile-right').addClass('d-none');
         $('#mobile-right').removeClass('ms-right');
-
-
         $('#left').removeClass('d-none');
         $('#left').addClass('ms-left');
         $('#right').removeClass('d-none');
         $('#right').addClass('ms-right');
         $('#menu2').addClass('d-none');
         $('#menu').removeClass('d-none');
+        $('.ms-section').addClass('container-fluid');
 
+    //multiscroll engine
         $('#containerDivID').multiscroll({
             anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'katalog'],
             menu: '#menu',
@@ -46,7 +38,7 @@ $(document).ready(function() {
             navigationColor: '#FFFFFF',
         });
     } else {
-        //small screen
+    //small screen
         $('#left').addClass('d-none');
         $('#left').removeClass('ms-left');
         $('#right').addClass('d-none');
@@ -59,12 +51,11 @@ $(document).ready(function() {
         $('#mobile-right').addClass('ms-right');
         $('#menu2').removeClass('d-none');
         $('#menu').addClass('d-none');
-        //big screen
     }
 
 
     var oldwidth = $(window).width();
-    $(window).resize(function() {
+    $(window).resize(function () {
         var nw = $(window).width();
         if (oldwidth > nw * 1.1) {
             location.reload();
@@ -75,12 +66,4 @@ $(document).ready(function() {
             }
         }
     });
-
-
-
-
-
-
-
-
 });

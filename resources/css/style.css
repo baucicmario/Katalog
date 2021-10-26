@@ -57,6 +57,11 @@ strong {
     z-index: 70;
     right: 0vw;
 }
+#menu2 {
+    position: fixed;
+    z-index: 70;
+    right: 0vw;
+}
 
 li {
     font-size: 1.1vw;
