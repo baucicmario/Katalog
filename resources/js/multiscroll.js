@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     //medium screen scaling
     if ($(window).width() > $(window).height() * 1.7) {
@@ -26,11 +26,11 @@ $(document).ready(function () {
         $('#menu2').addClass('d-none');
         $('#menu').removeClass('d-none');
         $('.ms-section').addClass('container-fluid');
-		$('#mobile-left > section').addClass('pt-5');
+        $('#mobile-left > section').addClass('pt-5');
 
-    //multiscroll engine
+        //multiscroll engine
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation','wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8','pelda9', 'katalog'],
+            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'pelda9', 'katalog'],
             menu: '#menu',
             navigationPosition: 'left',
             navigation: false,
@@ -39,7 +39,7 @@ $(document).ready(function () {
             navigationColor: '#FFFFFF',
         });
     } else {
-    //small screen
+        //small screen
         $('#left').addClass('d-none');
         $('#left').removeClass('ms-left');
         $('#right').addClass('d-none');
@@ -56,7 +56,7 @@ $(document).ready(function () {
 
 
     var oldwidth = $(window).width();
-    $(window).resize(function () {
+    $(window).resize(function() {
         var nw = $(window).width();
         if (oldwidth > nw * 1.1) {
             location.reload();

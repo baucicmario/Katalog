@@ -63,12 +63,6 @@ strong {
     right: 0vw;
 }
 
-li {
-    font-size: 1.1vw;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 100;
-}
-
 p {
     font-size: 1.1vw;
     font-family: 'Barlow', sans-serif;
@@ -76,12 +70,6 @@ p {
 }
 
 #mobile-left p {
-    font-size: 2vh;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 500;
-}
-
-#mobile-left li {
     font-size: 2vh;
     font-family: 'Barlow', sans-serif;
     font-weight: 500;
