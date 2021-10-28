@@ -145,3 +145,8 @@ html {
     text-align: left;
     vertical-align: top
 }
+
+hr{
+    border: 2px solid white;
+    border-radius: 5px;
+}
