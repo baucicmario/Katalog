@@ -148,7 +148,7 @@ h4 {
 
 strong {
     font-family: sans-serif;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 #mobile-left strong {
@@ -248,6 +248,11 @@ html {
 .tg .tg-0lax {
     text-align: left;
     vertical-align: top
+}
+
+hr{
+    border: 2px solid white;
+    border-radius: 5px;
 }
 .section1-r {
     background: linear-gradient(90deg, rgba(44, 131, 245, 1) 0%, rgba(25, 95, 190, 1) 100%);
