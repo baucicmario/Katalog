@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
     //redundant classes
-
     $('#containerDivID > div > section').addClass('ms-section');
     $('#containerDivID > div > section').addClass('container-fluid');
     $('#containerDivID > div > section > div').addClass('row');
