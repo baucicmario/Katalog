@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Katalog</title>
     <link rel="stylesheet" href="resources/css/dist/appstyle.css" />
+    <link rel="stylesheet" href="resources/css/sections.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/pulse.css" />
+    <link rel="stylesheet" href="resources/css/button.css" />
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
 
@@ -3512,7 +3516,7 @@
     <script src="resources/js/dist/build.js"></script>
     <script>
         function openNav() {
-            document.getElementById("mySidenav").style.width = "20vw";
+            document.getElementById("mySidenav").style.width = "250px";
         }
 
         function closeNav() {
@@ -3520,7 +3524,7 @@
         }
 
         function openNav2() {
-            document.getElementById("mySidenav2").style.width = "20vw";
+            document.getElementById("mySidenav2").style.width = "250px";
         }
 
         function closeNav2() {
