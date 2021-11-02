@@ -6,6 +6,10 @@ $(document).ready(function() {
     $('#containerDivID > div > section').addClass('container-fluid');
     $('#containerDivID > div > section > div').addClass('row');
     $('#mobile-left > section').addClass('pt-5');
+    $('#mobile-left > section > div').addClass('container-fluid');
+    $('#mobile-left > section > div > div').addClass('row');
+    $('#mobile-left > section > div > div').addClass('align-items-center');
+
 
     
 
