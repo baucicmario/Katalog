@@ -1,5 +1,21 @@
 $(document).ready(function() {
 
+    //redundant classes
+
+    $('#containerDivID > div > section').addClass('ms-section');
+    $('#containerDivID > div > section').addClass('container-fluid');
+    $('#mobile-left > section').addClass('pt-5');
+
+    
+
+
+
+
+
+
+
+
+
     //medium screen scaling
     if ($(window).width() > $(window).height() * 1.7) {
         $('.ms-section > .row').removeClass('bgcontain');
