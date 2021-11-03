@@ -6,8 +6,8 @@ $(document).ready(function() {
     $('#containerDivID > div > section > div').addClass('print2');
     
     $('#containerDivID > div > section ').addClass('print');
-    $('#containerDivID > div > section ').addClass('align-items-center');
-    $('#containerDivID > div > section > div').addClass('row');
+    $('#containerDivID > div > section ').addClass('d-flex align-items-center');
+    $('#containerDivID > div > section > div').addClass('row box');
     $('#mobile-left > section').addClass('pt-5');
     $('#mobile-left > section > div').addClass('container-fluid');
     $('#mobile-left > section > div > div').addClass('row');
