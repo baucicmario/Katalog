@@ -3,6 +3,13 @@
     height: 100%;
     width: 100%;
 }
+.print{
+    
+    width: 50vw!important;
+    height: 100vh!important;
+}
+.print2{
+}
 
 .fullscreen {
     margin-left: -100%;
