@@ -50,11 +50,10 @@ $(document).ready(function() {
 
         //multiscroll engine
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'pelda9', 'katalog'],
-            menu: '#menu',
+           menu: '#menu',
             navigationPosition: 'left',
             navigation: false,
-            navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés'],
+            navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés',],
             verticalCentered: true,
             navigationColor: '#FFFFFF',
         });
