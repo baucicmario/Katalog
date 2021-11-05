@@ -52,6 +52,7 @@ $(document).ready(function() {
         $('#containerDivID').multiscroll({
             anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'pelda9', 'katalog'],
             menu: '#menu',
+            licenseKey: '2B5F90AB-9EA14D00-B905CB66-CC8855BA',
             navigationPosition: 'left',
             navigation: false,
             navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés'],
