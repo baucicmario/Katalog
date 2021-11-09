@@ -664,7 +664,7 @@ print "<!DOCTYPE html>
                                                 alt=\"Third slide climate control\">
                                             <div class=\"carousel-caption d-none d-md-block\">
                                                 <h4>
-                                                    Fűtésvezérlését
+                                                    Fűtésvezérlés
                                                 </h4>
                                             </div>
                                         </div>
@@ -899,7 +899,7 @@ print "<!DOCTYPE html>
                                                 alt=\"Second slide door opener\">
                                             <div class=\"carousel-caption d-none d-md-block\">
                                                 <h4>
-                                                    Atumatizálás
+                                                    Automatizálás
                                                 </h4>
                                             </div>
                                         </div>
@@ -2699,7 +2699,7 @@ print "<!DOCTYPE html>
                                                 alt=\"Third slide climate control\">
                                             <div class=\"carousel-caption d-none d-md-block\">
                                                 <h4>
-                                                    Fűtésvezérlését
+                                                    Fűtésvezérlés
                                                 </h4>
                                             </div>
                                         </div>
@@ -3145,7 +3145,7 @@ print "<!DOCTYPE html>
                                                 alt=\"First slide temperature control\">
                                             <div class=\"carousel-caption d-none d-md-block\">
                                                 <h4>
-                                                    Atumatizálás
+                                                    Automatizálás
                                                 </h4>
                                             </div>
                                         </div>
