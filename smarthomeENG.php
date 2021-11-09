@@ -19,7 +19,8 @@ $counterVal++;
 $f = fopen($counter_name, "w");
 fwrite($f, $counterVal);
 fclose($f);
-?><head>
+?>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Catalogue</title>
