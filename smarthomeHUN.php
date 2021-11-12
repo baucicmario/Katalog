@@ -341,7 +341,7 @@ fclose($f);
                         </div>
                         <div class="col-10 my-auto">
                             <p class="text1 my-auto py-3">
-                                A rendszer értesíteni a felhasználót amennyiben nyitva felejtett egy ablakot és
+                                A rendszer értesítia felhasználót amennyiben nyitva felejtett egy ablakot és
                                 <strong>automatikusan kikapcsolja a bekapcsolva hagyott eszközöket.</strong>
                             </p>
                         </div>
@@ -2118,7 +2118,7 @@ fclose($f);
                     </div>
                     <div class="col-9 p-0 mb-0">
                         <p class="align-text-bottom">
-                            A rendszer értesíteni a felhasználót amennyiben nyitva felejtett egy ablakot és
+                            A rendszer értesítia felhasználót amennyiben nyitva felejtett egy ablakot és
                             <strong>automatikusan kikapcsolja a bekapcsolva hagyott eszközöket.</strong>
                         </p>
                     </div>
