@@ -80,14 +80,14 @@ fclose($f);
         <a href="#m-katalog" class="mb-5" onclick="closeNav2()()">Our newest products</a>
     </div>
     <div id="menu" class=" mt-2 mr-5">
-    <a href="https://videosec.com/index.php"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png"alt="v-sec logo"></a>
+    <a href="https://videosec.com/?cmdLang=ENG"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png"alt="v-sec logo"></a>
         <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
         <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
         <a href="#wall"><img id="wifi-logo" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
          <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
     </div>
     <div id="menu2" class="  mt-2 mr-5">
-    <a href="https://videosec.com/index.php"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png"alt="v-sec logo"></a>
+    <a href="https://videosec.com/?cmdLang=ENG"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png"alt="v-sec logo"></a>
         <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
         <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
         <a href="#wall"><img id="wifi-logo" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
