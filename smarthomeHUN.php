@@ -1034,7 +1034,7 @@ fclose($f);
                                 </p>
                             </div>
                             <div class="col-7 ml-auto">
-                                <a href="./shHUN.php" target="_blank">
+                                <a href="http://videosec.com/catpage/shHUN.php" target="_blank">
                                     <button class="button px-5" href="">PDF letöltése</button>
                                 </a>
                             </div>

@@ -84,7 +84,7 @@ fclose($f);
     </div>
     <div id="menu" class=" mt-2 mr-5">
         <a href="https://videosec.com/?lp=CatBack"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/videoseclogo.gif" alt="Videosec.com"></a>
-        <a href="http://videosec.com/catpage/shHUN.php"><img id="pdf-logo" style="width: 7vh;" class="mr-3" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
+        <a href="http://videosec.com/catpage/shENG.php"><img id="pdf-logo" style="width: 7vh;" class="mr-3" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
         <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
         <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
         <a href="#wall"><img id="wifi-logo" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
@@ -98,7 +98,7 @@ fclose($f);
     </div>
     <div id="menu2" class="  mt-2 mr-5">
         <a href="https://videosec.com/?lp=CatBack"><img id="Videosec-logo" style="width: 11vw;" class="" src="./resources/img/videoseclogo.gif" alt="Videosec.com"></a>
-        <a href="http://videosec.com/catpage/shHUN.php"><img id="pdf-logo" style="width: 11vw;" class="" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
+        <a href="http://videosec.com/catpage/shENG.php"><img id="pdf-logo" style="width: 11vw;" class="" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
         <a href="#wall"><img id="zigbee-logo" style="width: 11vw;" class="" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
         <a href="#tuya"><img id="Tuya-logo" style="width: 11vw;" class="" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
         <a href="#wall"><img id="wifi-logo" style="width: 11vw;" class="" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
@@ -1029,7 +1029,7 @@ fclose($f);
                                 </p>
                             </div>
                             <div class="col-7 ml-auto">
-                                <a href="./resources/PDF/termekekENG.pdf" target="_blank">
+                                <a href="http://videosec.com/catpage/shENG.php" target="_blank">
                                     <button class="button px-5" href="">Download</button>
                                 </a>
                             </div>
@@ -3188,7 +3188,7 @@ fclose($f);
                             </p>
                         </div>
                         <div class="col-7 mr-auto">
-                            <a href="https://videosec.com/catpage/Videosec_Q4_HUN.pdf" target="_blank">
+                            <a href="http://videosec.com/catpage/shENG.php" target="_blank">
                                 <button class="button px-5" href="">Download</button>
                             </a>
                         </div>
