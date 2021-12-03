@@ -162,6 +162,13 @@ strong {
     right: 0vw;
 }
 
+#menu2 {
+    position: fixed;
+    z-index: 70;
+    right: 0vw;
+    top: 0vh;
+}
+
 #menu3 {
     position: fixed;
     z-index: 70;

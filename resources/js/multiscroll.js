@@ -52,6 +52,7 @@ $(document).ready(function() {
         $('#right').addClass('ms-right');
         $('#menu2').addClass('d-none');
         $('#menu').removeClass('d-none');
+        $('#menu3').removeClass('d-none');
         $('.ms-section').addClass('container-fluid');
         $('#mobile-left > section').addClass('pt-5');
 
@@ -80,6 +81,7 @@ $(document).ready(function() {
 
         $('#mobile-left').removeClass('d-none');
         $('#mobile-right').removeClass('d-none');
+        $('#menu3').addClass('d-none');
         $('#menu2').removeClass('d-none');
         $('#menu').addClass('d-none');
     }
