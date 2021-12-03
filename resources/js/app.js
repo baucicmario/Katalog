@@ -3,6 +3,7 @@ import '../css/style.css'
 import '../css/sections.css'
 import '../css/pulse.css'
 import '../css/button.css'
+import '../css/scrollbar.css'
 import '../scss/main.scss';
 import '../scss/mobile_scroll.scss';
 import '../scss/intro.scss';

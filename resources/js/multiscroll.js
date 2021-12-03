@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('#mobile-left > section > div > div').addClass('align-items-center');
 
 
-    
+
 
 
 
@@ -22,6 +22,9 @@ $(document).ready(function() {
 
     //medium screen scaling
     if ($(window).width() > $(window).height() * 1.7) {
+        $('html').removeClass('noscroll');
+        $('body').removeClass('noscroll');
+        $('#containerDivID').removeClass('d-none');
         $('.ms-section > .row').removeClass('bgcontain');
         $('#pelda6leftId > div').removeClass('bgcontain');
         $('.ms-section > .row').addClass('bgcover');
@@ -35,6 +38,10 @@ $(document).ready(function() {
     //big screen scaling
     if ($(window).width() * 0.8 > $(window).height()) {
 
+        $('html').removeClass('noscroll');
+        $('body').removeClass('noscroll');
+
+        $('#containerDivID').removeClass('d-none');
         $('#mobile-left').addClass('d-none');
         $('#mobile-left').removeClass('ms-left');
         $('#mobile-right').addClass('d-none');
@@ -54,13 +61,17 @@ $(document).ready(function() {
             menu: '#menu',
             licenseKey: '2B5F90AB-9EA14D00-B905CB66-CC8855BA',
             navigationPosition: 'left',
-            navigation: false,
-            navigationTooltips: ['Borító', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energia hatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Innovatív megoldások', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés és automatizálás', 'Fűtés-/Hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Egy biztonsági rendszer', 'Fagymentesítés'],
+            navigation: true,
+            navigationTooltips: ['Kezdőlap', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energiahatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Kinetikus kapcsolók', 'Kinetikus kapcsolók vevőegységei (aktuátorai)', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés', 'Fűtés-/hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Biztonság', 'Kamera vezérlés', 'Beépíthető aktuátor', 'Fagymentesítés', 'Legfrisebb termékeink'],
             verticalCentered: true,
             navigationColor: '#FFFFFF',
         });
+
+        $.fn.multiscroll.moveTo('cover');
     } else {
         //small screen
+        $('html').addClass('noscroll');
+        $('body').addClass('noscroll');
         $('#left').addClass('d-none');
         $('#left').removeClass('ms-left');
         $('#right').addClass('d-none');
@@ -68,9 +79,7 @@ $(document).ready(function() {
 
 
         $('#mobile-left').removeClass('d-none');
-        $('#mobile-left').addClass('ms-left');
         $('#mobile-right').removeClass('d-none');
-        $('#mobile-right').addClass('ms-right');
         $('#menu2').removeClass('d-none');
         $('#menu').addClass('d-none');
     }
@@ -80,12 +89,30 @@ $(document).ready(function() {
     $(window).resize(function() {
         var nw = $(window).width();
         if (oldwidth > nw * 1.1) {
+            window.scrollTo(0, 0);
             location.reload();
+            $.fn.multiscroll.moveTo('cover');
+
 
         } else {
             if (oldwidth * 1.1 < nw) {
+                window.scrollTo(0, 0);
                 location.reload();
+                $.fn.multiscroll.moveTo('cover');
+
             }
         }
     });
+
+
+
 });
+
+function NextPage() {
+    $.fn.multiscroll.moveSectionDown();
+}
+window.onload = function() {
+    document.getElementById('btn_text').onclick = function() {
+        $.fn.multiscroll.moveSectionDown();
+    }
+}
