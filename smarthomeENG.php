@@ -43,8 +43,7 @@ fclose($f);
             <a href="#wall" onclick="closeNav()">Kinetic switch controllers</a>
             <a href="#Tuya" onclick="closeNav()">Management</a>
             <p class="pt-5" style="font-size: 2vh; color: white;">Examples:</p>
-            <a href="#pelda1" onclick="closeNav()">Automation solutions for a comfortable morning
-        </a>
+            <a href="#pelda1" onclick="closeNav()">Automation solutions for a comfortable morning</a>
             <a href="#pelda2" onclick="closeNav()">Controlling lighting with automation</a>
             <a href="#pelda3" onclick="closeNav()">Climate control with automation</a>
             <a href="#pelda4" onclick="closeNav()">Water detection and leak prevention</a>
