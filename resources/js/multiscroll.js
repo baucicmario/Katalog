@@ -58,12 +58,12 @@ $(document).ready(function() {
 
         //multiscroll engine
         $('#containerDivID').multiscroll({
-            anchors: ['cover', 'smarthome', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'pelda9', 'katalog'],
+            anchors: ['cover', 'smarthome', 'HomeAssistant', 'automation', 'camera', 'green', 'safety', 'security', 'innovation', 'wall', 'tuya', 'pelda1', 'pelda2', 'pelda3', 'pelda4', 'pelda5', 'pelda6', 'pelda7', 'pelda8', 'pelda9', 'katalog'],
             menu: '#menu',
             licenseKey: '2B5F90AB-9EA14D00-B905CB66-CC8855BA',
             navigationPosition: 'left',
             navigation: true,
-            navigationTooltips: ['Kezdőlap', 'Intelligens épület', 'Automatizálás', 'Kamera integráció', 'Energiahatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Kinetikus kapcsolók', 'Kinetikus kapcsolók vevőegységei (aktuátorai)', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés', 'Fűtés-/hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Biztonság', 'Kamera vezérlés', 'Beépíthető aktuátor', 'Fagymentesítés', 'Legfrisebb termékeink'],
+            navigationTooltips: ['Kezdőlap', 'Intelligens épület', 'HomeAssistant', 'Automatizálás', 'Kamera integráció', 'Energiahatékonyság', 'Épületbiztonság', 'Vagyonbiztonság', 'Kinetikus kapcsolók', 'Kinetikus kapcsolók vevőegységei (aktuátorai)', 'Vezérlés', 'Reggeli Rutinok', 'Világításvezérlés', 'Fűtés-/hűtésvezérlés', 'Vízérzékelés', 'Gázérzékelés', 'Biztonság', 'Kamera vezérlés', 'Beépíthető aktuátor', 'Fagymentesítés', 'Legfrisebb termékeink'],
             verticalCentered: true,
             navigationColor: '#FFFFFF',
         });
