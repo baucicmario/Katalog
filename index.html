@@ -63,6 +63,7 @@ fclose($f);
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()()">X</a>
             <a href="#m-cover" onclick="closeNav2()()">Kezdőlap </a>
             <a href="#m-smarthome" onclick="closeNav2()()">Intelligens épület</a>
+            <a href="#m-HomeAssistant" onclick="closeNav2()()">Home Assistant</a>
             <a href="#m-automation" onclick="closeNav2()()">Automatizálás</a>
             <a href="#m-camera" onclick="closeNav2()()">Kamera integráció</a>
             <a href="#m-green" onclick="closeNav2()()">Energiahatékonyság </a>
@@ -489,6 +490,65 @@ fclose($f);
                             <div class="col-10 my-auto">
                                 <p class="text1 my-auto py-3">
                                     <strong>Zigbee és WiFi</strong> hálózattal is működő eszközök is választhatóak
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class=" section1">
+                    <div class=" align-items-center">
+                        <div class="col-sm-2 ml-3 h-100 ">
+                            <img class="w-100 h-auto" src="./resources/img/Tuya-home.png" alt="tuyo home logo">
+                        </div>
+                        <div class="col-sm-8 mx-2 ">
+                            <h1 class="header-text">
+                                Fejlet Vezérlés
+                            </h1>
+                        </div>
+                        <div class="row pt-1">
+                            <div class="col-sm-11 h-auto m-auto">
+                                <p class="text1 my-auto py-1">
+                                    Amennyibben Homeassitant rendszer mellet dönt lehetőség nyílik a szokásosnál sokkal fejlettebb automatizációk és vezérlések létrehozására. Mivel a rendszer közvetlen az otthonából vezérel mindent így internet kapcsolat nélkül is működőképes marad mindaddig
+                                    amíg van áramellátás.Ezen felül:<br>
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/weather.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Akár bonyolult automatizációkat (számlálás, döntések, személy követés) is létre tudunk hozni vizuális felületen (Node-RED) és ezek működési folyamatát is követhetjük</p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/controlpanel.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Nem csak tuya eszközök adatai alapján indíthatunk automatizációkat hanem minden támogatott készülék vagy szolgáltatás (autó, hűtőszekrény, tőzsde adatok, nfc tag stb.) adatait felhasználhatjuk. valamint parancsokat is küldhetünk feléjük.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/location.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Open-source jellegének köszönhetően minden aspektusban módosítható az eszköz amennyiben a felhasználó igényli.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/integration.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Felhasználónként képesek vagyunk korlátozásokat valamint hozzájuk csatolt eszközöket rendelni. Ennek köszönhetően a rendszer képes követni helyzetüket. (ki érkezet haza, Merre jár a gyerek az iskola után stb.)*
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/zigbee.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Az eszköz wifi hálózaton és Zigbee-n keresztül HUB nélkül képes működni. tejesen önállóan*.
                                 </p>
                             </div>
                         </div>
@@ -1319,6 +1379,13 @@ fclose($f);
                         </div>
                     </div>
                 </section>
+                <section class=" section1-r ">
+                    <div class=" h-100 align-items-end">
+                        <div class="col-12 ">
+                            <img src="./resources/img/Tuya-full.png" class=" " style="width: 102%;" alt="Tuya funcions">
+                        </div>
+                    </div>
+                </section>
                 <!--peldak-->
                 <section class=" section1-r">
                     <div class=" vh-100  " style="background-image: url('./resources/img/half-sun-right.png'); ">
@@ -1883,6 +1950,63 @@ fclose($f);
                             </div>
                             <div class="col-12 text-bottom mt-auto ">
                                 <img src="./resources/img/okosotthon.png" class="vw-100 m-0 p-0" alt="automation phone image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section1" id="m-HomeAssistant">
+                    <div class="">
+                        <div>
+                            <div class="col-3">
+                                <img style="width: 100%;" src="./resources/img/homeassitant.png" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h1 class="m-header-text">
+                                    Független és megbízható
+
+                                </h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="m-text1">
+                                    Home assistant modulunk beépítése lehetőséget nyújt arra, hogy egy esetleges gyártói szolgáltatás vagy<strong> az internetkapcsolat megszakadásánál továbbra is zökkenőmentesen működjenek okos rendszereink.</strong>                                    Több mint ezer különböző rendszercsaládot támogat (tuya, ewelink, philips, mazda stb.), valamint a rendszer a hagyományosnál fejlettebb automatizációkat is képes végrehajtani. Otthonunk a modul beépítését követően teljesen
+                                    függetlenné válik minden külső rendszertől, ennek köszönhetően:
+
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/nonet.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    <strong>Külső internet kapcsolat nélkül</strong> is teljes működést képesek biztosítani.
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/expand.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    <strong>Széles körűen integrálható</strong> többezer eszközzel. Így ezekhez is köthetők automatizációk valamint egy felületen elérhetőek ( <a style="color: white; font-weight: 900;" href="https://www.home-assistant.io/integrations/#all">  további információ</a>                                    )
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/safety.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    Lokális elhelyezés miatt a <strong>legmagasabb szintű biztonság</strong> is elérhető.
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/reliable.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    <strong>Hosszú távú megbízhatóságot</strong> biztosít hiszen nem kapcsolódik semmilyen külső vállalathoz vagy kormányhoz
+                                </p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <img src="./resources/img/home_assistant_usecase.png" class=" w-100 mt-0" alt="automation phone image">
                             </div>
                         </div>
                     </div>
