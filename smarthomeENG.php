@@ -43,7 +43,8 @@ fclose($f);
             <a href="#wall" onclick="closeNav()">Kinetic switch controllers</a>
             <a href="#Tuya" onclick="closeNav()">Management</a>
             <p class="pt-5" style="font-size: 2vh; color: white;">Examples:</p>
-            <a href="#pelda1" onclick="closeNav()">Automation solutions for a comfortable morning</a>
+            <a href="#pelda1" onclick="closeNav()">Automation solutions for a comfortable morning
+        </a>
             <a href="#pelda2" onclick="closeNav()">Controlling lighting with automation</a>
             <a href="#pelda3" onclick="closeNav()">Climate control with automation</a>
             <a href="#pelda4" onclick="closeNav()">Water detection and leak prevention</a>
@@ -68,7 +69,8 @@ fclose($f);
             <a href="#m-wall" onclick="closeNav2()()">Kinetic switch controllers</a>
             <a href="#m-Tuya" onclick="closeNav2()()">Management</a>
             <p class="pt-5" style="font-size: 2vh; color: white;">Examples:</p>
-            <a href="#m-pelda1" onclick="closeNav2()()">Automation solutions for a comfortable morning</a>
+            <a href="#m-pelda1" onclick="closeNav2()()">Automation solutions for a comfortable morning
+        </a>
             <a href="#m-pelda2" onclick="closeNav2()()">Controlling lighting with automation</a>
             <a href="#m-pelda3" onclick="closeNav2()()">Climate control with automation</a>
             <a href="#m-pelda4" onclick="closeNav2()()">Water detection and leak prevention</a>
@@ -195,6 +197,14 @@ fclose($f);
                     <div class="  ">
                         <div class="col-12 ">
                             <img src="./resources/img/automation.png" class="vh-100 w-100 mb-0" style="margin-left: -2%" alt="automation phone image">
+                        </div>
+                    </div>
+                </section>
+
+                <section class=" section1">
+                    <div class="  ">
+                        <div class="col-12 ">
+                            <img src="./resources/img/home_assistant_usecase.png" class="vh-100 w-100 mb-0" style="margin-left: -2%" alt="automation phone image">
                         </div>
                     </div>
                 </section>
@@ -1098,6 +1108,59 @@ fclose($f);
                         </div>
                     </div>
                 </section>
+                <section class=" section1-r">
+                    <div class="  align-items-center">
+                        <div class="col-sm-2 ml-3 h-100 ">
+                            <img class="w-100 h-auto" src="./resources/img/homeassitant.png" alt="greenhome logo">
+                        </div>
+                        <div class="col-sm-8 mx-2 ">
+                            <h1 class="header-text">
+                                Independent and reliable
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row align-items-center">
+                            <div class="col-sm-11 h-auto m-auto">
+                                <p class="text1 my-auto py-3">
+                                    Using a self hosted Home Assitant server, allows the user to <strong> Controll smart systems without an internet connection</strong>. The system supports more than a thousand integrations (Tuya, eWelink, Philips, BMW
+                                    ect.) and can execute graphicaly editable automations for them. After instalation in our home, the building becomes an independent smart system and can:</p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-5 my-2" src="./resources/img/nonet.png" alt="no wifi">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 ml-3">
+
+                                    Work with all features enabled <strong>Without an internet connection</strong>. </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-5 my-2" src="./resources/img/expand.png" alt="integration">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 ml-3">
+                                    Integrate with a wide range of systems. Allowing the user to controll them and make automations for them on one interface. ( <a style="color: white; font-weight: 900;" href="https://www.home-assistant.io/integrations/#all">  more information</a>)
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-5 my-2" src="./resources/img/safety.png" alt="security">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 ml-3">
+                                    Have <strong>high security</strong> thanks to its local instalation
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-5 my-2" src="./resources/img/reliable.png" alt="reliable">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 ml-3">
+                                    <strong>Provide long term reliability</strong> as a result of it not being directly connected to a company or goverment
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section class=" section6-r ">
                     <div class="">
                         <div class="col-12 ">
@@ -1861,6 +1924,61 @@ fclose($f);
                             </div>
                             <div class="col-12 text-center">
                                 <img src="./resources/img/automation.png" class=" w-100 mt-0" alt="automation phone image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section1" id="m-HomeAssistant">
+                    <div class="">
+                        <div>
+                            <div class="col-3">
+                                <img style="width: 100%;" src="./resources/img/homeassitant.png" alt="">
+                            </div>
+                            <div class="col-8">
+                                <h1 class="m-header-text">
+                                    Independent and reliable
+
+                                </h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="m-text1">
+                                    Using a self hosted Home Assitant server, allows the user to <strong> Controll smart systems without an internet connection</strong>. The system supports more than a thousand integrations (Tuya, eWelink, Philips, BMW
+                                    ect.) and can execute graphicaly editable automations for them. After instalation in our home, the building becomes an independent smart system and can:</p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/nonet.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+
+                                    Work with all features enabled <strong>Without an internet connection</strong>. </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/expand.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    Integrate with a wide range of systems. Allowing the user to controll them and make automations for them on one interface. ( <a style="color: white; font-weight: 900;" href="https://www.home-assistant.io/integrations/#all">  more information</a>)
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/safety.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    Have <strong>high security</strong> thanks to its local instalation
+                                </p>
+                            </div>
+                            <div class="col-2 mt-5">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/reliable.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0 mt-5">
+                                <p class="align-text-bottom">
+                                    <strong>Provide long term reliability</strong> as a result of it not being directly connected to a company or goverment
+                                </p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <img src="./resources/img/home_assistant_usecase.png" class=" w-100 mt-0" alt="automation phone image">
                             </div>
                         </div>
                     </div>
