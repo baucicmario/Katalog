@@ -41,8 +41,9 @@ fclose($f);
             <a href="#security" onclick="closeNav()">Security</a>
             <a href="#innovation" onclick="closeNav()">Groundbreaking kinetic switches</a>
             <a href="#wall" onclick="closeNav()">Kinetic switch controllers</a>
-            <a href="#Tuya" onclick="closeNav()">Management</a>
-            <p class="pt-5" style="font-size: 2vh; color: white;">Examples:</p>
+            <a href="#tuya" onclick="closeNav()">Management</a>
+            <a href="#Node-RED" onclick="closeNav()">Advanced managemant</a>
+            <p class="pt-3" style="font-size: 2vh; color: white;">Examples:</p>
             <a href="#pelda1" onclick="closeNav()">Automation solutions for a comfortable morning
         </a>
             <a href="#pelda2" onclick="closeNav()">Controlling lighting with automation</a>
@@ -53,7 +54,7 @@ fclose($f);
             <a href="#pelda7" onclick="closeNav()">Management with cameras</a>
             <a href="#pelda8" onclick="closeNav()">Built-in Controlers</a>
             <a href="#pelda9" onclick="closeNav()">Winter proofing of vacation homes</a>
-            <p class="pt-5" style="font-size: 2vh; color: white;">Products:</p>
+            <p class="pt-3" style="font-size: 2vh; color: white;">Products:</p>
             <a href="#katalog" onclick="closeNav()">Our newest products</a>
         </div>
         <div id="mySidenav2" class=" sidenav text-center">
@@ -68,7 +69,8 @@ fclose($f);
             <a href="#m-innovation" onclick="closeNav2()()">Groundbreaking kinetic switches</a>
             <a href="#m-wall" onclick="closeNav2()()">Kinetic switch controllers</a>
             <a href="#m-Tuya" onclick="closeNav2()()">Management</a>
-            <p class="pt-5" style="font-size: 2vh; color: white;">Examples:</p>
+            <a href="#m-Node-RED" onclick="closeNav2()()">Advanced managemant</a>
+            <p class="pt-3" style="font-size: 2vh; color: white;">Examples:</p>
             <a href="#m-pelda1" onclick="closeNav2()()">Automation solutions for a comfortable morning
         </a>
             <a href="#m-pelda2" onclick="closeNav2()()">Controlling lighting with automation</a>
@@ -79,28 +81,26 @@ fclose($f);
             <a href="#m-pelda7" onclick="closeNav2()()">Management with cameras</a>
             <a href="#m-pelda8" onclick="closeNav2()()">Built-in Controlers</a>
             <a href="#m-pelda9" onclick="closeNav2()()">Winter proofing of vacation homes</a>
-            <p class="pt-5" style="font-size: 2vh; color: white;">Products:</p>
+            <p class="pt-3" style="font-size: 2vh; color: white;">Products:</p>
             <a href="#m-katalog" class="mb-5" onclick="closeNav2()()">Our newest products</a>
         </div>
         <div id="menu" class=" mt-2 mr-5">
-            <a href="https://videosec.com/?cmdLang=ENG"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png" alt="v-sec logo"></a>
+            <a href="https://videosec.com/?cmdLang=ENG"><img id="vsec-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png" alt="v-sec logo"></a>
             <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
             <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
             <a href="#wall"><img id="wifi-logo" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
             <img onclick="openNav()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
         </div>
         <div id="menu3" class=" vw-100  mt-2 mr-0 text-left">
-            <a onclick="NextPage()">
-
                 <a onclick="NextPage();">
                     <span id="btn_text"><img style="width: 7vh;" src="./resources/img/arrow.png" alt=""></span>
                 </a>
         </div>
         <div id="menu2" class="  mt-2 mr-5">
-            <a href="https://videosec.com/?cmdLang=ENG"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png" alt="v-sec logo"></a>
-            <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
-            <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
-            <a href="#wall"><img id="wifi-logo" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
+            <a href="https://videosec.com/?cmdLang=ENG"><img id="vsec-logo2" style="width: 7vh;" class="mr-3" src="./resources/img/v-sec-logo-logo.png" alt="v-sec logo"></a>
+            <a href="#wall"><img id="zigbee-logo2" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo2"></a>
+            <a href="#tuya"><img id="Tuya-logo2" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
+            <a href="#wall"><img id="wifi-logo2" style="width: 7vh;" class="mr-3" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
             <img onclick="openNav2()" style="width: 5vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
         </div>
         <div id="containerDivID">
@@ -481,6 +481,59 @@ fclose($f);
                             <div class="col-10 my-auto">
                                 <p class="text1 my-auto py-3">
                                     On <strong>Wi-Fi or</strong> on <strong>Zigbee</strong> networks
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class=" section4">
+                    <div class=" align-items-center">
+                        <div class="col-sm-2 ml-3 h-100 ">
+                            <img class="w-100 h-auto" src="./resources/img/Node-RED.png" alt="tuyo home logo">
+                        </div>
+                        <div class="col-sm-8 mx-2 ">
+                            <h1 class="header-text">
+                                Advanced managemant
+                            </h1>
+                        </div>
+                        <div class="row pt-1">
+                            <div class="col-sm-11 h-auto m-auto">
+                                <p class="text1 my-auto py-1">
+                                    In the case of localised system instalations. Our Home Assitant server gives acces to visualised automation managment through Node-RED. Because it is located in the building, outside internet acces isn't required for its operation. It also lets the user
+                                    can:
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/HA-automation.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Create advanced automations(counting, people counting,) can be vreated using a NODE based system and automation progress can be monitored on the same interface.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/compatible.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    Create automations can be started and recived by all supported devices and services, not just those in the Tuya ecosystem (cars, refridgerators, NFC tags, stock data, ect.)
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/costumize.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    The server is completely open source so it can be completely customized to the users needs and provides much better security and reliability.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-50 ml-5 my-2" src="./resources/img/zigbee.png" alt="">
+                            </div>
+                            <div class="col-10 my-auto">
+                                <p class="text1 my-auto py-3">
+                                    The server can work on Wifi and ZigBee without the need for Tuya ZigBee hubs.
                                 </p>
                             </div>
                         </div>
@@ -1300,6 +1353,14 @@ fclose($f);
                     <div class=" h-100 align-items-end">
                         <div class="col-12 ">
                             <img src="./resources/img/Tuya-full.png" class=" " style="width: 102%;" alt="Tuya funcions">
+                        </div>
+                    </div>
+                </section>
+
+                <section class=" section4-r ">
+                    <div class=" h-100 align-items-end">
+                        <div class="col-12 ">
+                            <img src="./resources/img/nodered.png" class=" " style="width: 102%;" alt="Tuya funcions">
                         </div>
                     </div>
                 </section>
@@ -2371,6 +2432,60 @@ fclose($f);
                             </div>
                             <div class="col-12 text-center">
                                 <img class="vw-100" style="object-fit:contain;" src="./resources/img/Tuya-full.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section4" id="m-Node-RED">
+                    <div>
+                        <div>
+                            <div class="col-3">
+                                <img style="width: 100%;" src="./resources/img/Node-RED.png" alt="vagyonbiztonsag icon">
+                            </div>
+                            <div class="col-8">
+                                <h1 class="m-header-text">
+                                    Advanced managemant
+                                </h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="m-text1">
+                                    In the case of localised system instalations. Our Home Assitant server gives acces to visualised automation managment through Node-RED. Because it is located in the building, outside internet acces isn't required for its operation. It also lets the user
+                                    can:
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/HA-automation.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    Create advanced automations(counting, people counting,) can be vreated using a NODE based system and automation progress can be monitored on the same interface.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/compatible.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    Create automations can be started and recived by all supported devices and services, not just those in the Tuya ecosystem (cars, refridgerators, NFC tags, stock data, ect.)</p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/costumize.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    The server is completely open source so it can be completely customized to the users needs and provides much better security and reliability.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/zigbee.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    The server can work on Wifi and ZigBee without the need for Tuya ZigBee hubs.
+                                </p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <img class="vw-100" style="object-fit:contain;" src="./resources/img/nodered.png" alt="">
                             </div>
                         </div>
                     </div>
