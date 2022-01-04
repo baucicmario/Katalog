@@ -88,7 +88,7 @@ fclose($f);
             <a href="#m-katalog" onclick="closeNav2()()">Legfrisebb termékeink</a>
         </div>
         <div id="menu" class="d-none mt-2 text-center">
-            <a href="https://videosec.com/?lp=CatBack"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/videoseclogo.gif" alt="Videosec.com"></a>
+            <a href="https://videosec.com/?lp=CatBack"><img id="vsec-logo" style="width: 7vh;" class="mr-3" src="./resources/img/videoseclogo.gif" alt="Videosec.com"></a>
             <a href="http://videosec.com/catpage/shHUN.php"><img id="pdf-logo" style="width: 7vh;" class="mr-3" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
             <a href="#wall"><img id="zigbee-logo" style="width: 7vh;" class="mr-3" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
             <a href="#tuya"><img id="Tuya-logo" style="width: 7vh;" class="mr-3" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
@@ -96,7 +96,6 @@ fclose($f);
             <img onclick="openNav()" style="width: 7vh; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
         </div>
         <div id="menu3" class=" vw-100  mt-2 mr-0 text-left">
-            <a onclick="NextPage()">
 
                 <a onclick="NextPage();">
                     <span id="btn_text"><img style="width: 7vh;" src="./resources/img/arrow.png" alt=""></span>
@@ -104,10 +103,10 @@ fclose($f);
         </div>
         <div id="menu2" class=" vw-100 d-none mt-2 mr-0 text-center">
             <a href="https://videosec.com/?lp=CatBack"><img id="Videosec-logo" style="width: 11vw;" class="" src="./resources/img/videoseclogo.gif" alt="Videosec.com"></a>
-            <a href="http://videosec.com/catpage/shHUN.php"><img id="pdf-logo" style="width: 11vw;" class="" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
-            <a href="#wall"><img id="zigbee-logo" style="width: 11vw;" class="" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
-            <a href="#tuya"><img id="Tuya-logo" style="width: 11vw;" class="" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
-            <a href="#wall"><img id="wifi-logo" style="width: 11vw;" class="" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
+            <a href="http://videosec.com/catpage/shHUN.php"><img id="pdf-logo2" style="width: 11vw;" class="" src="./resources/img/pdflogo.gif" alt="PDF termékkatalógus letöltés"></a>
+            <a href="#wall"><img id="zigbee-logo2" style="width: 11vw;" class="" src="./resources/img/zigbee-logo.png" alt="zigbee-logo"></a>
+            <a href="#tuya"><img id="Tuya-logo2" style="width: 11vw;" class="" src="./resources/img/tuya-mini-logo.png" alt="Tuya-logo"></a>
+            <a href="#wall"><img id="wifi-logo2" style="width: 11vw;" class="" src="./resources/img/wifi-logo.png" alt="wifi-logo"></a>
             <img onclick="openNav2()" style="width: 11vw; cursor: pointer;" src="./resources/img/menu.png" alt="menuicon">
         </div>
         <div id="containerDivID" class="d-none">
@@ -1377,7 +1376,7 @@ fclose($f);
                 <section class=" section4-r ">
                     <div class=" h-100 align-items-end">
                         <div class="col-12 ">
-                            <img src="./resources/img/Tuya-full.png" class=" " style="width: 102%;" alt="Tuya funcions">
+                            <img src="./resources/img/nodered.png" class=" " style="width: 102%;" alt="Tuya funcions">
                         </div>
                     </div>
                 </section>
@@ -2438,6 +2437,60 @@ fclose($f);
                             </div>
                             <div class="col-12 text-center">
                                 <img class="vw-100" style="object-fit:contain;" src="./resources/img/Tuya-full.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section4" id="m-Node-RED">
+                    <div>
+                        <div>
+                            <div class="col-3">
+                                <img style="width: 100%;" src="./resources/img/Node-RED.png" alt="vagyonbiztonsag icon">
+                            </div>
+                            <div class="col-8">
+                                <h1 class="m-header-text">
+                                    Fejlett vezérlés
+                                </h1>
+                            </div>
+                            <div class="col-12">
+                                <p class="m-text1">
+                                    Amennyibben szigetszerű rendszer kialakítása mellet dönt, Home Assistant szerverünk alkalmazásával lehetőség nyílik az automatizációk és vezérlések Node-RED folyamatábrákként történő vizualizált létrehozására. Mivel ez a szerver az otthon része, ezért
+                                    a működése nem függ a bejövő internetkapcsolattól. Ezen felül:<br>
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/HA-automation.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    Bonyolult automatizációkat (számlálás, döntések, személyek jelenléte) is létre tudunk hozni grafikus felületen, és ezek működési folyamatát is követhetjük.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/compatible.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    Tuya eszközökön kívül egyéb támogatott készülékek és szolgáltatások (autók, tőzsdei adatok, hűtőszekrények, nfc bélyegek, stb.) is indíthatnak vagy fogadhatnak automatizációkat, jelenetparancsokat. </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/costumize.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    A szerver nyílt forráskódú ennek köszönhetően minden részletében módosítható a felhasználó által és biztonsági szempontból is megbízhatóbb.
+                                </p>
+                            </div>
+                            <div class="col-2 my-auto">
+                                <img class="w-75 ml-3 py-2" src="./resources/img/zigbee.png" alt="baterry icon">
+                            </div>
+                            <div class="col-9 p-0 mb-0">
+                                <p class="align-text-bottom">
+                                    Az eszköz wifi hálózaton és Zigbee-n keresztül HUB nélkül képes működni. tejesen önállóan*.
+                                </p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <img class="vw-100" style="object-fit:contain;" src="./resources/img/nodered.png" alt="">
                             </div>
                         </div>
                     </div>
