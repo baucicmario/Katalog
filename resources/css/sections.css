@@ -78,7 +78,6 @@
 }
 
 .noscroll {
-    overflow: scroll;
-    overflow-x: hidden;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    overflow: visible!important;
 }
