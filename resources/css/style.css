@@ -57,19 +57,10 @@ strong {
     z-index: 70;
     right: 0vw;
 }
-
 #menu2 {
     position: fixed;
     z-index: 70;
     right: 0vw;
-    top: 0vh;
-}
-
-#menu3 {
-    position: fixed;
-    z-index: 70;
-    right: 0vw;
-    bottom: 0vh;
 }
 
 p {
@@ -155,7 +146,7 @@ html {
     vertical-align: top
 }
 
-hr {
+hr{
     border: 2px solid white;
     border-radius: 5px;
 }
